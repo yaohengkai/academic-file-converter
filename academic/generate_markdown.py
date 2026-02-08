@@ -1,3 +1,4 @@
+from io import StringIO
 from pathlib import Path
 
 import ruamel.yaml
@@ -107,9 +108,7 @@ class GenerateMarkdown:
                 elems_to_delete = []
                 for elem in self.yaml:
                     if (
-                        self.yaml[elem] is None
-                        or self.yaml[elem] == ""
-                        or self.yaml[elem] == []
+                        self._is_effectively_empty(self.yaml[elem])
                         or (elem == "featured" and self.yaml[elem] is False)
                         or (elem == "image")
                     ):
@@ -117,6 +116,58 @@ class GenerateMarkdown:
                 for elem in elems_to_delete:
                     del self.yaml[elem]
                 del elems_to_delete
-            self.yaml_parser.dump(self.yaml, f)
+            yaml_buffer = StringIO()
+            self.yaml_parser.dump(self.yaml, yaml_buffer)
+            yaml_text = yaml_buffer.getvalue()
+            for key in ("title", "abstract"):
+                yaml_text = self._collapse_wrapped_key_to_single_line(yaml_text, key)
+            f.write(yaml_text)
             f.write("{}\n".format(self.delim))
             f.writelines(self.content)
+
+    @staticmethod
+    def _collapse_wrapped_key_to_single_line(yaml_text: str, key: str) -> str:
+        """
+        Collapse wrapped continuation lines for a top-level scalar key into a single line.
+        """
+        lines = yaml_text.splitlines(keepends=True)
+        out = []
+        i = 0
+        key_prefix = f"{key}:"
+
+        while i < len(lines):
+            line = lines[i]
+            if not line.startswith(key_prefix):
+                out.append(line)
+                i += 1
+                continue
+
+            first_value = line[len(key_prefix) :].strip()
+            if first_value in {"|", "|-", "|+", ">", ">-", ">+"}:
+                out.append(line)
+                i += 1
+                continue
+
+            parts = [first_value] if first_value else []
+            i += 1
+            while i < len(lines) and lines[i].startswith("  "):
+                parts.append(lines[i].strip())
+                i += 1
+
+            collapsed = " ".join(part for part in parts if part)
+            out.append(f"{key_prefix} {collapsed}\n" if collapsed else f"{key_prefix} ''\n")
+
+        return "".join(out)
+
+    @staticmethod
+    def _is_effectively_empty(value) -> bool:
+        """
+        Check whether a value is empty, including nested mappings/lists with only empty values.
+        """
+        if value is None or value == "" or value == []:
+            return True
+        if isinstance(value, dict):
+            return all(GenerateMarkdown._is_effectively_empty(v) for v in value.values())
+        if isinstance(value, list):
+            return all(GenerateMarkdown._is_effectively_empty(v) for v in value)
+        return False

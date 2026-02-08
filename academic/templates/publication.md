@@ -7,7 +7,7 @@ title: 'Publication title'
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors: []
 
-# Author notes (such as 'Equal Contribution')
+# Author notes (such as 'Equal Contribution', 'Corresponding')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
@@ -24,7 +24,9 @@ publication_types: ['paper-conference']
 publication: ''
 publication_short: ''
 
-doi: ''
+hugoblox:
+  ids:
+    doi: ""
 
 abstract: ''
 
@@ -37,19 +39,25 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+  # - type: pdf
+  #   url: ""
+  # - type: code
+  #   url: ""
+  # - type: dataset
+  #   url: ""
+  # - type: poster
+  #   url: ""
+  # - type: project
+  #   url: ""
+  # - type: slides
+  #   url: ""
+  # - type: source
+  #   url: ""
+  # - type: video
+  #   url: ""
+  # - name: News
+  #   url: ""
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
@@ -64,6 +72,11 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
----
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---

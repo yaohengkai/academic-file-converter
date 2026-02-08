@@ -1,7 +1,6 @@
 import calendar
 import os
 import re
-from datetime import datetime
 from pathlib import Path
 
 import bibtexparser
@@ -9,6 +8,7 @@ from bibtexparser.bibdatabase import BibDatabase
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.customization import convert_to_unicode
+from ruamel.yaml.scalarstring import DoubleQuotedScalarString
 
 from academic.generate_markdown import GenerateMarkdown
 from academic.publication_type import PUB_TYPES_BIBTEX_TO_CSL
@@ -68,8 +68,6 @@ def parse_bibtex_entry(
     bundle_path = os.path.join(pub_dir, slugify(entry["ID"]))
     markdown_path = os.path.join(bundle_path, "index.md")
     cite_path = os.path.join(bundle_path, "cite.bib")
-    date = datetime.utcnow()
-    timestamp = date.isoformat("T") + "Z"  # RFC 3339 timestamp.
 
     # Do not overwrite publication bundle if it already exists.
     if not overwrite and os.path.isdir(bundle_path):
@@ -125,7 +123,7 @@ def parse_bibtex_entry(
         log.error(f'Invalid date for entry `{entry["ID"]}`.')
 
     page.yaml["date"] = f"{year}-{month}-{day}"
-    page.yaml["publishDate"] = timestamp
+    page.yaml["publishDate"] = page.yaml["date"]
 
     authors = None
     if "author" in entry:
@@ -136,6 +134,7 @@ def parse_bibtex_entry(
     if authors:
         authors = clean_bibtex_authors([i.strip() for i in authors.replace("\n", " ").split(" and ")])
         page.yaml["authors"] = authors
+        page.yaml["author_notes"] = [""] * len(authors)
 
     # Convert Bibtex publication type to the universal CSL standard, defaulting to `manuscript`
     default_csl_type = "manuscript"
@@ -147,25 +146,36 @@ def parse_bibtex_entry(
     else:
         page.yaml["abstract"] = ""
 
+    # Keep slides in explicit double-quoted empty-string style by default.
+    if "slides" in page.yaml and not page.yaml["slides"]:
+        page.yaml["slides"] = DoubleQuotedScalarString("")
+
     page.yaml["featured"] = featured
 
     # Publication name.
-    # This field is Markdown formatted, wrapping the publication name in `*` for italics
     if "booktitle" in entry:
-        publication = "*" + clean_bibtex_str(entry["booktitle"]) + "*"
+        publication = clean_bibtex_str(entry["booktitle"])
+    elif "journaltitle" in entry:
+        publication = clean_bibtex_str(entry["journaltitle"])
     elif "journal" in entry:
-        publication = "*" + clean_bibtex_str(entry["journal"]) + "*"
+        publication = clean_bibtex_str(entry["journal"])
     elif "publisher" in entry:
-        publication = "*" + clean_bibtex_str(entry["publisher"]) + "*"
+        publication = clean_bibtex_str(entry["publisher"])
     else:
         publication = ""
     page.yaml["publication"] = publication
+
+    if "shortjournal" in entry:
+        page.yaml["publication_short"] = clean_bibtex_str(entry["shortjournal"])
 
     if "keywords" in entry:
         page.yaml["tags"] = clean_bibtex_tags(entry["keywords"], normalize)
 
     if "doi" in entry:
-        page.yaml["doi"] = clean_bibtex_str(entry["doi"])
+        doi = DoubleQuotedScalarString(clean_bibtex_str(entry["doi"]))
+        page.yaml.setdefault("hugoblox", {})
+        page.yaml["hugoblox"].setdefault("ids", {})
+        page.yaml["hugoblox"]["ids"]["doi"] = doi
 
     links = []
     if all(f in entry for f in ["archiveprefix", "eprint"]) and entry["archiveprefix"].lower() == "arxiv":
@@ -175,9 +185,9 @@ def parse_bibtex_entry(
         sane_url = clean_bibtex_str(entry["url"])
 
         if sane_url[-4:].lower() == ".pdf":
-            page.yaml["url_pdf"] = sane_url
+            links += [{"type": "pdf", "url": sane_url}]
         else:
-            links += [{"name": "URL", "url": sane_url}]
+            links += [{"type": "source", "url": sane_url}]
 
     if links:
         page.yaml["links"] = links
@@ -192,7 +202,7 @@ def parse_bibtex_entry(
     return page
 
 
-def slugify(s, lower=True):
+def slugify(s, lower=False):
     bad_symbols = (".", "_", ":")  # Symbols to replace with hyphen delimiter.
     delimiter = "-"
     good_symbols = (delimiter,)  # Symbols to keep.
@@ -234,7 +244,12 @@ def clean_bibtex_authors(author_str):
             if item in ["ben", "van", "der", "de", "la", "le"]:
                 last_name = first_names.pop() + " " + last_name
 
-        authors.append(" ".join(first_names) + " " + last_name)
+        # For hyphenated names like `Dong-Mei`, lowercase the first letter after
+        # each hyphen, then remove the hyphen -> `Dongmei`.
+        clean_name = " ".join(first_names) + " " + last_name
+        clean_name = re.sub(r"-([A-Z])", lambda m: m.group(1).lower(), clean_name)
+        clean_name = clean_name.replace("-", "")
+        authors.append(re.sub(r"\s+", " ", clean_name).strip())
 
     return authors
 
@@ -251,11 +266,9 @@ def clean_bibtex_str(s):
 def clean_bibtex_tags(s, normalize=False):
     """Clean BibTeX keywords and convert to TOML tags"""
 
-    tags = clean_bibtex_str(s).split(",")
-    tags = [tag.strip() for tag in tags]
-
-    if normalize:
-        tags = [tag.lower().capitalize() for tag in tags]
+    tags = re.split(r"[,;]", clean_bibtex_str(s))
+    tags = [tag.strip() for tag in tags if tag.strip()]
+    tags = [tag.lower().title() for tag in tags]
 
     return tags
 
