@@ -1,0 +1,172 @@
+Type-成果类型 期刊论文
+Author-作者 Huiqin HU;Chengqing RUAN;Xiaolin YU
+Title-题名 Ensemble-Based Adaptive Observations for Improving Sea Fog Prediction in Coastal Regions around the Bohai Sea:Case Study with Cold-Front Synoptic Pattern
+Organ-机构 Qingdao University of Science and Technology;North China Sea Marine Forecasting Center of State Oceanic Administration;Ocean University of China
+Source-来源 Advances in Atmospheric Sciences
+Time-出版/完成日期 2025-03-06
+Year-年 2025
+Period-期 04
+Roll-卷 v.42
+Summary-摘要 This study explored the observation strategy and effectiveness of synoptic-scale adaptive observations for improving sea fog prediction in coastal regions around the Bohai Sea based on a poorly predicted fog event with cold-front synoptic pattern(CFSP). An ensemble Kalman filter data assimilation system for the Weather Research and Forecasting model was adopted with ensemble sensitivity analysis(ESA). By comparing observation impacts(estimated from a 40-member ensemble with ESA) among different meteorological observation variables and pressure levels, the temperature at 850 hPa and surface layer(850 hPa-and-surface temperature) was selected as the target observation type. Additionally, the area with large observation impacts for this observation type was predicted in the transition region of the surface low–high system.This area developed southward with the low and moved eastward with the low–high system, which could be explained by the main features of CFSP. Moreover, both experiments assimilating synthetic and real observations showed that assimilating 850 hPa-and-surface temperature observations generally yielded better fog coverage forecasts in areas with greater observation impacts than areas with smaller impacts. However, the effectiveness of adaptive observations was reduced when real observations rather than synthetic observations were assimilated, which is possibly due to factors such as observation and model errors. The main conclusions above were verified by another typical fog event with CFSP characteristics. Results of this study highlight the importance of improved initial conditions in the transition region of the low–high system for improving fog prediction and provide scientific guidance for implementing an observation network for fog forecasting over the Bohai Sea.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0256-1530
+CN-国内刊号 11-1925/O4
+Indexed-收录 中国科技核心期刊;CSCD;SCI(E)
+CitedFreq-被引频次 0
+PageCount-页码 794-815
+Fund-基金 supported by the National Natural Science Foundation of China (Grant No. 41705081);the Shandong Natural Science Foundation Project (Grant No. ZR2019ZD12);the Laoshan Laboratory (Grant No. LSKJ202202203)
+Language-语种 英文
+Discipline-中图分类号 P732.4
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03894 胡慧琴
+
+Type-成果类型 期刊论文
+Author-作者 Kun Liu; Wuhong Guo; Lianglong Da; Jingyi Liu; Huiqin Hu; Baolong Cui
+Title-题名 Improving the thermal structure predictions in the Yellow Sea by conducting targeted observations in the CNOP-identified sensitive areas
+Organ-机构 Qingdao National Laboratory for Marine Science and Technology; Navy Submarine Academy; Navy Submarine Academy; Navy Submarine Academy; Qingdao National Laboratory for Marine Science and Technology; Navy Submarine Academy
+Source-来源 Scientific reports
+Time-出版/完成日期 2021-09-30
+Year-年 2021
+Period-期 1
+Roll-卷 11
+Keyword-关键词 热力结构预报；目标观测
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 2045-2322
+Indexed-收录 SCI(E)
+PageCount-页码 19518
+DOI-DOI 10.1038/s41598-021-98994-7
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Huiqin Hu;Jingyi Liu;Lianglong Da;Wuhong Guo;Kun Liu;Baolong Cui;
+Title-题名 Identification of the sensitive area for targeted observation to improve vertical thermal structure prediction in summer in the Yellow Sea
+Organ-机构 Navy Submarine Acad, Qingdao 266199, Peoples R China;Pilot Natl Lab Marine Sci & Technol Qingdao, Qingdao 266237, Peoples R China
+Source-来源 Acta Oceanologica Sinica
+Time-出版/完成日期 2021-07-15
+Year-年 2021
+Period-期 07
+Roll-卷 v.40
+Keyword-关键词 目标观测；敏感区；垂直热力结构；条件非线性最优扰动
+Summary-摘要 The sensitive area of targeted observations for short-term(7 d) prediction of vertical thermal structure(VTS) in summer in the Yellow Sea was investigated. We applied the Conditional Nonlinear Optimal Perturbation(CNOP)method and an adjoint-free algorithm with the Regional Ocean Modeling System(ROMS). We used vertical integration of CNOP-type temperature errors to locate the sensitive areas, where reduction of initial errors is expected to yield the greatest improvement in VTS prediction for the selected verification area. The identified sensitive areas were northeast-southwest orientated northeast to the verification area, which were possibly related to the southwestward background currents. Then, we performed a series of sensitivity experiments to evaluate the effectiveness of the identified sensitive areas. Results show that initial errors in the identified sensitive areas had the greatest negative effect on VTS prediction in the verification area compared to errors in other areas(e.g., the verification area and areas to its east and northeast). Moreover, removal of initial errors through deploying simulated observations in the identified sensitive areas led to more refined prediction than correction of initial conditions in the verification area itself. Our results suggest that implementation of targeted observation in the CNOP-based sensitive areas is an effective method to improve short-term prediction of VTS in summer in the Yellow Sea.
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0253-505X
+CN-国内刊号 11-2056/P
+Indexed-收录 中国科技核心期刊;SCI(E);CSCD
+CitedFreq-被引频次 2
+PageCount-页码 77-87
+Fund-基金 The National Natural Science Foundation of China under contract Nos 41705081 and 41906005;the Innovation Special Zone Project under contract No. 18-H863-05-ZT-001-012-06;the Open Project Fund of the Laboratory for Regional Oceanography and Numerical Modeling,Pilot National Laboratory for Marine Science and Technology (Qingdao) under contract No.2019A05
+DOI-DOI 10.1007/s13131-021-1738-x
+Language-语种 英文
+Discipline-中图分类号 P73
+FirstAuthor-第一作者 03894 胡慧琴
+
+Type-成果类型 期刊论文
+Author-作者 Li, M.; S. Zhang; L. Wu; X. Lin; P. Chang; G. Danabasoglu; Z. Wei; X. Yu; H. Hu; X. Ma; et al.
+Title-题名 A high-resolution Asia-Pacific regional coupled prediction system with dynamically downscaling coupled data assimilation
+Organ-机构 Ocean Univ China, Minist Educ, Key Lab Phys Oceanog, Inst Adv Ocean Study,Frontiers Sci Ctr Deep Ocean, Qingdao 266100, Peoples R China;Pilot Natl Lab Marine Sci & Technol Qingdao, Qingdao 266100, Peoples R China;Int Lab High Resolut Earth Syst Model & Predict i, Qingdao 266100, Peoples R China;Ocean Univ China, Coll Ocean & Atmospher Sci, Qingdao 266100, Peoples R China;Texas A&M Univ, Dept Oceanog, College Stn, TX 77843 USA;Natl Ctr Atmospher Res, Boulder, CO 80301 USA;Natl Supercomp Jinan Ctr, Jinan 250101, Peoples R China
+Source-来源 Science Bulletin
+Time-出版/完成日期 2020-11-15
+Year-年 2020
+Period-期 21
+Roll-卷 65
+Keyword-关键词 区域耦合预报系统；耦合资料同化
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 2095-9273
+Indexed-收录 SCI(E);CSCD
+CitedFreq-被引频次 6
+PageCount-页码 1849-1858
+DOI-DOI 10.1016/j.scib.2020.07.022
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, M.; S. Zhang; L. Wu; X. Lin; P. Chang; G. Danabasoglu; Z. Wei; X. Yu; H. Hu; X. Ma; et al.
+Title-题名 An Examination of the Predictability of Tropical Cyclone Genesis in High-Resolution Coupled Models with Dynamically Downscaled Coupled Data Assimilation Initialization
+Organ-机构 Ocean Univ China, Key Lab Phys Oceanog, Frontiers Sci Ctr Deep Ocean Multispheres & Earth, Inst Adv Ocean Study,Coll Ocean & Atmosphere,MOE, Qingdao 266100, Peoples R China;Pilot Natl Lab Marine Sci & Technol QNLM, Qingdao 266237, Peoples R China;Int Lab High Resolut Earth Syst Model & Predict i, Qingdao 266237, Peoples R China;Ocean Univ China, Coll Ocean & Atmospher Sci, Qingdao 266100, Peoples R China;Texas A&M Univ, Dept Oceanog, College Stn, TX 77843 USA;Natl Ctr Atmospher Res, Boulder, CO 80301 USA;Natl Supercomp Jinan Ctr, Jinan 250101, Peoples R China
+Source-来源 Advances in Atmospheric Sciences
+Time-出版/完成日期 2020-09-01
+Year-年 2020
+Period-期 9
+Roll-卷 37
+Keyword-关键词 热带气旋可预报性；耦合资料同化
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0256-1530
+CN-国内刊号 11-1925/O4
+Indexed-收录 中国科技核心期刊;SCI(E);CSCD
+PageCount-页码 939-950
+DOI-DOI 10.1007/s00376-020-9220-9
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 HU Huiqin;HUANG Fei;ZHANG Shaoqing;RUAN Chengqing;GAO Shanhong;LI Pengyuan;
+Title-题名 Case Study of Fog Predictability for an Event with Cold-Front Synoptic Pattern
+Organ-机构 Ocean Univ China, Coll Ocean & Atmospher Sci, Qingdao 266100, Shandong, Peoples R China;Ocean Univ China, Phys Oceanog Lab, Qingdao 266100, Shandong, Peoples R China;Qingdao Natl Lab Marine Sci & Technol, Qingdao 266103, Shandong, Peoples R China;State Ocean Adm, North China Sea Marine Forecasting Ctr, Qingdao 266033, Shandong, Peoples R China
+Source-来源 Journal of Ocean University of China
+Time-出版/完成日期 2019-04-06
+Year-年 2019
+Period-期 02
+Roll-卷 v.18
+Keyword-关键词 雾可预报性；冷锋天气型；集合预报；合成分析
+Summary-摘要 Fog has recently become a frequent high-impact weather phenomenon along the coastal regions of North China. Accurate fog forecasting remains challenging due to limited understanding of the predictability and mechanism of fog formation associated with synoptic-scale circulation. One frequent synoptic pattern of fog formation in this area is associated with cold front passage(cold-front synoptic pattern, CFSP). This paper explored the predictability of a typical CFSP fog event from the perspective of analyzing key characteristics of synoptic-scale circulation determining fog forecasting performance and the possible mechanism. The event was ensemble forecasted with the Weather Research and Forecasting model. Two groups of ensemble members with good and bad forecasting performance were selected and composited. Results showed that the predictability of this case was largely determined by the simulated strengths of the cold-front circulation(i.e., trough and ridge and the associated surface high). The bad-performing members tended to have a weaker ridge behind a stronger trough, and associated higher pressure over land and a weaker surface high over the sea, leading to an adverse impact on strength and direction of steering flows that inhibit warm moist advection and enhance cold dry advection transported to the focus region. Associated with this cold dry advection, adverse synoptic conditions of stratification and moisture for fog formation were produced, consequently causing failure of fog forecasting in the focus region. This study highlights the importance of accurate synoptic-scale information for improved CFSP fog forecasting, and enhances understanding of fog predictability from perspective of synoptic-scale circulation.
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 1672-5182
+CN-国内刊号 37-1415/P
+Indexed-收录 中国科技核心期刊;SCI(E);CSCD
+PageCount-页码 271-281
+Fund-基金 supported by the National Key R&D Program of China (Nos. 2017YFC1404100 and 2017YFC1404104);the National Natural Science Foundation of China (Nos. 41705081 and 41575067);the Global Change Research Program of China (No. 2015CB953904)
+DOI-DOI 10.1007/s11802-019-3823-8
+Language-语种 英文
+Discipline-中图分类号 P457
+FirstAuthor-第一作者 03894 胡慧琴
+
+Type-成果类型 期刊论文
+Author-作者 Zhiwei He; Qinghong Zhang; Kun Zhao; Huiqin Hu
+Title-题名 Initiation and Evolution of Elevated Convection in a Nocturnal Squall Line Along the Meiyu Front
+Organ-机构 Peking Univ, Sch Phys, Dept Atmospher & Ocean Sci, Beijing, Peoples R China;Nanjing Univ, Key Lab Mesoscale Severe Weather MOE, Nanjing, Jiangsu, Peoples R China;Nanjing Univ, Sch Atmospher Sci, Nanjing, Jiangsu, Peoples R China 所属机构;Ocean Univ China, Coll Ocean & Atmospher Sci, Qingdao, Peoples R China
+Source-来源 Journal of Geophysical Research: Atmospheres
+Time-出版/完成日期 2018-07-27
+Year-年 2018
+Period-期 14
+Roll-卷 123
+Keyword-关键词 对流初始化；夜间飙线
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 2169-897X
+Indexed-收录 SCI(E)
+PageCount-页码 7292-7310
+DOI-DOI DOI10.1029/2018JD028511
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Huiqin Hu; Qinghong Zhang; Juanzhen Sun; Chengqing Ruan; Fei Huang; Shaoqing Zhang
+Title-题名 Impact of high-frequency observations on fog forecasting: a case study of OSSE
+Organ-机构 Ocean Univ China, Coll Ocean & Atmospher Sci, Qingdao, Peoples R China;Peking Univ, Sch Phys, Dept Atmospher & Ocean Sci, Lab Climate & Ocean Atmosphere Studies, Beijing, Peoples R China;Natl Ctr Atmospher Res, POB 3000, Boulder, CO 80307 USA;State Ocean Adm, North China Sea Marine Forecasting Ctr, Qingdao, Peoples R China;Ocean Univ China, Phys Oceanog Lab CIMST, Qingdao, Peoples R China;Qingdao Natl Lab Marine Sci & Technol, Qingdao, Peoples R China
+Source-来源 TELLUS SERIES A-DYNAMIC METEOROLOGY AND OCEANOGRAPHY
+Time-出版/完成日期 2017-11-16
+Year-年 2017
+Period-期 1
+Roll-卷 69
+Keyword-关键词 雾预报；高频观测；资料同化
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 1600-0870
+Indexed-收录 SCI(E)
+PageCount-页码 1396182
+Language-语种 英文
+FirstAuthor-第一作者 03894 胡慧琴
+
+Type-成果类型 期刊论文
+Author-作者 Huiqin Hu; Juanzhen Sun; Qinghong Zhang
+Title-题名 Assessing the Impact of Surface and Wind Profiler Data on Fog Forecasting Using WRF 3DVAR: An OSSE Study on a Dense Fog Event over North China
+Organ-机构 Peking Univ, Sch Phys, Dept Atmospher & Ocean Sci, Lab Climate & Ocean Atmosphere Studies, Beijing, Peoples R China;Natl Ctr Atmospher Res, POB 3000, Boulder, CO 80307 USA
+Source-来源 Journal of applied meteorology and climatology
+Time-出版/完成日期 2017-04-01
+Year-年 2017
+Period-期 4
+Roll-卷 56
+Keyword-关键词 雾预报；资料同化；风廓线
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 1558-8424
+Indexed-收录 SCI(E)
+PageCount-页码 1059-1081
+DOI-DOI 10.1175/JAMC-D-16-0246.1
+Language-语种 英文
+FirstAuthor-第一作者 03894 胡慧琴
+

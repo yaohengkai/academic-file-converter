@@ -1,0 +1,1759 @@
+TY  - JOUR
+AU  - Jiang, Qingzhou
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+T1  - 基于深度胶囊网络融合模型的多声音事件检测
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2025/10/15
+VL  - 46
+IS  - 05
+SP  - 152
+EP  - 158
+DO  - DOI 10.16351/j.1672-6987.2025.05.019
+SN  - 1672-6987
+AB  - 传统的胶囊网络架构是基于动态路由机制实现的，需要大量迭代和向量计算来更新权值系数，并且胶囊之间不存在信息共享，导致信息冗余。针对这一缺陷，本工作提出了一种基于融合深度胶囊网络的多声音事件检测模型，在门控卷积和3D卷积下通过动态路由减少了特征重叠导致的信息冗余，并且对原始特征进行编码，将其用于特征信息补充，提高了训练次数模型的速度和准确性。本工作使用DCASE2017(Detection and Classification of Acoustic Scenes and Events 2017) Challenge Task 4数据集对模型进行评估，最终F1分数达到59.6%，声音事件检测错误率低至0.71。结果表明，所提出的方法可以显著提高训练速度和精度。
+KW  - 多声音事件检测
+KW  - 胶囊网络
+KW  - 融合网络
+KW  - DCASE 2017挑战赛
+ER  - 
+
+TY  - JOUR
+AU  - Feng, Zhongkun
+AU  - Qi, Jifeng
+AU  - Li, Delei
+AU  - Xie, Bowen
+AU  - Sun, Guimin
+AU  - Yin, Baoshu
+AU  - Yang, Shuguo
+T1  - Attention-enhanced deep learning model for reconstruction and downscaling of thermocline depth in the tropical Indian Ocean
+JF  - OCEAN MODELLING
+PY  - 2025/07
+VL  - 196
+DO  - DOI 10.1016/j.ocemod.2025.102537
+SN  - 1463-5003
+AB  - Accurate estimation of high-resolution thermocline depth is important for investigating ocean processes and climate variability on multiple scales. Due to the sparse coverage and high costs associated with in situ observations, reconstructing ocean interior structure from sea surface data serves as a valuable alternative. In this study, a new deep learning model named Enhanced Block Attention Module-Convolutional Neural Network (EBAM-CNN) was proposed to reconstruct thermocline depth in the tropical Indian Ocean (TIO) from 1993 to 2022. Absolute dynamic topography (ADT), sea surface temperature (SST), and sea surface wind (SSW), along with geographic information (latitude and longitude) and temporal data, were employed as input variables. In comparison with the traditional convolutional neural network (CNN) model, the proposed model demonstrates better performance, with an overall Root Mean Square Error (RMSE) of 5.29 m and a Pearson Correlation Coefficient (R) of 0.87. In addition, this study employs a downscaling approach to reconstruct higher-resolution thermocline depth data. An analysis of the downscaling results confirmed that the proposed framework effectively reconstructed mesoscale sea subsurface features from high-resolution surface observations, significantly enhancing thermocline depth estimates and providing robust data support for oceanic and climatic research.
+KW  - IN-SITU
+KW  - NEURAL-NETWORK
+KW  - HEAT-CONTENT
+KW  - TEMPERATURE
+KW  - SALINITY
+KW  - CIRCULATION
+KW  - VARIABILITY
+KW  - MECHANISMS
+KW  - WIND
+KW  - SST
+ER  - 
+
+TY  - JOUR
+AU  - Sun, Bing
+AU  - Liu, Chenglong
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+AU  - Mei, Yiduo
+T1  - ResCapsnet: a capsule network with CRAM and BiGRU for sound event detection
+JF  - EURASIP JOURNAL ON AUDIO SPEECH AND MUSIC PROCESSING
+PY  - 2025/06/13
+VL  - 2025
+IS  - 1
+DO  - DOI 10.1186/s13636-025-00409-2
+SN  - 1687-4722
+AB  - Sound event detection (SED) is a challenging task where ambient sound events are detected from a given audio signal, which includes categorizing the events and estimating their onset and offset times. Deep learning methods such as convolutional neural networks (CNN) and recurrent neural networks (RNN) have achieved promising performance in SED. However, for overlapping sound events, existing deep learning methods are still limited in detecting individual sound events from their mixtures. Inspired by the success of the dynamic routing mechanism of the capsule network (CapsNet), this paper proposes a capsule network model (ResCapsnet-BiGRU) based on a customized residual attention module (CRAM) and bidirectional gated recurrent unit (BiGRU). CRAM is utilized to extract features from log-mel spectrograms that are relevant to sound events. Through dynamic routing, the capsule network can address the overlapping sound events problem. In addition, the BiGRU with time-distributed fully connected layers is adopted to obtain contextual information. Our proposed method was evaluated on two datasets: the Vehicle Weakly Labeled Sound Dataset (VWLSD , DCASE 2017 Task 4) and the Domestic Environment Sound Dataset (DESD , DCASE 2022 Task 4). It achieved F-scores of 62.1% and 75.9% on the Audio Tagging (AT) task, and 54.1% and 59.0% on the sound event detection (SED) task, respectively. The source codes are available at https://github.com/123sunbing/ResCapsnet.git.
+KW  - NEURAL-NETWORKS
+KW  - CLASSIFICATION
+KW  - LOCALIZATION
+KW  - RECOGNITION
+ER  - 
+
+TY  - JOUR
+AU  - Zheng, Yueyang
+AU  - Zhang, Ruikun
+AU  - Atito, Sara
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+AU  - Mei, Yiduo
+T1  - ASiT-CRNN: A method for sound event detection with fine-tuning of self-supervised pre-trained ASiT-based model
+JF  - DIGITAL SIGNAL PROCESSING
+PY  - 2025/05
+VL  - 160
+DO  - DOI 10.1016/j.dsp.2025.105055
+SN  - 1051-2004
+AB  - Recently, the utilization of pre-trained models to transfer knowledge to downstream tasks has become an increasing trend. In this paper, we present an effective sound event detection (SED) method, which improves the performance of a baseline system based on convolutional recurrent neural network (CRNN) for the DCASE 2022 Task 4 by embedding a local-global audio spectrogram vision transformer (ASiT) with a two-phase finetuning strategy, thus referred to as ASiT-CRNN. ASiT is based on the audio classification task and is a pre-trained model on the large-scale audio dataset AudioSet using several self-supervised learning (SSL) methods. However, due to the differences between the clip-level and frame-level tasks, inputting the output of ASiT into the SED task without any processing does not give the desired results. Therefore, the ASiT-CRNN model adopts frequency- averaged pooling (FAP) and nearest neighbour interpolation (NNI) operations on the ASiT output based on the original network architecture, aiming at obtaining a sequence of frame-level features and improving the temporal resolution of the embedding. Two complementary feature sequences, ASiT and CNN, are also fused to obtain a higher quality and more discriminative representation of audio features. We train the ASiT-CRNN model on the development set of DCASE 2022 Task 4 and fine-tune it in two phases using semi-supervised mean-teacher methods to address the challenges of limited labelled data. Finally, we also fairly compare ASiT with several other self-supervised pre-trained models on the SED task. The ASiT-CRNN model achieves PSDS1 and PSDS2 scores of 0.488 and 0.767, respectively, performing significantly better than those of the baseline system, CRNN, of 0.351 and 0.552. In addition, ASiT-CRNN outperforms several other SSL pre-trained models based on SED tasks in the comparison experiments. Open source code at https://github.com/qingkezyy/ASiT-CRNN.
+KW  - NEURAL-NETWORKS
+KW  - TRANSFORMER
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Yiyun
+AU  - Gao, Le
+AU  - Yang, Shuguo
+T1  - Attention-enhanced deep learning approach for marine heatwave forecasting
+JF  - Acta Oceanologica Sinica
+PY  - 2025/01/15
+VL  - 44
+IS  - 01
+SP  - 36
+EP  - 49
+SN  - 0253-505X
+AB  - Marine heatwave(MHW) events refer to periods of significantly elevated sea surface temperatures(SST), persisting from days to months, with significant impacts on marine ecosystems, including increased mortality among marine life and coral bleaching. Forecasting MHW events are crucial to mitigate their harmful effects. This study presents a twostep forecasting process: short-term SST prediction followed by MHW event detection based on the forecasted SST.Firstly, we developed the “SST-MHW-DL” model using the Conv LSTM architecture, which incorporates an attention mechanism to enhance both SST forecasting and MHW event detection. The model utilizes SST data from the preceding 60 d to forecast SST and detect MHW events for the subsequent 15 d. Verification results for SST forecasting demonstrate a root mean square error(RMSE) of 0.64℃, a mean absolute percentage error(MAPE) of 2.05%, and a coefficient of determination(R~2) of 0.85, indicating the model's ability to accurately predict future temperatures by leveraging historical sea temperature information. For MHW event detection using forecasted SST, the evaluation metrics of “accuracy”, “precision”, and “recall” achieved values of 0.77, 0.73, and 0.43, respectively, demonstrating the model's capability to capture the occurrence of MHW events accurately. Furthermore, the attention-enhanced mechanism reveals that recent SST variations within the past 10 days have the most significant impact on forecasting accuracy, while variations in deep-sea regions and along the Taiwan Strait significantly contribute to the model's efficacy in capturing spatial characteristics. Additionally, the proposed model and temporal mechanism were applied to detect MHWs in the Atlantic Ocean. By inputting 30 d of SST data, the model predicted SST with an RMSE of 1.02℃and an R~2 of 0.94. The accuracy, precision, and recall for MHW detection were 0.79, 0.78, and 0.62, respectively,further demonstrating the model's robustness and usability.
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Guangfeng
+AU  - Li, Delei
+AU  - Yang, Shuguo
+AU  - Qi, Jifeng
+AU  - Yin, Baoshu
+T1  - The development of a weather-type statistical downscaling model for wave climate based on wave clustering
+JF  - OCEAN ENGINEERING
+PY  - 2024/07
+VL  - 304
+DO  - DOI 10.1016/j.oceaneng.2024.117863
+SN  - 0029-8018
+AB  - Reliable long-term wave data are significant for understanding changes and variability of ocean waves, which has important implications for coastal engineering, land erosion, and coastal flooding. This study develops a regression-guided weather-type statistical method for modelling regional or global significant wave height Hs. The model classifies the atmospheric circulation patterns (predictor) through the regression-guided clustering approach, linking the atmospheric circulation with clustered regional Hs (predictand). It is applied in the Chinese marginal seas and also the global ocean. A comprehensive skill assessment shows robust skill and computationally efficiency of the model in capturing climatology and variability of both mean and extreme Hs in the Chinese marginal seas and global oceans. Furthermore, the reconstructed global Hs data show similar seasonal trends as the ERA5 data, with a gradual decrease in Hs observed during boreal summer in the central Pacific and western North Atlantic regions at lower latitudes. This method proves to be robust for both regional and global Hs reconstruction, and also applicable for Hs climate prediction and projections.
+KW  - PROJECTIONS
+KW  - HEIGHTS
+KW  - TRENDS
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Bowen
+AU  - Zhang, Cong
+AU  - Yang, Shuguo
+AU  - Feng, Zhongkun
+AU  - Sun, Guimin
+T1  - 基于深度学习的南海海表面温度的智能化预测研究
+JF  - 海洋与湖沼
+PY  - 2024/03/29
+VL  - 55
+IS  - 05
+SP  - 1082
+EP  - 1095
+SN  - 0029-814X
+AB  - 海表面温度(sea surface temperature, SST)是影响海洋和气候变化的重要因素之一，准确预测SST的变化对于海洋生态环境、气象和航行等至关重要。传统的SST预测方法通常依赖于数值模式，但是其计算成本较高。该文基于深度学习模型(3D U-Net)，将SST、海表面高度异常(sea surface height anomalies, SSHA)以及海表面风(sea surface wind, SSW)作为输入变量成功构建了南海SST的快速化智能预报模型。结果表明，与卷积长短时记忆(convolutional long short-term memory, ConvLSTM)模型相比，3D U-Net模型在所有预测时间中均显示出更高的准确度，其均方根误差(RMSE)为0.53℃，皮尔逊相关系数(R)达到0.96。在不同季节和南海不同区域，3D U-Net模型均表现出较小的预测误差，而且在季风盛行期间也具有较强的鲁棒性。此外，3D U-Net模型在预测2021年南海的海洋热浪(marine heatwave, MHW)事件时，大部分海域的准确率达到了80%以上，总体上精确率和召回率分别为0.89和0.45。敏感性实验结果表明，SSHA和SSW对模型的预测性能有显著影响，并在不同的预报阶段中发挥着不同的作用。综上所述，结合多源海表数据的3D U-Net模型能够快速准确地预测出南海SST，并为预测MHW事件提供了新方法。
+KW  - 海表面温度
+KW  - 3D U-Net模型
+KW  - 深度学习
+KW  - 南海
+KW  - 海洋热浪
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Mingqi
+AU  - Xu, Yongsheng
+AU  - Yang, Shuguo
+T1  - 多尺度耦合经验正交分解法反演海洋次表层温盐结构
+JF  - 海洋科学
+PY  - 2024/03/15
+VL  - 48
+IS  - 03
+SP  - 1
+EP  - 12
+SN  - 1000-3096
+AB  - 针对提升利用卫星观测海面信息重构三维温盐场精度的问题,本文提出了一种基于多尺度耦合正交分解的三维温盐场重构方法。该方法利用多尺度耦合正交分解对历史温盐剖面进行从大尺度到小尺度的迭代分解,以分层提取不同尺度三维温盐场的特征信息,然后分别建立海洋表面卫星观测与不同尺度的三维温盐场特征信息的重构模型,从而达到三维温盐场重构的目的。本文分别利用多尺度耦合正交分解法与单层正交分解法进行三维温盐场重构,结果显示,多尺度耦合正交分解优于单层正交分解法,且随着分解的层次不断细化,重构温盐场的精度及其垂直梯度精度均呈现明显的提升,其中组合4精度提升程度最高,分别提升了25.57%和27.58%;同时,对比HYCOM模式数据,多尺度耦合正交分解重构方法能有效地捕捉次表层海洋的空间特征信息。总体上,本文耦合经验正交分解法反演的温盐场与Argo温盐场偏差较小,反演精度较好,在空间分布上趋于一致。
+KW  - 卫星观测
+KW  - 多尺度耦合正交分解
+KW  - 温盐梯度
+KW  - 异常矩阵
+ER  - 
+
+TY  - JOUR
+AU  - Li, Kanghao
+AU  - Yang, Shuguo
+AU  - Zhao, Li
+AU  - Wang, Wenwu
+T1  - Weakly labeled sound event detection with a capsule-transformer model
+JF  - DIGITAL SIGNAL PROCESSING
+PY  - 2024/03
+VL  - 146
+DO  - DOI 10.1016/j.dsp.2023.104347
+SN  - 1051-2004
+AB  - Sound event detection (SED) is a widely studied field that has achieved considerable success. The dynamic routing mechanism of capsule networks has been used for SED, but its performance in capturing global information of audio is still limited. In this paper, we propose a method for SED that by combining the capsule network with transformer leverages the strength of transformer in capturing global features with that of capsule network in capturing local features. The proposed method was evaluated on the DCASE 2017 Task 4 weakly labeled dataset. The obtained F-score and Equal Error Rate are 60.6% and 0.75, respectively. Compared to other baseline systems, our method achieves significantly improved performance. Keywords: Sound event detection, audio tagging, gated convolution, transformer, capsule network.
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Bowen
+AU  - Qi, Jifeng
+AU  - Yang, Shuguo
+AU  - Sun, Guimin
+AU  - Feng, Zhongkun
+AU  - Yin, Baoshu
+AU  - Wang, Wenwu
+AU  - Salata, Ferdinando
+T1  - Sea Surface Temperature and Marine Heat Wave Predictions in the South China Sea: A 3D U-Net Deep Learning Model Integrating Multi-Source Data
+JF  - ATMOSPHERE
+PY  - 2024/01
+VL  - 15
+IS  - 1
+DO  - DOI 10.3390/atmos15010086
+AB  - Accurate sea surface temperature (SST) prediction is vital for disaster prevention, ocean circulation, and climate change. Traditional SST prediction methods, predominantly reliant on time-intensive numerical models, face challenges in terms of speed and efficiency. In this study, we developed a novel deep learning approach using a 3D U-Net structure with multi-source data to forecast SST in the South China Sea (SCS). SST, sea surface height anomaly (SSHA), and sea surface wind (SSW) were used as input variables. Compared with the convolutional long short-term memory (ConvLSTM) model, the 3D U-Net model achieved more accurate predictions at all lead times (from 1 to 30 days) and performed better in different seasons. Spatially, the 3D U-Net model's SST predictions exhibited low errors (RMSE  0.9) across most of the SCS. The spatially averaged time series of SST, both predicted by the 3D U-Net and observed in 2021, showed remarkable consistency. A noteworthy application of the 3D U-Net model in this research was the successful detection of marine heat wave (MHW) events in the SCS in 2021. The model accurately captured the occurrence frequency, total duration, average duration, and average cumulative intensity of MHW events, aligning closely with the observed data. Sensitive experiments showed that SSHA and SSW have significant impacts on the prediction of the 3D U-Net model, which can improve the accuracy and play different roles in different forecast periods. The combination of the 3D U-Net model with multi-source sea surface variables, not only rapidly predicted SST in the SCS but also presented a novel method for forecasting MHW events, highlighting its significant potential and advantages.
+KW  - TROPICAL PACIFIC
+KW  - ATLANTIC SST
+KW  - OCEAN
+KW  - VARIABILITY
+KW  - SCALE
+KW  - CIRCULATION
+KW  - ANOMALIES
+KW  - FORECASTS
+ER  - 
+
+TY  - JOUR
+AU  - Jiang, Bin
+AU  - Xu, Zhenhua
+AU  - Ge, Zhenying
+AU  - Yang, Shuguo
+AU  - Chen, Yonghua
+T1  - 基于北斗短报文的海洋观测实时通信系统的设计与研发
+JF  - 海洋科学
+PY  - 2023/08/15
+VL  - 47
+IS  - 08
+SP  - 68
+EP  - 74
+SN  - 1000-3096
+AB  - 北斗一代和北斗二代短报文每次通信数据长度只有78个字节,每次通信后间隔60秒或者300秒才能进行下一次通信,远远满足不了海洋观测实时通信的需求。设计了一套基于北斗短报文的海洋观测实时通信系统,北斗多卡机作为数据发送端,采用哈夫曼压缩算法将观测数据压缩后分成多个数据包,通过多个北斗卡分别发送,岸站接收系统接收到分包的数据后,将接收的数据包解压缩并整合成完整的观测数据。哈夫曼压缩算法将观测数据压缩50%左右,将1组观测数据压缩后发送3次,通过岸上3个月和海上1个月的测试,观测数据接收成功率达到了96%以上,验证了基于北斗短报文的海洋观测实时通信系统的可行性和实用性。
+KW  - Linux
+KW  - 海洋观测
+KW  - 北斗卫星
+KW  - 数据库
+KW  - 哈夫曼压缩算法
+ER  - 
+
+TY  - JOUR
+AU  - Guo, Jianglong
+AU  - Yang, Zhiguo
+T1  - 新时代强军目标的理论内涵与时代价值
+JF  - 青岛科技大学学报(社会科学版)
+PY  - 2023/06/15
+VL  - 39
+IS  - 02
+SP  - 94
+EP  - 98
+DO  - DOI 10.16800/j.cnki.jqustss.2023.02.014
+SN  - 1671-8372
+AB  - 强国必须强军，军强才能国安。在国际形势复杂多变的背景下，以习近平同志为核心的党中央提出了建设一支听党指挥、能打胜仗、作风优良的人民军队，把人民军队建设成为世界一流军队的强军目标。新时代强军目标的理论内涵丰富，听党指挥是强军之魂，能打胜仗是强军之要，作风优良是强军之基，这充分体现了人民军队建设的现代化导向、实践性要求和全局性战略。坚决贯彻党在新时代的强军目标，对于如期实现建军一百年奋斗目标，推进国防和军队现代化具有重要的价值意义。
+KW  - 新时代
+KW  - 强军目标
+KW  - 理论内涵
+KW  - 时代价值
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Jing
+AU  - Zhang, Linlin
+AU  - Zhu, Shanliang
+AU  - Wu, Jie
+AU  - Yan, Xiaomei
+AU  - Song, Weiqi
+AU  - Yang, Shuguo
+T1  - The reliable sampling interval for monitoring interannual variability of the Kuroshio transport at 18?N
+JF  - JOURNAL OF SEA RESEARCH
+PY  - 2023/06
+VL  - 193
+DO  - DOI 10.1016/j.seares.2023.102374
+SN  - 1385-1101
+AB  - The sampling interval for reliably monitoring interannual variability of the Kuroshio transport was studied using satellite altimeter data and outputs from HYbrid Coordinate Ocean Model (HYCOM). Interannual variations of the Kuroshio velocity and transport crossing 18 degrees N were derived with different sampling interval, and their de-viations from the 'true' interannual signals derived from original time series were estimated. The results indicate that sampling with an interval shorter than 20 days is required to obtain the reliable interannual signals, i.e., the Root Mean Square of the deviation is <50% of the interannual signal. However, the longer sampling intervals will lead to serious aliasing and degradation of the true interannual signals, which is mainly attributed to the energetic intraseasonal oscillations in this region. Power spectrum analysis reveal that there are significant 80-day intraseasonal variations as well as semiannual fluctuations in the Kuroshio transport at 18 degrees N, which brings substantial sampling deviations relative to the true interannual variation. An ideal experiment is constructed to confirm that the reliable sampling interval of around 20 days, which can capture interannual variations and resolve the intraseasonal oscillation of the Kuroshio reliably at 18 degrees N. This study provides an important reference for the future monitoring of the interannual variation of the Kuroshio.
+KW  - NORTH EQUATORIAL CURRENT
+KW  - WESTERN BOUNDARY CURRENTS
+KW  - OCEAN CIRCULATION
+KW  - MINDANAO CURRENT
+KW  - BIFURCATION
+KW  - SOUTH
+KW  - EAST
+ER  - 
+
+TY  - JOUR
+AU  - Tang, Guiyan
+AU  - Zhu, Shanliang
+AU  - Zhou, Weifeng
+AU  - Yang, Shuguo
+T1  - 基于高斯混合聚类和LightGBM算法的印度洋次表层温度反演研究
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2023/04/15
+VL  - 44
+IS  - 02
+SP  - 116
+EP  - 126
+DO  - DOI 10.16351/j.1672-6987.2023.02.016
+SN  - 1672-6987
+AB  - 海洋次表层的热力结构对于海洋环流和全球气候变化具有重要的意义。提出一种新的融合高斯混合模型(gaussion mixture model, GMM)和轻量级梯度提升机(light gradient boosting machine, LightGBM)算法的海洋次表层温度(ocean subsurface temperature, OST)反演模型，利用海表温度(sea surface temperature, SST)、海表盐度(sea surface salinity, SSS)、海表高度(sea surface height, SSH)、海表风场(sea surface wind, SSW)的水平分量(USSW)和垂直分量(VSSW)等多源海表参数对印度洋海域的次表层热力结构进行反演，并采用均方根误差和决定系数对模型进行验证。结果表明：所提出的模型可以准确反演印度洋海域的OST分布特征和季节变化规律。在此基础上，设计了不同海表参数输入组合的3种对比实验来定量分析不同海表参数对LightGBM模型的影响。结果表明：所有海表参数对模型都有积极作用，但5个输入参数(SST、SSS、SSH、USSW和VSSW)的LightGBM模型反演效果最好，3个输入参数(SST、SSS和SSH)和2个输入参数(SST和SSH)的LightGBM模型次之。另外，与已有的极限梯度增强(extreme gradient boosting, XGBoost)反演模型相比，5个输入参数的LightGBM模型具有更好的模拟能力。
+KW  - 高斯混合模型
+KW  - 轻量级梯度提升机
+KW  - 机器学习
+KW  - 海洋次表层温度
+ER  - 
+
+TY  - JOUR
+AU  - Jiang, Bin
+AU  - Xu, Zhenhua
+AU  - Yang, Shuguo
+AU  - Chen, Yonghua
+AU  - Ren, Qiang
+T1  - Profile Autonomous Underwater Vehicle System for Offshore Surveys
+JF  - SENSORS
+PY  - 2023/04
+VL  - 23
+IS  - 7
+DO  - DOI 10.3390/s23073722
+AB  - Offshore marine engineering, offshore aquaculture, and offshore environmental protection require periodic offshore surveys. At present, the main means of offshore marine surveys are mooring buoys and marine survey ships. Anchored buoys are fixed in place for a long time, which affects the navigation of ships. Therefore, mooring buoys cannot be deployed over a large area with high density. The cost of marine survey ships is high, especially when multipoint synchronous marine surveys are needed, and marine survey ships cannot perform offshore surveys under bad sea conditions. A profile autonomous underwater vehicle system is developed to meet the requirements of multipoint short-term synchronous offshore surveys. It is a small, reusable, low-cost equipment designed to move up and down at a mooring position while measuring temperature, salinity, depth, and other quantities along a vertical water section. Profile autonomous underwater vehicles can be commanded remotely and report their measurements in near real-time via wireless telemetry. The time it takes for a profile AUV to move up and down can indicate the current velocity. Tests were carried out on a wharf and in offshore areas, and the results were satisfactory.
+KW  - DESIGN
+KW  - AUV
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Qingliang
+AU  - Yang, Shuguo
+AU  - Liu, Jing
+AU  - Zhao, Li
+AU  - Xiong, Pengcheng
+AU  - Shen, Jun
+T1  - An efficient video watermark method using blockchain
+JF  - KNOWLEDGE-BASED SYSTEMS
+PY  - 2023/01/10
+VL  - 259
+DO  - DOI 10.1016/j.knosys.2022.110066
+SN  - 0950-7051
+AB  - Nowadays, one of the most common approaches for video watermarking is to use singular value decomposition in the discrete wavelet transform domain. In our prior work, we formulated a video watermarking problem to achieve the maximum peak signal to noise ratio as an optimization problem. It chooses wavelet coefficient points in key frames with minimum distortion cost. Yet the existing solution has two drawbacks (1) it requires to store a large number of coordinates depending on the watermark size; (2) it is vulnerable to video frame attacks on the video frame texture area. To avoid them, this paper proposes a blockchain-based approach. Its main concept is to choose wavelet coefficient blocks in key frames and leverage blockchain to connect all the blocks. Our experimental results show that this approach is memory efficient because it only requires to store a single key for a key frame, which is independent of the watermark size; and the overall robustness is greatly improved due to the randomness of the hash function used in the blockchain. Hence, this work had made novel and significant contributions to the field of video watermarking. (c) 2022 Elsevier B.V. All rights reserved.
+KW  - SINGULAR-VALUE DECOMPOSITION
+KW  - DISCRETE WAVELET TRANSFORM
+KW  - DWT-SVD
+KW  - ROBUST
+KW  - BLIND
+ER  - 
+
+TY  - JOUR
+AU  - Li, Haitao
+AU  - Yang, Shuguo
+T1  - 基于自注意力路由胶囊网络的多音事件检测
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2022/10/15
+VL  - 43
+IS  - 05
+SP  - 121
+EP  - 126
+DO  - DOI 10.16351/j.1672-6987.2022.05.016
+SN  - 1672-6987
+AB  - 声音事件检测是目前计算机听觉领域中的重要问题，而多声音事件检测是其中一个极具挑战性的研究热点。基于最新提出的非迭代的自注意力路由方法和胶囊网络，本文提出了一种基于自注意力路由的多路径胶囊网络模型，将其用于多声音事件检测。由于自注意力路由方法是非迭代且高度并行的，大大加快了模型的训练速度；多路径基础胶囊层使用不同大小的非对称卷积核，不仅使模型能获得不同分辨率的信息，还能极大地保留时间信息，从而提高了模型的性能。本工作在2017年声音场景与事件检测分类挑战赛(Detection and Classification of Acoustic Scenes and Events, DCASE 2017)挑战任务4数据集上对所提出的模型和方法进行了对比实验及性能评估。其中，音频标注子任务的F分数达到了59.5%,音频事件检测的错误率降低到0.72,检测效果有较大的提升。结果表明：本方法具有事件检测准确率高、速度快、泛化能力强等优点。
+KW  - 多声音事件检测
+KW  - 胶囊网络
+KW  - DCASE 2017挑战
+ER  - 
+
+TY  - JOUR
+AU  - Han, Yuqun
+AU  - Liu, Simin
+AU  - Du, Yang
+AU  - Yang, Shuguo
+T1  - Adaptive multi-dimensional Taylor network tracking control for nonlinear systems with input saturation and full state time-ying constraints
+JF  - INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+PY  - 2022/09/01
+VL  - 36
+IS  - 9
+SP  - 2152
+EP  - 2166
+DO  - DOI 10.1002/acs.3447
+SN  - 0890-6327
+AB  - In this article, an adaptive multi-dimensional Taylor network (MTN) control approach is developed for nonlinear systems subject to input saturation and full state time-ying constraints. Using the function approximation property of MTN, an adaptive tracking control method is developed by incorporating the concept of time-ying state constraints into the construct of barrier Lyapunov functions. The proposed approach not only ensures all closed-loop system signals are bounded but also that all states of the system never violate the given time-ying constraints. The most important advantage of the proposed control strategy is that it can obtain satisfactory control effects with low computational cost. Finally, two examples are given to validate the effectiveness of the proposed method.
+KW  - BARRIER LYAPUNOV FUNCTIONS
+KW  - DESIGN
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Qiming
+AU  - Yang, Shuguo
+AU  - Zhao, Li
+T1  - 基于深度卷积神经网络的海洋多目标涡旋检测方法
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2022/07/25
+VL  - 43
+IS  - 04
+SP  - 120
+EP  - 126
+DO  - DOI 10.16351/j.1672-6987.2022.04.016
+SN  - 1672-6987
+AB  - 提出了一种基于深度卷积神经网络的海洋多目标涡旋检测方法。首先利用改进的密集卷积精确提取海洋涡旋特征，并使用跨层融合技术提高特征的利用率，来充分捕捉边缘信息；然后结合转置卷积和跳过连接构建上采样路径得到检测结果，以获得更高的检测准确率；最后在CMEMS(哥白尼海洋环境监测服务中心)发布的公开数据集上对本工作提出的方法进行了对比实验，实验结果表明：与EddyNet、PET等方法相比，本工作的方法能够有效分离、检测出距离较近的涡旋，具有更好的检测结果。
+KW  - 海洋涡旋
+KW  - 深度学习
+KW  - 特征融合
+KW  - 目标检测
+ER  - 
+
+TY  - JOUR
+AU  - Dong, Lin
+AU  - Qi, Jifeng
+AU  - Yin, Baoshu
+AU  - Zhi, Hai
+AU  - Li, Delei
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+AU  - Cai, Hong
+AU  - Xie, Bowen
+T1  - Reconstruction of Subsurface Salinity Structure in the South China Sea Using Satellite Observations: A LightGBM-Based Deep Forest Method
+JF  - REMOTE SENSING
+PY  - 2022/07/01
+VL  - 14
+IS  - 14
+DO  - DOI 10.3390/rs14143494
+SN  - 2072-4292
+AB  - Accurately estimating the ocean's interior structures using sea surface data is of vital importance for understanding the complexities of dynamic ocean processes. In this study, we proposed an advanced machine-learning method, the Light Gradient Boosting Machine (LightGBM)-based Deep Forest (LGB-DF) method, to estimate the ocean subsurface salinity structure (OSSS) in the South China Sea (SCS) by using sea surface data from multiple satellite observations. We selected sea surface salinity (SSS), sea surface temperature (SST), sea surface height (SSH), sea surface wind (SSW, decomposed into eastward wind speed (USSW) and northward wind speed (VSSW) components), and the geographical information (including longitude and latitude) as input data to estimate OSSS in the SCS. Argo data were used to train and validate the LGB-DF model. The model performance was evaluated using root mean square error (RMSE), normalized root mean square error (NRMSE), and determination coefficient (R-2). The results showed that the LGB-DF model had a good performance and outperformed the traditional LightGBM model in the estimation of OSSS. The proposed LGB-DF model using sea surface data by SSS/SST/SSH and SSS/SST/SSH/SSW performed less satisfactorily than when considering the contribution of the wind speed and geographical information, indicating that these are important parameters for accurately estimating OSSS. The performance of the LGB-DF model was found to y with season and water depth. Better estimation accuracy was obtained in winter and autumn, which was due to weaker stratification. This method provided important technical support for estimating the OSSS from satellite-derived sea surface data, which offers a novel insight into oceanic observations.
+KW  - SURFACE SALINITY
+KW  - INDIAN-OCEAN
+KW  - PROFILE ESTIMATION
+KW  - THERMAL STRUCTURE
+KW  - BARRIER LAYER
+KW  - IN-SITU
+KW  - TEMPERATURE
+KW  - THERMOHALINE
+KW  - ASSIMILATION
+KW  - AQUARIUS
+ER  - 
+
+TY  - JOUR
+AU  - Li, Haitao
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+T1  - Improved capsule routing for weakly labeled sound event detection
+JF  - EURASIP JOURNAL ON AUDIO SPEECH AND MUSIC PROCESSING
+PY  - 2022/03/07
+VL  - 2022
+IS  - 1
+DO  - DOI 10.1186/s13636-022-00239-6
+SN  - 1687-4722
+AB  - Polyphonic sound event detection aims to detect the types of sound events that occur in given audio clips, and their onset and offset times, in which multiple sound events may occur simultaneously. Deep learning-based methods such as convolutional neural networks (CNN) achieved state-of-the-art results in polyphonic sound event detection. However, two open challenges still remain: overlap between events and prone to overfitting problem. To solve the above two problems, we proposed a capsule network-based method for polyphonic sound event detection. With so-called dynamic routing, capsule networks have the advantage of handling overlapping objects and the generalization ability to reduce overfitting. However, dynamic routing also greatly slows down the training process. In order to speed up the training process, we propose a weakly labeled polyphonic sound event detection model based on the improved capsule routing. Our proposed method is evaluated on task 4 of the DCASE 2017 challenge and compared with several baselines, demonstrating competitive results in terms of F-score and computational efficiency.
+KW  - NEURAL-NETWORKS
+KW  - CLASSIFICATION
+ER  - 
+
+TY  - JOUR
+AU  - Zhu, Shanliang
+AU  - Han, Yuqun
+AU  - Xing, Jianmin
+AU  - Yang, Shuguo
+T1  - 数学建模活动促进教学与科研融合的研究与实践
+JF  - 数学建模及其应用
+PY  - 2021/12/15
+VL  - 10
+IS  - 04
+SP  - 38
+EP  - 42
+DO  - DOI 10.19943/j.2095-3070.jmmia.2021.04.05
+SN  - 2095-3070
+AB  - 在大学数学教学活动中，广大高校数学教师面临的一个突出问题是如何做好教学和科研的融合，有效提升人才培养质量.为了解决这个问题，本文总结了我校数学建模活动促进科教融合的相关举措与实践经验.长期的教学实践表明，构建层次化的建模活动平台，多学科协同育人，是实现数学建模教学常态化、课外实践经常化和应用研究专业化的有效举措.该举措能够培养具有扎实数学应用能力的创新型人才，提高教师教学与科研水平，提升高校服务社会的能力.
+KW  - 数学建模
+KW  - 教学改革
+KW  - 科教融合
+KW  - 人才培养
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Tian
+AU  - Zhu, Shanliang
+AU  - Liu, Jing
+AU  - Shen, Jun
+AU  - Shen, Jialie
+AU  - Yang, Shuguo
+AU  - Xiong, Pengcheng
+T1  - A new context-aware approach for automatic Chinese poetry generation
+JF  - KNOWLEDGE-BASED SYSTEMS
+PY  - 2021/11/28
+VL  - 232
+DO  - DOI 10.1016/j.knosys.2021.107409
+SN  - 0950-7051
+AB  - Chinese poetry has been a favorite literary genre for thousands of years. Chinese ancient poetry is still being read and practiced, and many famous ancient Chinese poets are honored and adorned. Recently, deep learning has been widely adopted for poetry generation. In this paper, we present a new contextaware Chinese poetry generation method based on sequence-to-sequence framework. We generate a new concept called keyword team, which is a combination of all the keywords to capture the context of the Chinese poetry. Then we use the keyword, the keyword team and the previously generated lines to generate the present line in the poetry. We find that, by including keyword teams into the generation of the poetry, it can additionally perceive the keywords of preceding and succeeding lines to generate the present line, which can effectively improve the adhesion among the overall lines. The comprehensive evaluation results show that our proposed model outperforms many of the state-of-the-art poetry generation models. (C) 2021 Elsevier B.V. All rights reserved.
+ER  - 
+
+TY  - JOUR
+AU  - Han, Yuqun
+AU  - Zhu, Shanliang
+AU  - Duan, Deyu
+AU  - Chu, Lei
+AU  - Xiong, Pengcheng
+AU  - Yang, Shuguo
+T1  - Observer-based adaptive neural tracking control for a class of stochastic nonlinear systems
+JF  - International Journal of Control
+PY  - 2021/05/04
+VL  - 94
+IS  - 5
+SP  - 1344
+EP  - 1354
+DO  - DOI 10.1080/00207179.2019.1648876
+SN  - 0020-7179
+KW  - Stochastic nonlinear systems
+KW  - neural networks
+KW  - reduced-order state observer
+KW  - adaptive tracking control
+KW  - output feedback
+ER  - 
+
+TY  - JOUR
+AU  - Zhu, Shanliang
+AU  - Zhao, Yu
+AU  - Zhang, Yanjie
+AU  - Li, Qingling
+AU  - Wang, Wenwu
+AU  - Yang, Shuguo
+T1  - Short-Term Traffic Flow Prediction With Wavelet and Multi-Dimensional Taylor Network Model
+JF  - IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS
+PY  - 2021/05/03
+VL  - 22
+IS  - 5
+SP  - 3203
+EP  - 3208
+SN  - 1524-9050
+KW  - Traffic flow prediction
+KW  - multi-dimensional Taylor network
+KW  - wavelet transform
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Haoyu
+AU  - Song, Tingqiang
+AU  - Zhu, Shanliang
+AU  - Yang, Shuguo
+AU  - Feng, Liqiang
+T1  - Subsurface Temperature Estimation from Sea Surface Data Using Neural Network Models in the Western Pacific Ocean
+JF  - MATHEMATICS
+PY  - 2021/04/14
+VL  - 9
+IS  - 8
+SP  - 852
+SN  - 2227-7390
+KW  - ocean subsurface temperature
+KW  - multisource sea surface data
+KW  - neural network model
+KW  - western Pacific Ocean
+ER  - 
+
+TY  - JOUR
+AU  - Yuqun, Han
+AU  - Shanliang, Zhu
+AU  - Shuguo, Yang
+AU  - Lei, Chu
+T1  - Adaptive multi-dimensional Taylor network tracking control for a class of nonlinear systems
+JF  - International Journal of Control
+PY  - 2021/02/01
+VL  - 94
+IS  - 2
+SP  - 277
+EP  - 285
+DO  - DOI 10.1080/00207179.2019.1590649
+SN  - 0020-7179
+KW  - Multi-dimensional Taylor network
+KW  - adaptive tracking control
+KW  - nonlinear systems
+KW  - backstepping technique
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Qingliang
+AU  - Yang, Shuguo
+AU  - Liu, Jing
+AU  - Xiong, Pengcheng
+AU  - Zhou, Mengchu
+T1  - A discrete wavelet transform and singular value decomposition-based digital video watermark method
+JF  - Appl. Math. Model.
+PY  - 2020/09
+VL  - 85
+DO  - DOI 10.1016/j.apm.2020.04.015
+SN  - 0307-904X
+AB  - Digital video watermark is widely used to protect copyright and content authentication. DWT-SVD based method, i.e., discrete wavelet transform (DWT) and singular value decomposition (SVD) based method, is one of the most popular state-of-the-art methods. There are two main criteria to evaluate it, i.e., imperceptibility and robustness. The former is measured via the peak signal to noise ratio (PSNR) and structural similarity (SSIM). They should be as high as possible after the watermark is embedded. Robustness measures how easy to restore the embedded watermark by the owner even if the watermarked video is damaged by an outside attacker. Current studies randomly choose embedded positions for watermark, which hardly achieves its highest imperceptibility and robustness. In this paper, we propose a more imperceptible and robust digital video watermarking method than the existing one. First, we introduce a method to measure video frame distortion in a wavelet transform domain. Second, we model the problem to achieve the minimum video frame distortion as an optimization problem, i.e., choose embedded positions that can maximize peak signal to noise ratio. Finally, we evaluate and compare our method with the state-of-the-art approaches by using real experiments and show its advantages in both imperceptibility and robustness. &copy; 2020 Elsevier Inc.
+KW  - Computer graphics
+KW  - Digital watermarking - Discrete wavelet transforms - Image coding - Image compression - Image quality - Multimedia systems - Signal reconstruction - Signal to noise ratio - Singular value decomposition - Watermarking  - Wavelet decomposition
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Fei
+AU  - Yang, Shuguo
+T1  - 对角化矩阵的应用案例
+JF  - 青岛科技大学(自然科学版)
+PY  - 2020/08/01
+VL  - 41
+IS  - 增刊1
+SP  - P204
+EP  - P205
+SN  - 1672-6987
+KW  - 线性代数
+KW  - 对角化矩阵
+KW  - 投资问题
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Jing
+AU  - Yang, Shuguo
+AU  - Liu, Zizheng
+T1  - 一种基于胶囊网络的图像检索方法
+JF  - 电脑与电信
+PY  - 2020/06/10
+VL  - 283
+IS  - 06
+SP  - 14
+EP  - 18+56
+DO  - DOI 10.15966/j.cnki.dnydx.2020.06.004
+SN  - 1008-6609
+AB  - 作为一种新兴的网络结构,胶囊网络用向量输出替代标量输出,能够捕捉图像特征之间的空间关系,改善卷积神经网络的局限性。首先对胶囊网络进行训练实现图像分类,得到图像的预测类标签,判定出查询图像的所属类别,然后将网络的数字胶囊层中的特征参数作为图像的特征向量,在查询图像的所属类别集合中利用图像特征向量找到与查询图像相似的图像。分别在FASHION-MNIST和CIFAR10数据集上进行了实验,实验结果表明本文方法可以较好地提取出图像的特征,分别提升了查准率,并取得了良好的图像检索结果。
+KW  - 图像检索
+KW  - 胶囊网络
+KW  - 特征提取
+ER  - 
+
+TY  - JOUR
+AU  - Zhu, Shanliang
+AU  - Chu, Lei
+AU  - Wang, Mingxin
+AU  - Han, Yuqun
+AU  - Yang, Shuguo
+T1  - Multi-Dimensional Taylor Network-Based Adaptive Output-Feedback Tracking Control for a Class of Nonlinear Systems
+JF  - IEEE Access
+PY  - 2020/04/22
+VL  - 8
+SP  - 77298
+EP  - 77307
+SN  - 2169-3536
+KW  - Multi-dimensional Taylor network, nonlinear systems, adaptive control, output-feedback, backstepping
+ER  - 
+
+TY  - CPAPER
+AU  - Huang, Jing
+AU  - Yang, Shuguo
+AU  - Wang, Wenwu
+T1  - A Method for Content-Based Image Retrieval with a Two-Stage Feature Matching
+T2  - Int. Conf. Intell. Control Inf. Process., ICICIP
+PY  - 2019/12
+DO  - DOI 10.1109/ICICIP47338.2019.9012213
+AB  - Content-based image retrieval is an active area of research where image content is used to guide the search of relevant images from a dataset. Given a query image, the images in the dataset are ranked in terms of their scores of similarity to this image based on their visual appearance. Many existing algorithms are based on either single feature or the fusion of multi-features with a one-step search method, which may lead to undesirable results due to the mismatch between low-level features and high-level semantics. To address this issue, we propose a two-stage sequential search algorithm where the color feature, represented by a color histogram in the HSV space, is used to form an image set containing images of similar color distributions to that of the query image, then a second stage of search is performed via the matching of feature points, in terms of discrete wavelet transform (DWT), and the scale invariant feature transform (SIFT) feature, extracted from a low-frequency subgraph. Experiments are performed on the ZuBuD dataset and UKBench dataset. Compared to some state-of-the-art algorithms, the proposed algorithm gives higher precision score. &copy; 2019 IEEE.
+KW  - Color matching
+KW  - Color - Content based retrieval - Discrete wavelet transforms - Image retrieval - Semantics - Wavelet transforms
+ER  - 
+
+TY  - JOUR
+AU  - Han, Yuqun
+AU  - Zhu, Shanliang
+AU  - Duan, Deyu
+AU  - Yang, Shuguo
+T1  - Adaptive neural output feedback tracking control for a class of nonlinear systems
+JF  - International Journal of Systems Science
+PY  - 2019/08/18
+VL  - 50
+IS  - 11
+SP  - 2088
+EP  - 2101
+DO  - DOI 10.1080/00207721.2019.1645918
+SN  - 0020-7721
+KW  - Neural network
+KW  - nonlinear
+KW  - system
+KW  - unmeasurable states
+KW  - adaptive tracking control
+KW  - dynamic surface control
+ER  - 
+
+TY  - CPAPER
+AU  - Xu, Fei
+AU  - Zhang, Jingjing
+AU  - Shi, Yanmei
+AU  - Kang, Kaixin
+AU  - Yang, Shuguo
+T1  - A Fast Low-Rank Matrix Factorization Method for Dynamic Magnetic Resonance Imaging Restoration
+T2  - Proceedings-2019 5th International Conference on Big Data Computing and Communications, BIGCOM2019,v 2019
+PY  - 2019/08/01
+SP  - 38
+EP  - 42
+DO  - DOI 10.1109/BIGCOM.2019.00014
+SN  - 978-1-7281-4024-7
+KW  - Magnetic resonance imaging
+KW  - nonconvex
+KW  - low-rank plus sparse
+KW  - low-rank matrix factorization
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Fei
+AU  - Yang, Shuguo
+T1  - 线性代数中的一个教学案例
+JF  - 青岛科技大学(自然科学版)
+PY  - 2019/08/01
+VL  - 40
+IS  - 增刊1
+SP  - 344
+EP  - 345
+SN  - 1672-6987
+KW  - 线性代数
+KW  - 特征值
+KW  - 特征向量
+KW  - 图像压缩
+ER  - 
+
+TY  - JOUR
+AU  - Zhu, Shanliang
+AU  - Wang, Haoyu
+AU  - Gao, Xin
+AU  - Zhao, Yu
+AU  - Xie, Qiuling
+AU  - Zhou, Weifeng
+AU  - Yang, Shuguo
+T1  - 一种基于改进混合高斯模型的运动目标检测算法
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2019/07/23
+VL  - 40
+IS  - 04
+SP  - 113
+EP  - 118
+DO  - DOI 10.16351/j.1672-6987.2019.04.015
+SN  - 1672-6987
+AB  - 针对运动目标检测中ViBe算法的鬼影、阴影和噪声干扰问题,本研究提出一种融入改进混合高斯模型(GMM)的ViBe算法。该算法改进混合高斯模型的自适应性,使混合高斯模型的K值与学习率对背景进行自适应调节;对视频帧进行训练,构造"虚拟"背景代替第一帧图像进行背景建模,算法能够有效地提取背景建模初始化的视频运动目标,从而消除鬼影现象。该算法用像素分类法提取前景目标,经形态学处理得到完整的运动目标。实验结果表明:与几种运动目标检测算法相比,本研究提出的算法不仅能够有效地抑制鬼影、阴影和噪声干扰,而且该算法自适应性强、检测速度快、检测结果可靠。
+KW  - 运动目标检测
+KW  - ViBe算法
+KW  - 混合高斯模型
+KW  - 形态学方法
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - He, Wenjing
+AU  - Liu, Yinling
+AU  - Ma, Zuolin
+AU  - Hu, Shuai
+T1  - 基于形态学的高斯模型和八邻域帧差法混合运动目标检测算法
+JF  - 计算机与现代化
+PY  - 2019/07/04
+VL  - 287
+IS  - 07
+SP  - 32
+EP  - 36+42
+SN  - 1006-2475
+AB  - 针对视频中运动目标的提取问题,提出一种基于形态学的高斯模型和八邻域帧差法相融合的提取算法。该算法首先将视频中某些帧转化为灰度图,建立以混合高斯分布为基础的统计模型,并结合八邻域帧差法提取出运动目标的大致轮廓,然后利用自适应更新的高斯模型算法进行精确的减除,最后再进行形态学处理,从而使检测出的运动目标更加清晰完整。实验结果表明,该算法对含有低速运动物体、阴影较多的视频提取效果较好,具有很好的鲁棒性。
+KW  - 运动目标检测
+KW  - 混合高斯模型
+KW  - 八邻域帧差法
+KW  - 形态学处理
+ER  - 
+
+TY  - JOUR
+AU  - Han, Yuqun
+AU  - Zhu, Shanliang
+AU  - Duan, Deyu
+AU  - Chu, Lei
+AU  - Yang, Shuguo
+T1  - Adaptive decentralized tracking control of a class of large-scale nonlinear systems with unknown dead-zone inputs using neural network
+JF  - Transactions of the Institute of Measurement and Control
+PY  - 2019/07/01
+VL  - 41
+IS  - 16
+SP  - 4499–4510
+DO  - DOI 10.1177/0142331219861189
+SN  - 0142-3312
+KW  - Decentralized, tracking control, large-scale nonlinear system, dead-zone input, neural network
+ER  - 
+
+TY  - JOUR
+AU  - Xing, Jianmin
+AU  - Yang, Shuguo
+AU  - Zhu, Shanliang
+AU  - Zhang, Ruikun
+AU  - Duan, Deyu
+AU  - Li, Xiuli
+T1  - Construction and Implementation of "Two-Axis Linkage, Five-Layer Hierarchy" Mathematical Modeling Teaching System Based on Innovation Ability Cultivation
+JF  - Scholars Journal of Physics, Mathematics and Statistics
+PY  - 2019/03/30
+VL  - 6
+IS  - 3
+SP  - 35
+EP  - 41
+DO  - DOI 10.21276/sjpms.2019.6.3.3
+SN  - 2393-8064
+KW  - Two-axis linkage
+KW  - five-level hierarchy
+KW  - two elections four trainings and three phases
+KW  - Five-fold  edification
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Liu, Qingliang
+AU  - Xiong, Pengcheng
+T1  - 基于超混沌的RBF神经网络图像自适应水印算法
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2018/09/19
+VL  - 39
+IS  - 05
+SP  - 106
+EP  - 110+118
+DO  - DOI 10.16351/j.1672-6987.2018.05.016
+SN  - 1672-6987
+AB  - 为了更好地保护图像版权信息,本工作结合超混沌系统和RBF神经网络,提出一种基于超混沌的RBF神经网络模型加密算法,根据JND(最小可视觉误差)模型实现水印的自适应嵌入,并应用RBF神经网络进行水印信息盲检测。实验研究表明:该算法复杂度较低、容易实现,并且具有良好的安全性、不可感知性和鲁棒性。
+KW  - 超混沌
+KW  - RBF神经网络
+KW  - JND模型
+KW  - 盲检测
+ER  - 
+
+TY  - CPAPER
+AU  - Liu, Qingliang
+AU  - Sui, Shujiao
+AU  - Yang, Shuguo
+AU  - Xiong, Pengcheng
+T1  - An Image Watermarking Algorithm Based on Discrete Hopfield Neural Network Encryption
+T2  - Journal of Physics: Conference Series
+PY  - 2018/08/10
+VL  - 1087
+IS  - 6
+SP  - 062039
+EP  - 1
+SN  - 1742-6588
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Qiuling
+AU  - Zhu, Shanliang
+AU  - Gong, Xiang
+AU  - Yang, Shuguo
+T1  - 新工科背景下提升工科学生经济决策能力的思考和建议
+JF  - 青岛科技大学学报(社会科学版)（增刊）
+PY  - 2018/07/26
+VL  - 34
+IS  - 第七期，总第132期
+SP  - 32
+EP  - 34
+SN  - 1671-8372
+KW  - 新经济
+KW  - 新工科
+KW  - 经济决策
+KW  - OBE模式
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - Adaptive Multi-Dimensional Taylor Network Tracking Control for a Class of Stochastic Nonlinear Systems With Unknown Input Dead-Zone
+JF  - IEEE ACCESS
+PY  - 2018/07/12
+VL  - 6
+IS  - 0
+SP  - 34543
+EP  - 34554
+DO  - DOI 10.1109/ACCESS.2018.2849511
+SN  - 2169-3536
+KW  - Tracking control
+KW  - stochastic nonlinear systems
+KW  - dead-zone
+KW  - backstepping technique
+KW  - multi-dimensional Taylor network
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+T1  - 一类整车物流问题优化模型的研究
+JF  - 数学的实践与认识
+PY  - 2018/06/23
+VL  - 48
+IS  - 12
+SP  - 11
+EP  - 19
+SN  - 1000-0984
+AB  - 从整车物流的具体实例出发,首先,根据给定的轿运车和乘用车的规格,以轿运车运能最大化为目标,求得轿运车的最佳配载方案;其次,以多目的地不同订单需求等为约束,以轿运车使用数量最少和成本最低为目标函数,建立整车配载运送优化模型;最后,利用整单和零单的思想和方法,对优化模型求解,得出轿运车的最佳配载运送方案.所提出的求解方法能大大缩小解的搜索空间,提高运算效率,对解决类似问题有一定的参考价值.
+KW  - 整车物流
+KW  - 优化模型
+KW  - 整车配载
+ER  - 
+
+TY  - CPAPER
+AU  - Duan, Deyu
+AU  - Di, Fahui
+AU  - Cao, Yuqin
+AU  - Hou, Huaqiong
+AU  - Yang, Shuguo
+T1  - Fast Positioning of Rotating Center Based on  Correction of Finite Angle Deviation of CT System
+T2  - Proceedings of 2018 IEEE 7th Data Driven Control and Learning Systems Conference, DDCLS 2018
+PY  - 2018/05/27
+SP  - 743
+EP  - 747
+SN  - ISBN-13: 9781538626184
+KW  - 2D-CT
+KW  - Finite Angle Deviation
+KW  - Improved Inverse Transformation of Radon
+KW  - Least Square Method
+KW  - White Gaussian Noise
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+T1  - Moving Object Real-time Detection and Tracking Method Based on Improved Gaussian Mixture Model
+T2  - Proceedings of 2018 IEEE 7th Data Driven Control and Learning Systems Conference, DDCLS 2018
+PY  - 2018/03/25
+SP  - 654
+EP  - 658
+SN  - 9781538626184
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Qiuling
+AU  - Zhu, Shanliang
+AU  - Gong, Xiang
+AU  - Yang, Shuguo
+T1  - Assessment Model of State Fragility and its Application Based on Climate Change
+JF  - Scholars Journal of Economics, Business and Management
+PY  - 2018/03/08
+VL  - 5
+IS  - 3
+SP  - 200
+EP  - 207
+SN  - 2348-5302
+KW  - State Fragility, Indicator System, Evaluation Model, Entropy Weight Method
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Zhang, Bo
+AU  - Xiong, Pengcheng
+AU  - Xue, Mingyu
+T1  - DCT域内视频分形脆弱水印算法
+JF  - 计算机与现代化
+PY  - 2017/12/01
+IS  - 12
+SP  - 33
+EP  - 38
+SN  - 1006-2475
+KW  - 脆弱水印
+KW  - 离散小波变换
+KW  - 离散余弦变换
+KW  - 分形
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Liang, Jiadong
+AU  - Zhang, Yonglin
+T1  - 基于改进的JND模型的视频水印算法
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2017/10/15
+VL  - 38
+IS  - 05
+SP  - 112
+EP  - 118
+DO  - DOI 10.16351/j.1672-6987.2017.05.021
+SN  - 1672-6987
+AB  - 针对视频版权的保护,提出了一种基于改进的JND模型的视频水印算法。此算法首先选取二值图像作为图像水印,利用Logistic混沌映射对图像进行加密;然后对载体视频进行关键帧提取,将提取的帧进行4层小波分解,结合分形理论对小波系数进行D树和R树的存储,并根据人类视觉系统(HVS)提出改进的JND模型,进而将处理后的水印信息按照三个方向自适应的嵌入到D树和R树中。实验结果表明:本工作的算法具有较好的不可见性,且针对噪声、高斯滤波、旋转等攻击具有良好的鲁棒性。
+KW  - JND模型
+KW  - 人类视觉系统
+KW  - 小波变换
+KW  - 视频水印算法
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Qingliang
+AU  - Yang, Shuguo
+T1  - 基于小波变换的图像双水印算法
+JF  - 电脑与电信
+PY  - 2017/10/01
+IS  - 10
+SP  - 1
+EP  - 5
+SN  - 1008-6609
+KW  - 双水印
+KW  - Arnold变换
+KW  - 二维超混沌模型
+KW  - 离散小波变换
+KW  - JND模型
+ER  - 
+
+TY  - CPAPER
+AU  - Liu, Qingliang
+T1  - Image watermarking algorithm based on wavelet transform
+T2  - IEEE 2nd Intermational Conference on Signal and Image Processiong
+PY  - 2017/08/04
+SP  - 116
+EP  - 121
+ER  - 
+
+TY  - PAT
+AU  - Yang, Shuguo
+AU  - Zhang, Bo
+AU  - Li, Chunxia
+AU  - Sui, Shujiao
+AU  - Xue, Mingyu
+T1  - DCT域内视频分形脆弱水印算法
+PY  - 2017/06/13
+AB  - 本发明涉及视频图像处理技术领域,具体涉及一种DCT域内视频分形脆弱水印算法,包括如下步骤：S1.对MPEG视频进行分帧,提取每一个GOP中的I帧和B、P帧,并转换为YUV色彩模式；S2.计算I帧的分形特征W1；S3.构造GOP中每一帧的位置特征W2；S4.将W1和W2进行异或操作,得到水印信息W；S5.在GOP相应的每一帧中嵌入对应的水印信息W。本发明的算法分形技术和小波变换二者有机结合,提取经过DWT变换后视频I帧的分形特征,然后结合B、P帧的位置特征生成认证码,用Logistic混沌映射置乱后嵌入到每一帧指定的DCT块系数中。本算法在保证原视频质量的情况下,可以有效的检测到对视频的篡改和攻击,并且可以精确定位篡改和攻击的位置。
+KW  - 脆弱水印
+KW  - 分形
+KW  - DCT域
+KW  - 位置特征
+KW  - 色彩模式
+KW  - 小波变换
+KW  - 分帧
+KW  - 特征生成
+KW  - 混沌映射
+KW  - 异或
+ER  - 
+
+TY  - JOUR
+AU  - Li, Chunxia
+AU  - Yang, Shuguo
+T1  - 论数学建模与创新教育
+JF  - 青岛科技大学学报（社会科学版）增刊
+PY  - 2017/06/01
+IS  - 5月
+SP  - 23
+EP  - 27
+SN  - 1671-8372
+KW  - 创新教育
+KW  - 数学建模
+KW  - 数学建模竞赛
+ER  - 
+
+TY  - JOUR
+AU  - Liang, Jiadong
+AU  - Yang, Shuguo
+T1  - 一种基于Chebyshev混沌神经网络的视频水印算法
+JF  - 计算机与现代化
+PY  - 2017/04/15
+VL  - 260
+IS  - 04
+SP  - 14
+EP  - 17+43
+SN  - 1006-2475
+AB  - 针对视频版权的保护,提出一种基于Chebyshev混沌神经网络的视频水印算法。首先选取二值图像作为图像水印,利用Chebyshev混沌神经网络对图像进行加密;然后对宿主视频进行分帧处理,通过Henon映射产生混沌序列提取关键帧,同时提取关键帧亮度分量的低频系数,将处理后的图像水印自适应地嵌入小波变换后亮度分量的低频系数中。实验结果表明,该算法具有较好的不可见性,且针对噪声、高斯滤波、旋转、帧丢失等攻击具有良好的鲁棒性。
+KW  - 视频水印
+KW  - Chebyshev混沌神经网络
+KW  - Henon映射
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Zhang, Bo
+AU  - Wang, Yuxin
+AU  - Li, Tianying
+AU  - Xue, Mingyu
+T1  - 一种图像小波域内分形零水印算法
+JF  - 电脑与电信
+PY  - 2017/04/10
+VL  - 248
+IS  - 04
+SP  - 7
+EP  - 10
+DO  - DOI 10.15966/j.cnki.dnydx.2017.04.003
+SN  - 1008-6609
+AB  - 针对数字图像版权的保护,本文提出了一种小波域内基于分形理论的零水印算法。首先对载体图像进行Haar小波变换,接着对小波低频系数进行分形编码,通过分形匹配获得图像的重要特征信息;然后建立特征信息与图像水印之间的关系,进行水印的双重嵌入;由于算法没有对图像进行任何修改就完成了水印的嵌入,很好地解决水印鲁棒性与不可见性之间的矛盾。仿真实验结果表明,算法对常见的图像处理及几何攻击有较强的鲁棒性。
+KW  - 小波变换
+KW  - 分形编码
+KW  - 数字零水印
+KW  - 鲁棒性
+ER  - 
+
+TY  - PAT
+AU  - Yang, Shuguo
+AU  - Liang, Jiadong
+AU  - Li, Chunxia
+AU  - Liu, Qingliang
+AU  - Sui, Shujiao
+T1  - 基于分形理论的小波域视频水印方法
+PY  - 2017/02/01
+AB  - 本发明涉及视频图像处理技术领域,尤其涉及一种基于分形理论的小波域视频水印方法。在水印的嵌入过程中,首先分别对提取的关键帧和水印图像同时进行小波变换并进行小波树D和小波树R分解,然后直接乘以强度系数对应嵌入其中。本发明的基于分形理论的小波域视频水印方法提供了一种向视频中嵌入水印的方法,能够对视频版权进行有效的保护,解决了视频容量大、计算复杂度高,水印嵌入困难的问题。采用本发明提供的方法向视频中嵌入水印,计算量小,耗时短,不影响视频文件的质量,嵌入水印后视频的不可见性高,可用性强,鲁棒性高,对视频版权的保护具有非常重要的意义。
+KW  - 视频水印
+KW  - 分形
+KW  - 嵌入过程
+KW  - 视频图像处理
+KW  - 关键帧
+KW  - 可见性
+KW  - 小波变换
+KW  - 计算复杂度
+KW  - 强度系数
+ER  - 
+
+TY  - JOUR
+AU  - Liang, Jiadong
+AU  - Yang, Shuguo
+T1  - 一种基于小波分析的数字图像水印技术研究
+JF  - 现代计算机(专业版)
+PY  - 2016/10/15
+IS  - 29
+SP  - 71
+EP  - 74
+SN  - 1007-1423
+AB  - 随着网络、个人存储设备的发展,数字图像的传播也越来越便捷。但是,恶意篡改、盗用数字图像的现象也日益严重,所以保护数字图像的版权是亟待解决的问题。提出一种基于小波分析的数字水印方法,利用小波域内的JND(最小视觉误差)模型,对载体图像的小波系数进行修改,完成水印嵌入,进而达到保护数字图像版权的目的。实验结果表明,水印的不可感知性很好,在抵抗平滑、中值滤波、椒盐噪声等攻击时具有更好的鲁棒性。
+KW  - 数字水印
+KW  - 最小视觉误差
+KW  - 离散小波变换
+ER  - 
+
+TY  - JOUR
+AU  - Liang, Jiadong
+AU  - Li, Jing
+AU  - Zhao, Pan
+AU  - Yang, Shuguo
+T1  - 面向节能的单/多列车优化决策问题
+JF  - 数学的实践与认识
+PY  - 2016/08/08
+VL  - 46
+IS  - 15
+SP  - 21
+EP  - 33
+SN  - 1000-0984
+AB  - 主要研究了单/多列车运行优化控制问题.首先建立了面向节能的单列车能耗优化模型,采用节能控制策略对模型进行求解,得出节能运行的速度距离曲线;其次对多列车多区段的节能运行进行优化控制设计,以再生能量利用最大化为目标,分别建立多列车能耗优化通用模型和高峰/非高峰情形下优化模型,利用模拟退火算法求解模型,得出使总能耗最低的列车运行方案;最后针对晚点情况下追踪运行的多列车运行优化控制问题,分别建立随机和非随机晚点情况下实时控制模型,求解得到耗能最少的列车运行曲线.
+KW  - 目标规划
+KW  - 模拟退火
+KW  - 优化控制
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Bo
+AU  - Wang, Yuxin
+AU  - Li, Tianying
+AU  - Yang, Shuguo
+T1  - 基于分形和HVS的小波域数字图像水印算法
+JF  - 电脑与电信
+PY  - 2016/07/10
+VL  - 240
+IS  - 07
+SP  - 5
+EP  - 8+21
+DO  - DOI 10.15966/j.cnki.dnydx.2016.07.002
+SN  - 1008-6609
+AB  - 针对数字图像版权的保护,本文提出了一种基于分形的小波域数字图像水印算法。首先将载体图像进行Haar小波变换,将小波系数树分为同方向小波树,并在同方向小波树中构造域子树和值子树,通过分形匹配将域子树分为嵌入域子树和非嵌入域子树,然后在嵌入域子树中加入水印。在水印嵌入时,只嵌入部分水印信息来减少水印的嵌入量,同时运用人类视觉系统HVS模型控制水印嵌入的强度,保证其不可见的同时最大限度增强了其鲁棒性并实现了水印的盲提取。
+KW  - 小波变换
+KW  - 分形
+KW  - 人类视觉系统
+KW  - 数字盲水印
+KW  - 鲁棒性
+ER  - 
+
+TY  - JOUR
+AU  - Li, Chunxia
+AU  - Yang, Shuguo
+T1  - 我校大学生数学建模工作未来发展战略的思考
+JF  - 青岛科技大学学报社会科学版（增刊）
+PY  - 2016/06/15
+VL  - 32
+IS  - 6
+SP  - 112
+EP  - 115
+SN  - 1671-8372
+KW  - 全国大学生数学建模竞赛
+KW  - 竞赛培训
+KW  - 竞赛指导
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+T1  - 美国大学生数学建模竞赛的实践与探索
+JF  - 青岛科技大学学报（社会科学版）增刊
+PY  - 2016/06/10
+VL  - 32
+IS  - 6
+SP  - 99
+EP  - 102
+SN  - 1671-8372
+KW  - 美国大学生数学建模
+KW  - 英文写作
+KW  - 学术道德
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Bo
+AU  - Wang, Yuxin
+AU  - Li, Tianying
+AU  - Yang, Shuguo
+T1  - 基于遗传算法的太阳影子定位
+JF  - 科技展望
+PY  - 2016/04/30
+VL  - 26
+IS  - 12
+SP  - 128
+EP  - 129
+SN  - 1672-8289
+AB  - 本文首先对直杆在太阳下的影长变化进行分析,建立影长变化模型,并画出给定时间和地点的直杆影长变化曲线;其次,根据所给直杆影子顶点的坐标数据,建立经纬度模型并利用遗传算法求解,确定直杆所处的地点及观测日期;最后对所给视频进行采样分析,将采样帧中的影子顶点坐标转化成现实世界中的坐标,然后求出影长,利用经纬度模型求得视频拍摄的地点及日期。
+KW  - 影长变化模型
+KW  - 非线性规划
+KW  - 遗传算法
+KW  - 坐标系转换
+ER  - 
+
+TY  - JOUR
+AU  - Zhou, Weifeng
+AU  - Yang, Shuguo
+AU  - Zhang, Caiming
+AU  - Fu, Shujun
+T1  - Adaptive tight frame based multiplicative noise removal
+JF  - SPRINGERPLUS
+PY  - 2016/02/12
+VL  - 5
+DO  - DOI 10.1186/s40064-015-1655-6
+SN  - 2193-1801
+AB  - Sparse approximation has shown to be a significant tool in improving image restoration quality, assuming that the targeted images can be approximately sparse under some transform operators. However, it is impossible for a fixed system to be always optimal for all the images. In this paper, we present an adaptive wavelet tight frame technology for sparse representation of an image with multiplicative noise. The adaptive wavelet tight frame is first learned from the logarithmic transformed given images, and then it is used to recover these images. Compared with the existing non-adaptive wavelet sparse transform methods, the numerical results demonstrate that the proposed adaptive tight frame scheme improves image restoration quality.
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Hao
+T1  - 基于混沌与小波域的图像数字水印算法
+JF  - 电脑与电信
+PY  - 2016/02/10
+VL  - 235
+IS  - Z1
+SP  - 18
+EP  - 21
+DO  - DOI 10.15966/j.cnki.dnydx.2016.z1.006
+SN  - 1008-6609
+AB  - 图像是网络多媒体传播的重要对象,因此网络内图像的所有权、版权认证及内容完整性问题也就成了网络安全亟待解决的问题。为了解决该问题,本文提一种Logistic混沌映射和小波分解相结合的数字水印算法。在水印加密与水印嵌入过程中同时引入混沌映射,使水印的安全性能得到了提升。
+KW  - 数字水印
+KW  - 小波变换
+KW  - 混沌映射
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - 基于数学建模的“五层递进式”创新型人才培养机制的研究与实践
+PY  - 2016/02
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Hao
+AU  - Zhang, Qi
+T1  - 一种改进的最低有效位图像水印技术
+JF  - 电脑与电信
+PY  - 2015/08/10
+VL  - 230
+IS  - 08
+SP  - 27
+EP  - 29
+DO  - DOI 10.15966/j.cnki.dnydx.2015.08.002
+SN  - 1008-6609
+AB  - 信息媒体的数字化为信息的保存和提取提供了极大的方便,随着数字媒体的传送空间不断扩大,传送时间也在不断缩短,数字产品在发布和传送过程中很容易被侵权、盗版或随意篡改。本文针对图像信息的版权、所有权和内容完整性的保护等问题,利用低位水印技术,重点解决图像信息认证问题,以实现对图像信息的版权、所有权和内容完整性保护及双方责任鉴定等功能。
+KW  - 数字水印
+KW  - 数字图像
+KW  - 嵌入算法
+ER  - 
+
+TY  - CPAPER
+AU  - Cheng, Zunshui
+AU  - Wang, Yan
+AU  - Yang, Shuguo
+AU  - Li, Dehao
+T1  - Stability analysis of an annular neural network with time-delay control
+T2  - Proceedings of the 2015 27th Chinese Control and Decision Conference, CCDC 2015
+PY  - 2015/07/17
+SP  - 4458
+EP  - 4462
+SN  - 978-1-4799-7016-2
+AB  - In this paper, an annular neural network model with three neurons and delays is considered. Time delay can be regard as a source of instability, so that regarding the time-delay τ in feedback control as the bifurcation parameter, we construct a system and theoretically investigate the influence of time delays on linear stability and bifurcation. By analyzing the associated characteristic equation and applying the normal form theory, we obtain the direction of the Hopf bifurcation and the stability. Finally, an example is given and numerical simulations are represented to illustrate the obtained results of the proposed scheme. © 2015 IEEE.
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+T1  - 全国研究生创新实践活动的开展与对策
+JF  - 青岛科技大学学报（社会科学版）专刊
+PY  - 2015/06/10
+VL  - 31
+IS  - 6
+SP  - 4
+EP  - 6
+SN  - 1671-8372
+KW  - 研究生创新实践系列活动
+KW  - 研究生数学建模
+KW  - 竞赛培训
+ER  - 
+
+TY  - JOUR
+AU  - Li, Chunxia
+AU  - Yang, Shuguo
+T1  - 竞赛驱动下数学实践教学改革的探索
+JF  - 青岛科技大学学报（社会科学版）专刊
+PY  - 2015/06/10
+VL  - 31
+IS  - 6
+SP  - 60
+EP  - 62
+SN  - 1671-8372
+KW  - 数学建模竞赛
+KW  - 数学竞赛
+KW  - 数学实践教学
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Yang, Xiaoyan
+T1  - 基于排队论的优化银行服务方面的研究应用
+JF  - 科技视界
+PY  - 2015/01/15
+VL  - 125
+IS  - 02
+SP  - 89
+EP  - 90
+SN  - 2095-2457
+AB  - 在我国金融开放度日益深化的条件下,银行服务质量与效率决定其市场竞争力。近年随着商业银行零售业务的快速发展,我们逐渐意识到排队问题是影响银行服务质量和水平的重要因素.本文在排队论的基础上,利用统计的方法,针对银行窗口排队问题,建立数学模型,以实现银行窗口的设置和排队的优化,为银行服务系统提供有益的参考。
+KW  - 银行服务系统
+KW  - 排队论
+KW  - 数学模型
+KW  - 优化问题
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+T1  - 研究生数学建模竞赛的思考与实践
+JF  - 青岛科技大学（社会科学版）增刊
+PY  - 2014/06/10
+VL  - 30
+IS  - 6
+SP  - 14
+EP  - 15，51
+SN  - 1671-8372
+KW  - 研究生数学建模
+KW  - 建模竞赛
+KW  - 竞赛培训
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Shaoxing
+AU  - Yang, Shangyue
+AU  - Yang, Shuguo
+T1  - 基于云计算层次架构的安全框架研究
+JF  - 软件导刊
+PY  - 2014/05/22
+VL  - 13
+IS  - 05
+SP  - 162
+EP  - 164
+SN  - 1672-7800
+AB  - 云计算安全问题是限制云计算发展的主要问题,一直是IT界研究的热点。介绍了云计算的特点和服务模式,总结了云计算的安全问题,最后根据云计算的层次架构探讨了解决各层次安全问题的安全策略,并在此基础上提出了一种云计算安全框架。
+KW  - 云计算
+KW  - 云计算层次架构
+KW  - 云计算安全框架
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shangyue
+AU  - Liu, Shaoxing
+AU  - Yang, Shuguo
+T1  - 基于SURF视频分割的小波视频水印算法
+JF  - 科技信息
+PY  - 2014/02/25
+VL  - 463
+IS  - 06
+SP  - 70+75
+SN  - 1001-9960
+AB  - 本文研究了一种基于SURF视频分割和小波变换的改进的视频水印算法。首先介绍了基于SURF快速鲁棒特征点的视频分割方法,并采用该方法对源视频进行分割处理;然后再对分割出的每个视频段进行ICA分析,并且得到一系列独立分量帧;最后以这些独立分量帧作为载体,利用小波变换实现水印的嵌入。
+KW  - 视频水印
+KW  - SURF
+KW  - 视频分割
+KW  - 独立分量分析
+KW  - 小波变换
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shangyue
+AU  - Yang, Shuguo
+T1  - 奇合数公式与一种新的素数判断方法
+JF  - 科技信息
+PY  - 2013/08/25
+VL  - 452
+IS  - 24
+SP  - 11
+SN  - 1001-9960
+AB  - 本文首先给出奇合数的公式,然后根据奇合数公式给出了一种新的素数判断方法,最后根据奇合数公式得到了素数集合的算法。
+KW  - 奇合数
+KW  - 素数
+KW  - 素数集
+ER  - 
+
+TY  - JOUR
+AU  - Li, Haixia
+AU  - Yang, Shuguo
+T1  - 公允价值计量可靠性的探讨
+JF  - 商业会计
+PY  - 2013/01/10
+VL  - 505
+IS  - 01
+SP  - 20
+EP  - 22
+SN  - 1002-5812
+AB  - 随着经济的快速发展,公允价值取代历史成本作为会计计量属性的趋势日益显著,然而由于公允价值尚处于发展的初级阶段,人们对于公允价值计量的可靠性存在着一定的质疑,对其理解还不够全面,相关原则、法规及应用指南也有待于完善,本文从公允价值可靠性的定义入手,分析了可靠性的影响因素,并提出了一些提高公允价值可靠性的建议。
+KW  - 公允价值
+KW  - 历史成本
+KW  - 可靠性
+KW  - 会计计量
+ER  - 
+
+TY  - JOUR
+AU  - Li, Haixia
+AU  - Yang, Shuguo
+T1  - 公允价值计量可靠性的探讨
+JF  - 财会研究
+PY  - 2012/09/05
+VL  - 431
+IS  - 17
+SP  - 35
+EP  - 38
+SN  - 1004-6070
+AB  - 随着经济的快速发展,公允价值取代历史成本作为会计计量属性的趋势日益显著,然而由于公允价值尚处于发展的初级阶段,人们对于公允价值计量的可靠性存在着一定的质疑,对其理解还不够全面,相关原则、法规及应用指南也有待于完善,文章从公允价值可靠性的定义入手,分析了可靠性的影响因素,并提出了一些提高公允价值可靠性的建议。
+KW  - 公允价值
+KW  - 历史成本
+KW  - 可靠性
+KW  - 会计计量
+ER  - 
+
+TY  - CPAPER
+AU  - Shuguo, Yang
+AU  - Haixia, Li
+AU  - Pengcheng, Xiong
+T1  - AutoSaver: cost-driven resource allocation for multi-tier web application in virtualization environment
+T2  - PROCEEDINGS OF THE 2012 SECOND INTERNATIONAL CONFERENCE ON INSTRUMENTATION & MEASUREMENT, COMPUTER, COMMUNICATION AND CONTROL (IMCCC 2012)
+PY  - 2012
+SP  - 1073
+EP  - 1076
+AB  - This paper presents AutoSaver to balance the performance and resource utilization for a web application in virtualization environment. It consists of a feedback utilization controller, an ARMA-based model estimator and an optimizer. Experiment results show that the controller can maintain the utilization, the estimator can track the relationship between metrics and control knobs, and the optimizer can make trade-offs between performance and resource of the web application.
+KW  - AutoSaver
+KW  - multi-tier web application
+KW  - estimator
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - Research on resource allocation for multi-tier web applications in a virtualization environment
+JF  - FRONTIERS OF COMPUTER SCIENCE IN CHINA
+PY  - 2011/12
+VL  - 5
+IS  - 4
+SP  - 506
+EP  - 512
+DO  - DOI 10.1007/s11704-011-0127-6
+SN  - 1673-7350
+AB  - Resource allocation for multi-tier web applications in virtualization environments is one of the most important problems in autonomous computing. On one hand, the more resources that are provisioned to a multitier web application, the easier it is to meet service level objectives (SLO). On the other hand, the virtual machine which hosts the multi-tier web application needs to be consolidated as much as possible in order to maintain high resource utilization. This paper presents an adaptive resource controller which consists of a feedback utilization controller and an auto-regressive and moving average model (ARMA)-based model estimator. It can meet application-level quality of service (QoS) goals while achieving high resource utilization. To evaluate the proposed controllers, simulations are performed on a testbed simulating a virtual data center using Xen virtual machines. Experimental results indicate that the controllers can improve CPU utilization and make the best tradeoff between resource utilization and performance for multi-tier web applications.
+KW  - CPU utilization
+KW  - resource allocation
+KW  - quality of service
+KW  - multi-tier web applications
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Chao
+AU  - Li, Haixia
+AU  - Yang, Shuguo
+T1  - 云计算中多媒体信息安全认证系统探究
+JF  - 电脑与电信
+PY  - 2011/10/10
+VL  - 188
+IS  - 10
+SP  - 37
+EP  - 39
+DO  - DOI 10.15966/j.cnki.dnydx.2011.10.010
+SN  - 1008-6609
+AB  - 云计算为人们方便快捷地完成多媒体信息的存储与处理提供了良好的服务平台,但如何保护云内多媒体信息的版权、所有权和内容完整性成为制约云计算发展的瓶颈问题。本文通过介绍公共云内信息存储方法,针对目前公共云服务所存在的多媒体信息安全认证问题提出相应的策略,并在此基础上探讨了云计算中多媒体信息安全认证框架。
+KW  - 云计算
+KW  - 多媒体信息
+KW  - 安全认证
+ER  - 
+
+TY  - JOUR
+AU  - Xue, Kai
+AU  - Li, Haixia
+AU  - Yang, Shuguo
+T1  - 一种针对云计算登陆问题的认证技术
+JF  - 科学技术与工程
+PY  - 2011/02/28
+VL  - 11
+IS  - 06
+SP  - 1375
+EP  - 1377
+SN  - 1671-1815
+AB  - 被誉为IT界"工业革命"的云计算已经开始了其普及化的道路。传统的单点登录方式已经满足不了其对安全性的需求。提出了一个新的双因子登陆模型,使认证码的产生变得动态化且不再需要网络进行传播,从而可使用户登录信息的安全性得到很大程度的保障。
+KW  - 云计算
+KW  - 双因子登录认证
+KW  - Java
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Chao
+AU  - Xue, Kai
+AU  - Yang, Shuguo
+T1  - 云环境数据库安全问题探究
+JF  - 电脑与电信
+PY  - 2011/01/10
+VL  - 179
+IS  - 01
+SP  - 32
+EP  - 34
+DO  - DOI 10.15966/j.cnki.dnydx.2011.01.009
+SN  - 1008-6609
+AB  - 云计算数据库安全问题是制约云计算发展和应用的关键问题之一。首先介绍了云计算数据库的中心管理模式,然后分析了云计算数据库的优点,探讨了云计算数据库的缺陷以及目前所存在的安全问题,最后针对存在的问题提出一些安全策略。
+KW  - 云计算
+KW  - 数据库
+KW  - 安全策略
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+T1  - Cloud Computing Security Issues and Mechanisms
+T2  - ADVANCED RESEARCH ON AUTOMATION, COMMUNICATION, ARCHITECTONICS AND MATERIALS, PTS 1 AND 2
+PY  - 2011
+VL  - 225-226
+IS  - 1-2
+SP  - 706
+EP  - 709
+SN  - 1022-6680
+AB  - Cloud computing is regarded as one of the most enticing technologies and potential silver bullet in the IT industry. Because of open condition and general-purpose nature of cloud, security issue is becoming a bottle neck of rapid development and broad application of cloud computing. Firstly, this paper addresses cloud customers' significant concerns about and requirements of cloud security. Secondly, cloud security risks and threats posed by the pervasive and ad hoc nature of the cloud are comprehensively analyzed. Finally, some effective and dependable security mechanisms are proposed to lower cloud security risks and meet security requirements of cloud customers. Especially, a novel scheme for integrity and copyright protection of customers' works in the cloud is presented based on digital watermarking and digital signature.
+KW  - cloud computing
+KW  - cloud security
+KW  - cloud provider
+KW  - cloud customer
+KW  - digital watermarking
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - 一种新的列车编组问题优化模型及算法
+JF  - 科学技术与工程
+PY  - 2010/11/28
+VL  - 10
+IS  - 33
+SP  - 8313
+EP  - 8317
+SN  - 1671-1815
+AB  - 列车编组计划是编组站完成列车调度和组织工作的指导性文件之一,编制科学的列车编组计划是提高运输效率的重要保证。主要探讨了列车编组计划问题的建模、模型计算与求解的方法、编组计划的制定等问题。首先根据某站一天过站列车的数据,以白班和夜班的最小中时为指标,建立了列车解体和编组的优化模型。然后利用遗传算法和Matlab遗传算法工具箱对其进行了求解,最后给出了该站的列车解体计划和编组方案。
+KW  - 列车编组计划
+KW  - 编组站
+KW  - 优化模型
+KW  - 遗传算法
+ER  - 
+
+TY  - JOUR
+AU  - Xue, Kai
+AU  - Liu, Chao
+AU  - Yang, Shuguo
+T1  - 云计算安全框架的研究
+JF  - 电脑与电信
+PY  - 2010/04/10
+VL  - 170
+IS  - 04
+SP  - 28
+EP  - 29+32
+DO  - DOI 10.15966/j.cnki.dnydx.2010.04.018
+SN  - 1008-6609
+AB  - 云计算的安全问题是影响和制约云计算应用和发展的关键问题,得到了广大科研人员的高度重视。从信息安全的角度出发,深入研究了云计算的可靠性、可用性、保密性、完整性、可控性和不可抵赖性等问题,并在此基础上探讨和设计了云计算的安全框架。
+KW  - 云计算
+KW  - 信息安全
+KW  - 云计算安全框架
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Xue, Kai
+T1  - 关于数据库登录密码的安全性研究
+JF  - 科学技术与工程
+PY  - 2010/01/18
+VL  - 10
+IS  - 02
+SP  - 536
+EP  - 539
+SN  - 1671-1815
+AB  - 自从数据库诞生以来,其安全问题就一直受到了人们的关注,而数据库的身份验证是保障其安全性的最重要的一道防线,为防止验证密码被泄露盗用,将传统的26位仿射变换算法扩展到31位,并运用Java语言设计了一个密码自动随时间变化的加密解密器,将其引入数据库的密码验证程序后必会使其安全性大大提高。
+KW  - 数据库安全
+KW  - 仿射变换
+KW  - Java
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - 一种新的图像混沌置乱及加密方法
+JF  - 计算机工程
+PY  - 2009/05/20
+VL  - 35
+IS  - 10
+SP  - 135
+EP  - 138
+SN  - 1000-3428
+AB  - 提出一种新的图像混沌置乱及加密方法,利用2个耦合混沌映射产生混沌序列对,利用该序列对通过变换形成图像像素新的地址码,对原始图像进行混沌置乱,得到置乱图像。对乱序图像进行离散余弦变换(DCT),在DCT域内利用一个混沌序列对每个系数进行改变,从而对图像进行加密。恢复图像时,其解密和反置乱过程与上述过程相反。仿真实验结果表明,该方法简单易行,具有较强的安全性和可操作性。
+KW  - 耦合映射
+KW  - 混沌置乱
+KW  - 混沌映射
+KW  - 混沌加密
+KW  - 解密
+ER  - 
+
+TY  - JOUR
+AU  - Li, Chunxia
+AU  - Yang, Shuguo
+T1  - 图像混沌置乱及加密方法
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2009/02/15
+VL  - 30
+IS  - 01
+SP  - 80
+EP  - 83
+SN  - 1672-6987
+AB  - 提出了一种新的图像混沌置乱及加密的方法,首先利用2个耦合混沌映射产生一系列混沌序列对,利用该序列对形成图像像素新的地址码,对原始图像进行混沌置乱,从而得到乱序图像;其次对乱序图像进行DCT,在DCT域内再利用一个混沌序列对每一个系数进行自适应的改变,完成对图像的加密过程,图像的解密和反置乱过程与上述过程正好相反。为了验证本方法的安全性和可靠性,对其进行了仿真实验和效果分析,结果表明,该方法简单易行,安全可靠,可操作性强。
+KW  - 耦合映射
+KW  - 混沌置乱
+KW  - 混沌映射
+KW  - 混沌加密
+KW  - 解密
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+T1  - Research on Fractal Watermarking Method for Video based on DCT and JND Model
+T2  - PROCEEDINGS OF INTERNATIONAL SYMPOSIUM ON IMAGE ANALYSIS & SIGNAL PROCESSING, 2009
+PY  - 2009
+SP  - 66
+EP  - 68
+AB  - The paper presents a novel and robust video watermarking scheme based on fractal theory in DCT domain of every I-frame of video stream. Firstly, we select I-frames from video stream as objects to embed watermarks. Before watermarking embedding, we divide every I-frame into range block pool and domain block pool in DCT domain. Secondly, we search for embedding blocks from range block pool according to the fractal theoretic. Finally watermarks are embedded into the embedding blocks and detected according to JND model. Some tests prove this method to be robust, simple and easy to use.
+KW  - video watermarking
+KW  - DCT
+KW  - fractal theory
+KW  - range block pool
+KW  - JND model
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+AU  - Sun, Shenghe
+T1  - A video encryption method based on chaotic maps in DCT domain
+JF  - PROGRESS IN NATURAL SCIENCE-MATERIALS INTERNATIONAL
+PY  - 2008/10/10
+VL  - 18
+IS  - 10
+SP  - 1299
+EP  - 1304
+DO  - DOI 10.1016/j.pnsc.2008.05.009
+SN  - 1002-0071
+AB  - This paper proposes a new and secure video encryption method based on chaotic maps in DCT domain, which is quite in keeping with the common ideas and the frequent practices of video encryption. We select the I-frames of the video sequence as encryption objects. First, we introduce two coupling chaotic maps to scramble the DCT coefficients of every original I-frame, and receive the scrambled I-frame. Second, we encrypt the DCT coefficients of the scrambled I-frame using another chaotic map. In the whole process, we use three chaotic maps and five keys' the I-frame is encrypted twice. Finally, we performed several tests and the experimental results have proved our method to be secure and efficient. (C) 2008 National Natural Science Foundation of China and Chinese Academy of Sciences. Published by Elsevier Limited and Science in China Press. All rights reserved.
+KW  - Video encryption
+KW  - Chaotic map
+KW  - I-frame
+KW  - Scrambling
+KW  - Video sequence
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Shuguo
+T1  - 基于小波域分形变换的图像水印技术
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2008/06/15
+VL  - 112
+IS  - 03
+SP  - 261
+EP  - 265
+SN  - 1672-6987
+AB  - 为了提高图像水印的鲁棒性和不可见性,结合小波变换和分形变换,提出了一种基于小波域内分形变换的图像数字水印方法。首先对图像进行小波变换,结合图像空域分形编码思想把图像的小波系数分成域子树和值子树两类,然后利用分形仿射变换选出具有相似性的域子树,将其作为水印的嵌入树,结合人类视觉系统的JND模型实现水印的嵌入和提取,最后针对该方法进行了JPEG压缩、剪切、滤波、添加噪声、旋转等相关实验,结果表明,该方法具有安全可靠、鲁棒性和不可见性好等优点,具有创新,可行性强。
+KW  - 离散小波变换
+KW  - 分形理论
+KW  - 数字水印
+ER  - 
+
+TY  - JOUR
+AU  - Li, Chunxia
+AU  - Yang, Shuguo
+T1  - 高等数学分层次教学的探索与实践
+JF  - 教育与现代化
+PY  - 2007/09/30
+VL  - 84
+IS  - 03
+SP  - 30
+EP  - 35
+SN  - 1007-3051
+AB  - 随着招生规模的不断扩大,各高校学生的整体素质有所下降,并且个体差异很大,这给高等数学教学带了前所未有的难度,为了改变这一现状,一些院校开展了分层次教学改革的尝试,笔者根据多年来分层次教学改革的经验,深入探讨了高等数学分层次教学的必要性、意义、具体实施方案等,提出了建设性的对策和建议,并对自己的教学实践进行了详细的总结和分析。
+KW  - 分层次教学
+KW  - 数学教学改革
+KW  - 因材施教
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+AU  - Sun, Shenghe
+AU  - Xie, Rongsheng
+T1  - A fractal watermarking scheme for image in DWT domain
+T2  - SNPD 2007: EIGHTH ACIS INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING, ARTIFICIAL INTELLIGENCE, NETWORKING, AND PARALLEL/DISTRIBUTED COMPUTING, VOL 1, PROCEEDINGS
+PY  - 2007
+SP  - 364
+EP  - +
+AB  - The scheme in this paper carries out embedding and detecting of watermarking by the fractal technology in DWT domain. This method introduces the threshold control, searches for the self-similar domain subtrees by the fractal transforms and let the domain subtrees to be the watermarking embedding trees. The watermarking signals are embedded and detected according to the JND model. A large number of attacking experiments prove that security and the robustness of the method.
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+AU  - Sun, Shenghe
+AU  - Xu, Yaoqun
+T1  - A robust 3D model watermarking scheme based on feature recognition
+T2  - SNPD 2007: EIGHTH ACIS INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING, ARTIFICIAL INTELLIGENCE, NETWORKING, AND PARALLEL/DISTRIBUTED COMPUTING, VOL 3, PROCEEDINGS
+PY  - 2007
+SP  - 989
+EP  - +
+AB  - Copyright protection becomes a more and more important problem with the development of the creation and distribution of 3D model. The paper proposes a novel and robust watermarking scheme for 3D model based on the feature recognition method. Firstly, we construct the Cartesian coordinates in 3D model and extract six 2D images from six different directions according to the habit of human recognition. Secondly, We divide the images into 8 x 8 blocks and transform them in DCT domain, then embed the watermark into the middle-frequency coefficients according to the JND model of the human visual system. Finally, we retrieve the 3D model which is embedded the watermark into. The watermarking detection process is averse to the watermarking embedding process. Many experimental results show that this watermarking scheme is imperceptible, robust and able to withstand common attacks on 3D models such as mesh simplification, adding noise, model cropping.
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Sun, Shenghe
+AU  - Li, Chunxia
+T1  - A robust 3D model watermarking scheme based on the normal vector angle
+T2  - PROGRESS IN INTELLIGENCE COMPUTATION AND APPLICATIONS, PROCEEDINGS
+PY  - 2007
+SP  - 413
+EP  - 416
+AB  - Copyright protection becomes a more and more important issue with the rapid development of the creation of 3D model. The paper proposes a novel robust watermarking scheme for 3D model based on the normal vector angles of the triangles in 3D model. Firstly, we construct the Cartesian coordinates system of 3D model, calculate the unit normal vectors at the center points of the triangles and the angles of the unit normal vectors. Then we regard the large angles as the embedding angles to embed the watermark. Finally, many attacking experimental results verify that the proposed algorithm is imperceptible and robust against common attacks such as simplifications, adding noise, and model cropping.
+KW  - watermarking scheme
+KW  - normal vector angle
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Sun, Shenghe
+AU  - Li, Chunxia
+T1  - Image double encryption method based on chaotic map and DWT
+T2  - DCABES 2007 Proceedings, Vols I and II
+PY  - 2007
+SP  - 540
+EP  - 543
+AB  - Image encryption becomes more and more important with the development of the network technology and the multimedia technology. A novel and secure image encryption method based on Chaos map and DWT is described at length in the paper. Firstly, we introduce two coupling chaotic maps to scramble an original image, and receive the scrambled image. Secondly, we transform the scrambled image by DWT. At the same time, we introduce a chaotic map again, and then we encrypt the wavelet coefficients of the scrambled image in DWT domain. In the whole process we use three chaotic maps, five keys and encrypt the image twice. Finally, we do many experiments and the experimental results prove our method to be secure.
+KW  - image scrambling
+KW  - image encryption
+KW  - chaotic map
+KW  - secret key
+KW  - DWT
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Sun, Shenghe
+AU  - Li, Chunxia
+T1  - Research on video watermarking scheme based on chaos, DWT and JND model
+T2  - CIS: 2007 INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE AND SECURITY, PROCEEDINGS
+PY  - 2007
+SP  - 926
+EP  - +
+AB  - The paper presents a novel and robust video watermarking scheme for copyright protection based on chaos, DWT and JND model of HVS. Firstly, in order to ensure security of watermarking and reduce the quantity of computation in the embedding process, we adopt a technique called chaotic selection to select the embedding frames from the video. To every selected frame, we transform it by DWT and detect the variation status of the coefficient in low frequency domain. Because HVS isn't too sensitive to the motive things, we choose those coefficients whose variations are large as the embedding coefficients. Finally, the watermarking signals are embedded and detected according to the JND model. The experimental results show that the proposed watermarking algorithm is robust to additive noise, MPEG compression, frame deleting and so on.
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+AU  - Sun, Shenghe
+T1  - Text information hiding method. based on chaotic map and BCH code in DWT domain of a carrier image
+T2  - PROCEEDINGS OF THE FIRST INTERNATIONAL SYMPOSIUM ON DATA, PRIVACY, AND E-COMMERCE
+PY  - 2007
+SP  - 239
+EP  - +
+AB  - The issue of Information security in the transmit process becomes more and more urgent with the development of the network technology and the information technology. A novel scheme for text information hiding is proposed in the paper. Firstly, we encode the characters of the text information by ASCII code and receive plaintext information codes. Secondly, we encrypt the plaintext information codes by chaotic encryption method and receive encryption information codes. Then we encode the encrypted information codes by BCH code again before we transmit them, and embed the ciphertext informaiion into the selected wavelet coefficients of a carrier image in DWT domain. Finally, we do many experiments to prove our scheme to be secure and robust.
+ER  - 
+
+TY  - CPAPER
+AU  - Yang, Shuguo
+AU  - Li, Chunxia
+AU  - Sun, Shenghe
+T1  - Text information hiding method based on chaotic map and BCH code in DWT domain of a carrier image
+T2  - 2007 INTERNATIONAL CONFERENCE ON WAVELET ANALYSIS AND PATTERN RECOGNITION, VOLS 1-4, PROCEEDINGS
+PY  - 2007
+SP  - 1754
+EP  - +
+AB  - The issue of Information security in the transmitting process becomes more and more urgent with the development of the network technology and the information technology. A novel scheme for text information hiding is proposed in the paper. We do Many works to text information before embedding them into a carrier image. Firstly, we encode the characters of the text information by ASCH code and receive plaintext information codes. Secondly, we encrypt the plaintext information codes by chaotic encryption method and receive encrypted information codes. Then we encode the encrypted information codes by BCH code again before we transmit them, and embed the ciphertext information into the selected wavelet coefficients of a carrier image in DWT. Finally, we do many experiments to Prove our scheme to be secure and robust.
+KW  - text information
+KW  - chaotic map
+KW  - ASCII code
+KW  - BCH code
+KW  - DWT
+ER  - 

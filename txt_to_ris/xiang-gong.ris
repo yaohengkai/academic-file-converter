@@ -1,0 +1,943 @@
+TY  - JOUR
+AU  - Li, Xiaoling
+AU  - Liu, Xiaoyu
+AU  - Liu, Xiaohuan
+AU  - Zhu, Zhengyang
+AU  - Xiong, Yunhui
+AU  - Hu, Jingfei
+AU  - Gong, Xiang
+T1  - A Transfer Learning-CNN Framework for Marine Atmospheric Pollutant Inversion Using Multi-Source Data Fusion
+JF  - ATMOSPHERE
+PY  - 2025/10/08
+VL  - 16
+IS  - 10
+DO  - DOI 10.3390/atmos16101168
+AB  - The concentration characteristics of SO2, NO2, O3, and CO in the marine atmosphere are of great significance for understanding air-sea interactions and regional atmospheric chemical processes. However, due to the challenging conditions of marine monitoring, long-term continuous observational data remain scarce. To address this gap, this study proposes a Transfer Learning-Convolutional Neural Network (TL-CNN) model that integrates ERA5 meteorological data, EAC4 atmospheric composition reanalysis data, and ground-based observations through multi-source data fusion. During data preprocessing, the Data Interpolating Empirical Orthogonal Function (DINEOF), inverse distance weighting (IDW) spatial interpolation, and Gaussian filtering methods were employed to improve data continuity and consistency. Using ERA5 meteorological variables as inputs and EAC4 pollutant concentrations as training targets, a CNN-based inversion framework was constructed. Results show that the CNN model achieved an average coefficient of determination (R2) exceeding 0.80 on the pretraining test set, significantly outperforming random forest and deep neural networks, particularly in reproducing nearshore gradients and regional spatial distributions. After incorporating transfer learning and fine-tuning with station observations, the model inversion results reached an average R2 of 0.72 against site measurements, effectively correcting systematic biases in the reanalysis data. Among the pollutants, the inversion of SO2 performed relatively poorly, mainly because emission reduction trends from anthropogenic sources were not sufficiently represented in the reanalysis dataset. Overall, the TL-CNN model provides more accurate pollutant concentration fields for offshore regions with limited observations, offering strong support for marine atmospheric environment studies and assessments of marine ecological effects. It also demonstrates the potential of combining deep learning and transfer learning in atmospheric chemistry research.
+KW  - SO2
+KW  - NO2
+KW  - CO
+ER  - 
+
+TY  - JOUR
+AU  - Jia, Wentao
+AU  - Gong, Xun
+AU  - Zhu, Shanliang
+AU  - Qi, Jifeng
+AU  - Zhou, Xianmei
+AU  - Yao, Hengkai
+AU  - Gong, Xiang
+AU  - Wang, Wenwu
+T1  - A dual-attention embedded CNN model for estimating mixed layer depths in the Bay of Bengal
+JF  - Journal of Oceanology and Limnology
+PY  - 2025/07/15
+VL  - 43
+IS  - 04
+SP  - 1075
+EP  - 1092
+SN  - 2096-5508
+AB  - Variations in ocean mixed layer depth(MLD) show a significant impact on energy balance in the global climate systems and marine ecosystems. At present, the accuracy of modeling MLD, especially in the region with complex ocean dynamics, remains a challenge, thus calling for an emergency using artificial intelligence approach to improve the assessment of the MLD. A novel convolutional neural network model was developed based on a dual-attention module(DA-CNN) to estimate the MLD in the Bay of Bengal(BoB) by integrating multi-source remote sensing data and Argo gridded data. Compared with the original CNN model, the DA-CNN model exhibits superior performance with notable improvements in the annual average root mean square error(RMSE) and R~2 values by 13.0% and 8.4%, respectively, while more accurately capturing the seasonal variations in MLD. Moreover, the results using the DA-CNN model show minimum RMSE and maximum R~2 values, in comparison to the calculation by the random forest, artificial neural network model, and the hybrid coordinate ocean model. Accordingly, our findings suggest that the newly developed DA-CNN model provides an effective advantage in studying the MLD and the associated ocean processes.
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+AU  - Liu, Hui
+AU  - Gong, Xun
+AU  - Liu, Jiyao
+AU  - Gao, Huiwang
+T1  - Hydrographic control on subsurface chlorophyll maximum in the northern South China Sea in autumn
+JF  - Journal of Oceanology and Limnology
+PY  - 2025/07/15
+VL  - 43
+IS  - 04
+SP  - 1213
+EP  - 1226
+SN  - 2096-5508
+AB  - As a frequently-observed phenomenon in the northern South China Sea (nSCS),subsurface chlorophyll maximum (SCM) evolution from summer to winter remains unclear,neither the associated hydrographic control.In this study,on the basis of in-situ data of fall-season cruises in 2004–2006,we characterized the depth,thickness and intensity of the SCM in the nS CS using a general Gaussian-function fitting approach,and investigated a linkage to the corresponding ocean vertical buoyance properties.Our results show that the SCM becomes deeper,thicker and less intense offshore-wards in the nS CS during fall seasons.In parallel,a correlation between the SCM variation and mixed layer depth exists in the nSCS,and it becomes pronounced in the shelf region compared to the slope and basin areas in autumn.Physically,once warmer surface ocean and thus stronger thermo-determined stratification,the SCM layer goes deeper and becomes thicker and less intense in the nSCS,especially in the shelf area of the nSCS.Moreover,the impact of water temperatures at deeper layers on the vertical stratification exerts more consequent roles on the spatial variability of SCM,compared to surface temperatures in the nSCS.Specifically,the isotherm line of 22°C acts as crucial indicator for variations of the SCM in the nSCS during autumns.
+ER  - 
+
+TY  - JOUR
+AU  - Zheng, Canju
+AU  - Shen, Hengqing
+AU  - Sun, Jianan
+AU  - Liu, Guangliang
+AU  - Cao, Haowei
+AU  - Zhang, Jie
+AU  - Gong, Xiang
+AU  - Xu, Da
+T1  - Multi-routine-data driven spatio-temporal short-term predictions for surface ozone in China
+JF  - AIR QUALITY ATMOSPHERE AND HEALTH
+PY  - 2025/07
+VL  - 18
+IS  - 7
+SP  - 2021
+EP  - 2030
+DO  - DOI 10.1007/s11869-025-01749-w
+SN  - 1873-9318
+AB  - Ozone (O3) is a major atmospheric pollutant, and accurate prediction of its concentrations remains challenging due to its complex nonlinear relationships with precursor compounds. Existing machine learning methods have mainly focused on single-site or spatial predictions, lacking research on spatio-temporal short-term predictions based on simple factors. To address this gap, the MRD-O3former, a deep learning model driven by multi-routine data, was developed to predict short-term hourly spatio-temporal surface ozone concentrations over China. The model exhibits strong spatio-temporal consistency, achieving a high correlation coefficient (r2=0.85 similar to 0.90\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${r}{2} = 0.85\sim 0.90$$\end{document}) and low normalized mean biases (NMBs) between -15% and 15% at the national scale compared to reanalysis ozone data. Both ablation experiments and permutation importance analysis reveal that historical ozone levels play a primary role in next-day ozone prediction, while meteorological factors such as wind speed and temperature also make significant contributions. Regional validation confirms the model's effectiveness in the Beijing-Tianjin-Hebei region. Moreover, the study investigates the differential impact of crucial factors in urban and rural areas, revealing that historical ozone levels and meteorological factors significantly influence rural areas. However, the influence of historical ozone levels on urban ozone prediction is relatively small, especially during the summer. This suggests that urban ozone undergoes rapid formation and removal processes. These findings highlight the promising potential of deep learning techniques in accurately predicting spatiotemporal short-term ozone concentrations and interpreting the mechanism and source for ozone pollution.
+KW  - POLLUTION
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Guoju
+AU  - Zhu, Rongjie
+AU  - Gong, Xiang
+AU  - Li, Xiaoling
+AU  - Gao, Yuanzheng
+AU  - Yin, Wenming
+AU  - Wang, Renzheng
+AU  - Li, Huan
+AU  - Gao, Huiwang
+AU  - Zou, Tao
+T1  - A New Hybrid Deep Sequence Model for Decomposing, Interpreting, and Predicting Sulfur Dioxide Decline in Coastal Cities of Northern China
+JF  - SUSTAINABILITY
+PY  - 2025/03/14
+VL  - 17
+IS  - 6
+DO  - DOI 10.3390/su17062546
+AB  - The recent success of emission reduction policies in China has significantly lowered sulfur dioxide (SO2) levels. However, accurately forecasting these concentrations remains challenging due to their inherent non-stationary tendency. This study introduces an innovative hybrid deep learning model, RF-VMD-Seq2Seq, combining the Random Forest (RF) algorithm, Variational Mode Decomposition (VMD), and the Sequence-to-Sequence (Seq2Seq) framework to improve SO2 concentration forecasting in five coastal cities of northern China. Our results show that the predicted SO2 concentrations closely align with observed values, effectively capturing fluctuations, outliers, and extreme events-such as sharp declines the Novel Coronavirus Pneumonia (COVID-19) pandemic in 2020-along with the upper 5% of SO2 levels. The model achieved high coefficients of determination (>0.91) and Pearson's correlation (>0.96), with low prediction errors (RMSE < 1.35 mu g/m(3), MAE < 0.94 mu g/m(3), MAPE < 15%). The low-frequency band decomposing from VMD showed a notable long-term decrease in SO2 concentrations from 2013 to 2020, with a sharp decline since 2018 during heating seasons, probably due to the 'Coal-to-Natural Gas' policy in northern China. The input sequence length of seven steps was recommended for the prediction model, based on high-frequency periodicities extracted through VMD, which significantly improved our model performance. This highlights the critical role of weekly-cycle variations in SO2 levels, driven by anthropogenic activities, in enhancing the accuracy of one-day-ahead SO2 predictions across northern China's coastal regions. The results of the RF model further reveal that CO and NO2, sharing common anthropogenic sources with SO2, contribute over 50% to predicting SO2 concentrations, while meteorological factors-relative humidity (RH) and air temperature-contribute less than 20%. Additionally, the integration of VMD outperformed both the standard Seq2Seq and Ensemble Empirical Mode Decomposition (EEMD)-enhanced Seq2Seq models, showcasing the advantages of VMD in predicting SO2 decline. This research highlights the potential of the RF-VMD-Seq2Seq model for non-stationary SO2 prediction and its relevance for environmental protection and public health management.
+KW  - NEURAL-NETWORK
+KW  - TIME-SERIES
+KW  - SO2
+KW  - POLLUTION
+KW  - PM2.5
+KW  - CITY
+KW  - EMISSIONS
+KW  - WINTER
+KW  - AREA
+ER  - 
+
+TY  - JOUR
+AU  - Jia, Xingbin
+AU  - Wang, Guoju
+AU  - Wang, Renzheng
+AU  - Gong, Xiang
+T1  - 基于随机森林模型的太阳辐射中长期变化分析
+JF  - 太阳能学报
+PY  - 2024/05/28
+VL  - 45
+IS  - 05
+SP  - 602
+EP  - 610
+DO  - DOI 10.19912/j.0254-0096.tynxb.2023-0027
+SN  - 0254-0096
+AB  - 该文基于多源辐射观测资料，采用随机森林（RF）算法、季节差分自回归移动平均（SARIMA）模型及特征重要性等方法，对山东省济南市太阳辐射长期变化趋势和影响因素进行综合分析。结果显示：RF模型拟合月太阳辐射效果较好，决定系数和平均绝对百分比误差分别为0.92和9%，优于SARIMA模型；济南市及周边地区月太阳辐射1980—2020年经历“变暗”到“变亮”的过程，空间呈现西北高东南低的特点；最高温度和日照时数是影响太阳辐射月变化拟合准确度的主要因素，降雨量是导致月太阳辐射总量突变的重要原因，大气污染物中SO_2和O_3与太阳辐射的相关性最大。
+KW  - 太阳辐射
+KW  - 随机森林
+KW  - 特征选择
+KW  - SARIMA模型
+KW  - 拟合分析
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Xianzhi
+AU  - Gong, Xiang
+AU  - Gong, Xun
+AU  - Liu, Jiyao
+AU  - Wang, Guoju
+AU  - Wang, Lixin
+AU  - Guo, Xinyu
+AU  - Gao, Huiwang
+T1  - Evolution of 3-D chlorophyll in the northwestern Pacific Ocean using a Gaussian-activation deep neural network model
+JF  - FRONTIERS IN MARINE SCIENCE
+PY  - 2024/05
+VL  - 11
+DO  - DOI 10.3389/fmars.2024.1378488
+AB  - Insufficient studies in characterizing vertical structure of Chlorophyll-a (Chl-a) in the ocean critically limit better understanding about marine ecosystem based on global climate change. In this study, we developed a Gaussian-activation deep neural network (Gaussian-DNN) model to assess vertical Chl-a structure in the upper ocean at high spatial resolution. Our Gaussian-DNN model used the input variables including satellite data of sea surface Chl-a and in-situ vertical physics profiles (temperature and salinity) in the northwestern Pacific Ocean (NWPO). After validation test based on two independent datasets of BGC-Argo and ship measurement, we applied the Gaussian-DNN model to reconstruct temporal evolution of 3-D Chl-a structure in the NWPO. Our modelling results successfully explain over 80% of the Chl-a vertical profiles in the NWPO at a horizontal resolution of 1 degrees x 1 degrees and 1 m vertical resolution within upper 300 meters during 2004 to 2022. Moreover, according to our modelling results, the Subsurface Chlorophyll Maxima (SCMs) and total Chl-a within 0-300 m depths were extracted and presented seasonal variability overlapping longer-time trends of spatial discrepancies all over the NWPO. In addition, our sensitivity testing suggested that sea-water temperatures predominantly control 3-D structures of the Chl-a in the tropical NWPO, while salinity played a key role in the temperate gyre of the NWPO. Here, our development of the Gaussian-DNN model may also be applied to craft long term, 3-D Chl-a products in the global ocean.
+KW  - STEADY-STATE SOLUTIONS
+KW  - CENTRAL NORTH PACIFIC
+KW  - SUBSURFACE CHLOROPHYLL
+KW  - VERTICAL PROFILES
+KW  - EDDY VARIABILITY
+KW  - MAXIMUM LAYERS
+KW  - GLOBAL OCEAN
+KW  - ARGO DATA
+KW  - PHYTOPLANKTON
+KW  - SURFACE
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Jingjing
+AU  - Liu, Chuanyu
+AU  - Gong, Xiang
+AU  - Wang, Fan
+T1  - Persistent mixing bursts in the equatorial Pacific thermocline induced by persistent equatorial waves
+JF  - Journal of Oceanology and Limnology
+PY  - 2024/03/15
+VL  - 42
+IS  - 02
+SP  - 492
+EP  - 510
+SN  - 2096-5508
+AB  - A recent study by Liu et al.(2020) suggested that due to the saturation of equatorially trapped planetary waves with different dynamical types, temporal periods, meridional and baroclinic modes, complex layer structures of vertical velocity shear and hence turbulent mixing could frequently occur in the thermocline of the eastern equatorial Pacific. We investigated the occurrence of the interior turbulent mixing as indicated by shear instabilities, above the Equatorial Undercurrent(EUC) core at three equatorial sites along 140°W, 170°W, and 165°E, respectively, based mainly on data from the Tropical Atmosphere and Ocean(TAO) mooring array. We found that turbulent mixing bursts persisted in the thermocline of all three sites. Specifically, the interior turbulent mixing layers(ITMLs) could occur in probability of approximately 68%, 53%, and 48% at the three sites, respectively. The overall occurrence probability shows obvious and similar biannual variations at 140°W and 170°W, which is higher in boreal from late summer to winter and lower in spring. Vertically, the ITMLs are primarily located above the EUC core and prevail in deeper(shallower) layers from late summer to winter(spring). Most ITMLs(70%) lasted for hours to 3 days, and a few of them(15%) for more than 7 days. The thicknesses of ITMLs were concentrated between 15 and 55 m. At 165°E, the vertical distribution of ITML occurrence probability was different from that at 140°W and 170°W, as it did not show a preference for depths; the durations of ITMLs are short(also from hours to several days) and their thicknesses were between 5 and 25 m. These properties, particularly the high occurrence probability, and short durations demonstrated the persistence of thermocline mixing in the western to eastern equatorial Pacific thermocline and confirmed the generation mechanism by persistent equatorial waves as well.
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Yizhi
+AU  - Qi, Jifeng
+AU  - Zhu, Shanliang
+AU  - Jia, Wentao
+AU  - Gong, Xiang
+AU  - Yin, Wenming
+AU  - Yin, Baoshu
+T1  - Estimation of the barrier layer thickness in the Indian Ocean based on hybrid neural network model
+JF  - DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS
+PY  - 2023/12
+VL  - 202
+DO  - DOI 10.1016/j.dsr.2023.104179
+SN  - 0967-0637
+AB  - Accurately and effectively estimating of the barrier layer thickness (BLT) is essential for the research of ocean thermodynamics, ocean dynamics, and air-sea interaction. Artificial intelligence model provides an effective means for accurately estimating BLT from sea surface and gridded Argo data. The present study focuses on the application of a hybrid particle swarm optimization-based artificial neural networks model (PSO-ANN) for estimating the BLT in the Indian Ocean. The input variables of the hybrid model include sea surface temperature (SST), sea surface salinity (SSS), sea surface height (SSH) and precipitation (P), and the output variable is the BLT value. Multivariate satellite and gridded Argo data collected from the Indian Ocean between January 2012 and December 2019 (i.e., a database consists 239,568 training datasets and 34,224 testing datasets) are provided to prepare the training and testing datasets for the model. The parameters of ANN model, such as network parameter, network weights, and dropout rates are optimized using the PSO algorithm to achieve the best estimation model. R-squared (R2) and root mean square error (RMSE) are used to evaluate the performance of the model. Two groups of comparative experiments (Case 1 and Case 2) on the performance of the PSO-ANN model demonstrate that the model in Case 2 can better capture the complex features of the BLT in the ocean region. The performance of the PSO-ANN model in Case 2 is further compared with the data-driven estimation models such as the traditional ANN model and the known multilinear regression model (MRM), as well as the CESM2-WACCM dynamic model from CMIP6. The comparison results show that the dynamic model has the worst performance among the four models. Moreover, the annual average RMSE value for the PSO-ANN model is 1.83 m, which is 12% and 84% lower than that of the traditional ANN and MRM, respectively. The R2 value for the model of 0.85 is improved by 4% and 40% compared to that of two models. Furthermore, three regions with significant sea-sonal fluctuations of the BLT in the Indian Ocean are selected to further evaluate the estimation accuracy of the hybrid model in 2019; the Southeast Arabian Sea (SEAS), the Bay of Bengal (BoB), and the Eastern Equatorial Indian Ocean (EEIO). As a result, the hybrid model is capable of reflecting seasonal variation trends in these regions, but there is room for improvement in the estimation accuracy. In addition, the correlation analysis between BLT and sea surface parameters indicates that there exist significant correlations between the BLT and SSS, P. The results of this study show that the proposed hybrid model can be used to estimate and analyze BLT in certain regions with complex ocean dynamics processes. Moreover, the model can be extended to estimate other key ocean parameters and provide effective technical support for studying the internal ocean parameters.
+KW  - INTERANNUAL SALINITY VARIABILITY
+KW  - SEA-SURFACE SALINITY
+KW  - MIXED-LAYER
+KW  - EQUATORIAL PACIFIC
+KW  - IN-SITU
+KW  - TOGA DECADE
+KW  - TEMPERATURE
+KW  - PREDICTION
+KW  - ALGORITHM
+KW  - BENGAL
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Lixin
+AU  - Xu, Zhenhua
+AU  - Gong, Xiang
+AU  - Zhang, Peiwen
+AU  - Hao, Zhanjiu
+AU  - You, Jia
+AU  - Zhao, Xianzhi
+AU  - Guo, Xinyu
+T1  - Estimation of nitrate concentration and its distribution in the northwestern Pacific Ocean by a deep neural network model
+JF  - DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS
+PY  - 2023/05
+VL  - 195
+DO  - DOI 10.1016/j.dsr.2023.104005
+SN  - 0967-0637
+AB  - As a fundamental nutrient for marine biogeochemical processes, the magnitude and spatial distribution of nitrate concentrations are insufficiently measured in the interior ocean. In the present study, a deep neural network (DNN) model was developed to estimate nitrate concentrations in the upper northwestern Pacific Ocean (NPO). This model takes the temperature and salinity profiles as the primary input variables. Since the subtropical and tropical regions are featured by different spatial patterns of nitrate concentrations, we separately trained the model to improve the prediction skill. The predictive results indicate that the DNN model performs well in depicting both spatial and seasonal variability of nitrate concentrations. The sensitivity experiments show that temperature is the dominant factor for the nitrate estimation, while salinity has a relatively small effect, but it cannot be ignored in improving the prediction accuracy. Furthermore, using the temperature and salinity data from World Ocean atlas (2018), we found our DNN model has a good generalization ability on nitrate estimation in NPO. This model can be applied to further studies on nitrate's spatiotemporal variability and mechanism around the global ocean.
+KW  - SEA-SURFACE NITRATE
+KW  - MIXED-LAYER
+KW  - THERMOCLINE
+KW  - TEMPERATURE
+KW  - NUTRIENTS
+KW  - FLUX
+ER  - 
+
+TY  - JOUR
+AU  - Jia, Xingbin
+AU  - Gong, Xiang
+AU  - Liu, Xiaohuan
+AU  - Zhao, Xianzhi
+AU  - Meng, He
+AU  - Dong, Quanyue
+AU  - Liu, Guangliang
+AU  - Gao, Huiwang
+T1  - Deep Sequence Learning for Prediction of Daily NO2 Concentration in Coastal Cities of Northern China
+JF  - ATMOSPHERE
+PY  - 2023/03
+VL  - 14
+IS  - 3
+DO  - DOI 10.3390/atmos14030467
+AB  - Nitrogen dioxide (NO2) is an important precursor of atmospheric aerosol. Forecasting urban NO2 concentration is vital for effective control of air pollution. This paper proposes a hybrid deep learning model for predicting daily average NO2 concentrations on the next day, based on atmospheric pollutants, meteorological data, and historical data during 2014 to 2020 in five coastal cities of Shandong peninsula, northern China. A random Forest (RF) algorithm was used to select input variables to reduce data dimensionality trained by the sequence to sequence (Seq2Seq) the model and describe how the Seq2Seq model understands each predictor variable. The hybrid model combining an RF with Seq2Seq network (RF-S2S) was evaluated and achieved a Pearson's correlation coefficient of 0.93, a Nash-Sutcliffe coefficient (NS) of 0.79, a Root Mean Square Error (RMSE) of 5.85 mu g/m(3), a Mean Absolute Error (MAE) of 4.50 mu g/m(3), and a Mean Absolute Percentage Error (MAPE) of 20.86%. Feature selection by an RF model improves the performance of the Seq2Seq model, reducing errors by 19.7% (RMSE), 20.3% (MAE), and 29.3% (MAPE), respectively. Carbon monoxide (CO) and PM10 are two common, important features influencing the prediction of NO2 concentrations in coastal areas of northern China. The results of RF-S2S models can capture general trends and disruptions more accurately than can long-short term memory (LSTM) models with and without feature selection. The decreasing tendency of NO2 from 2014 to 2020 illustrated by the empirical mode decomposition (EMD) method is one important obstacle to improving the RF-S2S prediction accuracy. An EMD-based RF-S2S model could help to perform the short-term forecast of NO2 concentrations efficiently.
+KW  - MEMORY NEURAL-NETWORK
+KW  - AIR-POLLUTION
+KW  - FEATURE-SELECTION
+KW  - POLLUTANTS
+KW  - MODELS
+KW  - SO2
+ER  - 
+
+TY  - JOUR
+AU  - Jia, Xingbin
+AU  - Gong, Xiang
+T1  - 基于时间序列疏系数模型的太阳辐射年际变化趋势预测
+JF  - 山东科学
+PY  - 2023/02/13
+VL  - 36
+IS  - 01
+SP  - 115
+EP  - 123
+SN  - 1002-4026
+AB  - 利用1961—2016年山东省济南市太阳年总辐射量观测数据，通过模型识别和统计检验，对比分析时间序列模型AR(5)和ARIMA((1,2,4),1,0)的拟合结果。残差检验结果表明，疏系数模型ARIMA ((1,2,4),1,0)可用于预测地表太阳年总辐射量，预测结果显示2017—2025年济南市地表太阳辐射的年际变化整体呈增长趋势。对比多元线性回归模型结果，时间序列疏系数模型误差较小，预测准确度相对较高。
+KW  - 太阳年总辐射量
+KW  - 时间序列分析
+KW  - ARIMA疏系数模型
+KW  - 年际变化
+KW  - 趋势预测
+KW  - 模型对比
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Hao
+AU  - Lin, Lei
+AU  - Wang, Yujue
+AU  - Du, Libin
+AU  - Wang, Shengli
+AU  - Zhou, Peng
+AU  - Yu, Yang
+AU  - Gong, Xiang
+AU  - Lu, Xiushan
+T1  - Reconstruction of Monthly Surface Nutrient Concentrations in the Yellow and Bohai Seas from 2003-2019 Using Machine Learning
+JF  - REMOTE SENSING
+PY  - 2022/10/01
+VL  - 14
+IS  - 19
+DO  - DOI 10.3390/rs14195021
+SN  - 0000-0000
+AB  - Monitoring the spatiotemporal iability of nutrient concentrations in shelf seas is important for understanding marine primary productivity and ecological problems. However, long time-series and high spatial-resolution nutrient concentration data are difficult to obtain using only on ship-based measurements. In this study, we developed a machine-learning approach to reconstruct monthly sea-surface dissolved inorganic nitrogen (DIN), dissolved inorganic phosphorus (DIP), and dissolved silicate (DSi) concentrations in the Yellow and Bohai seas from 2003-2019. A large amount of in situ measured data were first used to train the machine-learning model and derive a reliable model with input of environmental data (including sea-surface temperature, salinity, chlorophyll-a, and K(d)490) and output of DIN, DIP, and DSi concentrations. Then, longitudinal (2003-2019) monthly satellite remote-sensing environmental data were input into the model to reconstruct the surface nutrient concentrations. The results showed that the nutrient concentrations in nearshore (water depth < 40 m) and offshore (water depth > 40 m) waters had opposite seasonal iabilities; the highest (lowest) in summer in nearshore (offshore) waters and the lowest (highest) in winter in nearshore (offshore) waters. However, the DIN:DIP and DIN:DSi in most regions were consistently higher in spring and summer than in autumn and winter, and generally exceeded the Redfield ratio. From 2003-2019, DIN showed an increasing trend in nearshore waters (average 0.14 mu mol/L/y), while DSi showed a slight increasing trend in the Changjiang River Estuary (0.06 mu mol/L/y) but a decreasing trend in the Yellow River Estuary (-0.03 mu mol/L/y), and DIP exhibited no significant trend. Furthermore, surface nutrient concentrations were sensitive to changes in sea-surface temperature and salinity, with distinct responses between nearshore and offshore waters. We believe that our novel machine learning method can be applied to other shelf seas based on sufficient observational data to reconstruct a long time-series and high spatial resolution sea-surface nutrient concentrations.
+KW  - SPRING PHYTOPLANKTON BLOOM
+KW  - EAST CHINA SEA
+KW  - CHLOROPHYLL-A
+KW  - COASTAL WATERS
+KW  - TEMPERATURE
+KW  - RIVER
+KW  - PHOSPHORUS
+KW  - ECOSYSTEM
+KW  - WINTER
+KW  - OCEAN
+ER  - 
+
+TY  - JOUR
+AU  - Zheng, Yanlin
+AU  - Gong, Xiang
+AU  - Gao, Huiwang
+T1  - Selective grazing of zooplankton on phytoplankton defines rapid algal succe and blooms in oceans
+JF  - ECOLOGICAL MODELLING
+PY  - 2022/06/01
+VL  - 468
+DO  - DOI 10.1016/j.ecolmodel.2022.109947
+SN  - 0304-3800
+AB  - In a model plankton ecosystem containing phytoplankton and zooplankton, the later usually avoids toxic phytoplankton and prefers nontoxic species by modulating its grazing rate. The toxins released by toxic phytoplankton can lead to a decreased grazing rate of zooplankton on both phytoplankton, and the presence of nontoxic phytoplankton in the system also reduces the grazing pressure of zooplankton on the toxic phytoplankton. In this study, a set of functions were given that model the selective grazing of zooplankton on ious phytoplankton. Preference coefficient and avoidance coefficient were introduced in the selective grazing functions to measure the level of zooplankton preference of nontoxic phytoplankton and avoidance of toxic phytoplankton, respectively. A dynamics model was established in a nontoxic phytoplankton-toxic phytoplanktonzooplankton system based on the grazing functions of zooplankton to study the existence and stability of an interior equilibrium and Hopf-bifurcation. Our results show that zooplankton selective grazing promotes both zooplankton and toxic phytoplankton biomass, and contributes to maintain the coexistence of all species. Low grazing selectivity, i.e., low values of preference coefficient and avoidance coefficient, decreases the zooplankton population and increases the opportunity for phytoplankton blooms. A moderate level of grazing selectivity helps keep the system in balance. With high grazing selectivity on phytoplankton, toxic phytoplankton becomes the dominant species, resulting in a rapid algal succe and eventual toxic phytoplankton blooms. When the preference coefficient and avoidance coefficient in the dynamics model crossed critical values respectively, the ecosystem enters into a Hopf-bifurcation around the interior equilibrium, inducing oscillations of these populations.
+KW  - COMPETITION
+KW  - BEHAVIOR
+KW  - COPEPODS
+KW  - DYNAMICS
+KW  - MODEL
+KW  - SIZE
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Jiao
+AU  - Wu, Jianhui
+AU  - Liu, Baoshuang
+AU  - Liu, Xiaohuan
+AU  - Gao, Huiwang
+AU  - Zhang, Yufen
+AU  - Feng, Yinchang
+AU  - Han, Suqin
+AU  - Gong, Xiang
+T1  - Exploring the Sensitivity of Visibility to PM2.5 Mass Concentration and Relative Humidity for Different Aerosol Types
+JF  - ATMOSPHERE
+PY  - 2022/03/01
+VL  - 13
+IS  - 3
+DO  - DOI 10.3390/atmos13030471
+SN  - 0000-0000
+AB  - Fine particle (PM2.5) mass concentration and relative humidity (RH) are the primary factors influencing atmospheric visibility. There are some studies focused on the complex, nonlinear relationships among visibility, PM2.5 concentration, and RH. However, the relative contribution of the two factors to visibility degradation, especially for different aerosol types, is difficult to quantify. In this study, the normalized forward sensitivity index method for identifying the dominant factors of visibility was used on the basis of the sensitivity of visibility to PM2.5 and RH changes. The visibility iation per unit of PM2.5 or RH was parameterized by derivation of the visibility multiiate function. The method was verified and evaluated based on 4453 valid hour data records in Tianjin, and visibility was identified as being in the RH-sensitive regime when RH was above 75%. In addition, the influence of aerosol chemical compositions on sensitivity of visibility to PM2.5 and RH changes was discussed by analyzing the characteristics of extinction components ((NH4)(2)SO4, NH4NO3, organic matter, and elemental carbon) measured in Tianjin, 2015. The result showed that the fitting equation of visibility, PM2.5, and RH, separately for different aerosol types, further improved the accuracy of the parameterization scheme for visibility in most cases.
+KW  - YANGTZE-RIVER DELTA
+KW  - CHEMICAL-COMPOSITION
+KW  - LIGHT EXTINCTION
+KW  - ATMOSPHERIC VISIBILITY
+KW  - SOURCE APPORTIONMENT
+KW  - CHINA
+KW  - HAZE
+KW  - TRENDS
+KW  - IMPACT
+KW  - SCATTERING
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Jianqiang
+AU  - Gong, Xun
+AU  - Guo, Xinyu
+AU  - Xing, Xiaogang
+AU  - Lu, Keyu
+AU  - Gao, Huiwang
+AU  - Gong, Xiang
+T1  - Improved Perceptron of Subsurface Chlorophyll Maxima by a Deep Neural Network: A Case Study with BGC-Argo Float Data in the Northwestern Pacific Ocean
+JF  - REMOTE SENSING
+PY  - 2022/02/01
+VL  - 14
+IS  - 3
+DO  - DOI 10.3390/rs14030632
+SN  - 2072-4292
+AB  - Subsurface chlorophyll maxima (SCMs), commonly occurring beneath the surface mixed layer in coastal seas and open oceans, account for main changes in depth-integrated primary production and hence significantly contribute to the global carbon cycle. To fill the gap of previous methods (in situ measurement, remote sensing, and the extrapolating function based on surface-ocean data) for obtaining SCM characteristics (intensity, depth, and thickness), we developed an improved deep neural network (IDNN) model using a Gaussian radial basis activation function to retrieve the vertical profile of chlorophyll a concentration (Chl a) and associated SCM characteristics from surface-ocean data. The annually averaged SCM depth was further incorporated into the bias term and the Gaussian activation function to improve the estimation accuracy of the IDNN model. Based on the Biogeochemical-Argo (BGC-Argo) data acquired for three regions in the northwestern Pacific Ocean, vertical Chl a profiles produced by our improved DNN model using sea surface Chl a and sea surface temperature (SST) were in good agreement with the observations, especially in regions with low surface Chl a. Compared to other neural-network-based models with one hidden layer and a sigmoid activation function, the IDNN model retrieved vertical Chl a profiles well in more eutrophic subpolar regions. Furthermore, the application of the IDNN model to infer vertical Chl a profiles from remote-sensing information was validated in the northwestern Pacific Ocean.
+KW  - VERTICAL-DISTRIBUTION
+KW  - PROFILES
+KW  - PHYTOPLANKTON
+KW  - FLUORESCENCE
+KW  - BIOMASS
+KW  - SURFACE
+KW  - SHAPE
+KW  - SEA
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Hui
+AU  - Shao, Fubo
+AU  - Gong, Xiang
+T1  - 经典相关系数及统计功效对比研究
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2022/01/19
+VL  - 43
+IS  - 01
+SP  - 111
+EP  - 119
+DO  - DOI 10.16351/j.1672-6987.2022.01.016
+SN  - 1672-6987
+AB  - 本工作选取多种经典相关系数进行了对比研究,如Pearson相关系数、Spearman相关系数、距离相关系数、最大信息系数及HHG相关系数。具体地,在不同数据规模及噪声水平下,对线性、非线性单调、非单调、非函数等不同类型变量的相关性分别进行研究,得到各相关系数的统计功效。通过分析发现,Pearson相关系数、Spearman相关系数更适合衡量线性、非线性单调相关关系,最大信息系数则更适合衡量含有周期性的相关关系,HHG则更适合衡量非函数相关关系。本研究可为挖掘不同相关关系,提供相关系数选取依据。
+KW  - 相关关系
+KW  - Pearson相关系数
+KW  - Spearman相关系数
+KW  - 距离相关系数
+KW  - 最大信息系数
+KW  - HHG
+KW  - 统计功效
+ER  - 
+
+TY  - JOUR
+AU  - Cao, Fuqiang
+AU  - Gao, Tao
+AU  - Dan, Li
+AU  - Zhao, Fengxia
+AU  - Gong, Xiang
+AU  - Zhang, Xinyu
+AU  - Long, Xiaoyu
+AU  - Zhan, Junjie
+T1  - Contributions of natural climate iability on the trends of seasonal precipitation extremes over China
+JF  - INTERNATIONAL JOURNAL OF CLIMATOLOGY
+PY  - 2021/09/01
+VL  - 41
+IS  - 11
+SP  - 5226
+EP  - 5242
+DO  - DOI 10.1002/joc.7126
+SN  - 0899-8418
+AB  - The increased trends of extreme precipitation events over China have been partially attributed to global warming, while it is unclear how the natural climate iability affect these iations in extreme rainfall trends. Here we examine the contributions of large-scale modes climate iability from the Pacific Ocean, which are represented by El Nino-Southern Oscillation (ENSO) and Pacific Decadal Oscillation (PDO), on the trends of seasonal extreme events across China. Results show that the effects of climate iability modes on precipitation extremes exhibit evidently spatiotemporal characteristics at the seasonal scale. A significant positive trend is found over southeastern and northwestern China in four seasons, and substantial increases in two types of extreme events are also seen over northwestern China in spring and winter. Most of the seasonal trends of extreme precipitation events can be explained by the trends of the principal components. El Nino (La Nina) and PDO-like sea surface temperature (SST) anomalies over the Pacific have a close linkage with the iations in precipitation extremes. By modulating the large-scale atmospheric circulations, these Pacific SST anomalies associated with climatic oscillations, such as ENSO and PDO, provide the conducive conditions responsible for the occurrences of seasonal precipitation extremes across China. The seasonal trends of extreme events can be largely explained by the iability of the ENSO and PDO episodes, with a relatively larger modulation of PDO as compared to ENSO. These researches have important implications for improving seasonal flood disaster predictability and climate model performances.
+ER  - 
+
+TY  - JOUR
+AU  - Li, Shuyao
+AU  - Cui, Hongyan
+AU  - Xu, Junli
+AU  - Gong, Xiang
+AU  - Qiao, Fangli
+AU  - Yang, Yanzhao
+AU  - Wang, Ping
+AU  - Han, Yuqun
+AU  - Shan, Feng
+T1  - Factors contributing to rapid decline of Arctic sea ice in autumn
+JF  - Advances in Polar Science
+PY  - 2021/06/15
+VL  - 32
+IS  - 02
+SP  - 96
+EP  - 104
+DO  - DOI 10.13679/j.advps.2020.0039
+SN  - 1674-9928
+AB  - Autumn Arctic sea ice has been declining since the beginning of the era of satellite sea ice observations. In this study, we examined the factors contributing to the decline of autumn sea ice concentration. From the Beaufort Sea to the Barents Sea, autumn sea ice concentration has decreased considerably between 1982 and 2020, and the rates of decline were the highest around the Beaufort Sea. We calculated the correlation coefficients between sea ice extent(SIE) anomalies and anomalies of sea surface temperature(SST), surface air temperature(SAT) and specific humidity(SH). Among these coefficients, the largest absolute value was found in the coefficient between SIE and SAT anomalies for August to October, which has a value of-0.9446. The second largest absolute value was found in the coefficient between SIE and SH anomalies for September to November, which has a value of-0.9436. Among the correlation coefficients between SIE and SST anomalies, the largest absolute value was found in the coefficient for August to October, which has a value of-0.9410. We conducted empirical orthogonal function(EOF) analyses of sea ice, SST, SAT, SH, sea level pressure(SLP) and the wind field for the months where the absolute values of the correlation coefficient were the largest. The first EOFs of SST, SAT and SH account for 39.07%, 63.54% and 47.60% of the total variances, respectively, and are mainly concentrated in the area between the Beaufort Sea and the East Siberian Sea. The corresponding principal component time series also indicate positive trends. The first EOF of SLP explains 41.57% of the total variance. It is mostly negative in the central Arctic. Over the Beaufort, Chukchi and East Siberian seas, the zonal wind weakened while the meridional wind strengthened. Results from the correlation and EOF analyses further verified the effects of the ice–temperature, ice–SH and ice–SLP feedback mechanisms in the Arctic. These mechanisms accelerate melting and decrease the rate of formation of sea ice. In addition, stronger meridional winds favor the flow of warm air from lower latitudes towards the polar region, further promoting Arctic sea ice decline.
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Tao
+AU  - Cao, Fuqiang
+AU  - Dan, Li
+AU  - Li, Ming
+AU  - Gong, Xiang
+AU  - Zhan, Junjie
+T1  - The precipitation variability of the wet and dry season at the interannual and interdecadal scales over eastern China (1901-2016): the impacts of the Pacific Ocean
+JF  - HYDROLOGY AND EARTH SYSTEM SCIENCES
+PY  - 2021/03/25
+VL  - 25
+IS  - 3
+SP  - 1467
+EP  - 1481
+DO  - DOI 10.5194/hess-25-1467-2021
+SN  - 1027-5606
+AB  - The spatiotemporal variability of rainfall in the dry (October-March) and wet (April-September) seasons over eastern China is examined from 1901-2016 based on the gridded rainfall dataset from the University of East Anglia Climatic Research Unit. Principal component analysis is employed to identify the dominant variability modes, wavelet coherence is utilized to investigate the spectral features of the leading modes of precipitation and their coherences with the large-scale modes of climate variability, and the Bayesian dynamical linear model is adopted to quantify the time-varying correlations between climate variability modes and rainfall in the dry and wet seasons. Results show that first and second principal components (PCs) account for 34.2 % (16.1 %) and 13.4 % (13.9 %) of the variance in the dry (wet) season, and their variations are roughly coincident with phase shifts of the El Nino-Southern Oscillation (ENSO) in both seasons. The anomalous moisture fluxes responsible for the occurrence of precipitation events in eastern China exhibit an asymmetry between high and light rainfall years in the dry (wet) season. The ENSO has a 4- to 8-year signal of the statistically positive (negative) association with rainfall during the dry (wet) season over eastern China. The statistically significant positive (negative) associations between the Pacific Decadal Oscillation (PDO) and precipitation are found with a 9- to 15-year (4- to 7-year) signal. The impacts of the PDO on rainfall in eastern China exhibit multiple timescales as compared to the ENSO episodes, while the PDO triggers a stronger effect on precipitation in the wet season than the dry half year. The interannual and interdecadal variations in rain-fall over eastern China are substantially modulated by drivers originated from the Pacific Ocean. During the wet season, the ENSO exerted a gradually weakening effect on eastern China rainfall from 1901 to 2016, while the effects of the PDO decreased before the 1980s, and then shifted into increases after the 2000s. The finding provides a metric for assessing the capability of climate models and guidance of seasonal prediction.
+KW  - -
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Renzheng
+AU  - Dan, Zhengduo
+AU  - Meng, Siyu
+AU  - Gong, Xiang
+T1  - 南海北部次表层叶绿素最大值年际变化特征分析
+JF  - 热带海洋学报
+PY  - 2021/03/18
+VL  - 40
+IS  - 06
+SP  - 63
+EP  - 75
+SN  - 1009-5470
+AB  - 次表层叶绿素最大值(subsurface chlorophyll maxima, SCMs)广泛存在于全球各海域,该最大值层往往具有较高的海洋初级生产力和新生产力,因此研究其年际变化特征对深入理解气候变化影响下海洋生态系统变化有重要意义。本文采用一维物理-生态耦合模型(one-dimensionalphysical-biologicalcoupledmodel,MEM-1D)较好地模拟了1994—2019年南海北部海盆区海温、盐度、营养盐和叶绿素的垂向分布,并采用3种统计方法,分别从整体趋势、不同时间尺度及显著变化三方面分析了SCMs特征因子(强度、深度和厚度)的年际变化特征。总体而言1994—2019年SCMs强度整体减小趋势较弱(趋势斜率S0), 1994—2011年逐渐变深,之后逐渐变浅,但变化不显著;SCMs厚度整体呈增大趋势, 1999年起显著变大。相关分析发现,海表面温度在年际变化上与SCMs特征因子间不存在相关性(P>0.05);海表面温度对SCMs的影响主要表现在季节尺度上, SCMs深度和强度均与海表面温度呈一致性变化。季节性差分自回归滑动平均模型对SCMs三个特征因子的拟合效果较好,平均绝对百分比误差分别为5.33%(强度)、0.62%(深度)、2.49%(厚度),模型可用于对SCMs特征因子变化趋势的预测。
+KW  - 次表层叶绿素最大值
+KW  - 趋势统计分析
+KW  - 时间序列模型
+KW  - 数值模拟
+KW  - 南海北部
+ER  - 
+
+TY  - JOUR
+AU  - Meng, Siyu
+AU  - Gong, Xun
+AU  - Yu, Yang
+AU  - Yao, Xiaohong
+AU  - Gong, Xiang
+AU  - Lu, Keyu
+AU  - Zhang, Chao
+AU  - Shi, Jie
+AU  - Yu, Xiaojie
+AU  - Gao, Huiwang
+T1  - Strengthened ocean-desert process in the North Pacific over the past two decades
+JF  - ENVIRONMENTAL RESEARCH LETTERS
+PY  - 2021/02
+VL  - 16
+IS  - 2
+DO  - DOI 10.1088/1748-9326/abd96f
+SN  - 1748-9326
+AB  - North Pacific ocean desert (NPOD) refers to the subtropical North Pacific Ocean of low chlorophyll-a (Chl-a) concentrations, as the largest ocean desert globally. Studies have suggested a development of NPOD over recent decades based on limited evidences from in-field measurements and yet elusive mechanism. In this study, we characterize intensity, area and position of the NPOD from year 1998 to 2018, and investigate its control by the coherent climate processes, based on an available, longest satellite observations of Chl-a concentration. Our results suggested that NPOD oligotrophication and expansion processes were correlated with warming upper oceans in most part of the NPOD, except for the SW NPOD area where the Chl-a variations were linked with regional change in sea surface heights. Moreover, based on our analysis, insignificant shift but only NW-SE variability of the NPOD mean position was likely controlled by the Pacific decadal oscillation processes.
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Renzheng
+AU  - Dan, Zhengduo
+AU  - Wang, Jianxin
+AU  - Meng, He
+AU  - Gong, Xiang
+T1  - 基于Angstrom-Prescott模型和空间插值的山东省月太阳辐射再估算
+JF  - 山东科学
+PY  - 2020/06/09
+VL  - 33
+IS  - 03
+SP  - 93
+EP  - 99
+SN  - 1002-4026
+AB  - 基于Angstrom-Prescott模型和空间插值法构建了山东省各地的月太阳辐射估算方法,并利用山东省3个国家站(济南、莒县和福山)和菏泽、聊城、淄博及青岛的辐射观测数据验证了估算方法的准确性。首先利用山东省3个国家站1992年—2015年的辐射与日照百分率观测数据,采用最小二乘法拟合得到不同月份Angstrom-Prescott模型系数并以2016年观测数据验证。其次,分别使用不同空间插值法对菏泽、聊城、淄博和青岛进行太阳辐射估算并根据结果选择最优空间插值法。最后,将该方法与其他文献方法进行对比分析。2016年国家站的月太阳辐射估算结果显示其月平均σ_(MRE)约为3.5%,σ_(RMSE)在17 MJ/m~2～24 MJ/m~2,因此该A-P系数具有较高的准确性。在菏泽、聊城、淄博及青岛4站的估算中选定误差最小(σ_(MRE)约为7.22%,σ_(RMSE)约16 MJ/m~2～69 MJ/m~2)的最小曲率法作为最优空间插值法。与其他文献方法对比的结果表明,基于Angstrom-Prescott模型和空间插值法估算月太阳辐射准确度较高,可应用于其他区域月太阳辐射的估算。
+KW  - 月太阳总辐射
+KW  - Angstrom-Prescott模型
+KW  - 空间插值
+KW  - 山东省
+ER  - 
+
+TY  - JOUR
+AU  - Zou, Liping
+AU  - Gong, Xiang
+AU  - Zhuang, Shupeng
+T1  - 基于Elman神经网络的日总辐射曝辐量预估
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2019/10/15
+VL  - 40
+IS  - 05
+SP  - 112
+EP  - 118
+DO  - DOI 10.16351/j.1672-6987.2019.05.017
+SN  - 1672-6987
+AB  - 太阳辐射的预估研究对太阳能资源的有效利用有重要意义。应用山东省福山、莒县、济南三所气象站2000—2003年的数据,建立Elman神经网络模型,对日总辐射曝辐量进行时间序列预估研究。结果表明:Elman神经网络预估效果受天气状况影响较大,晴好天气下日总辐射预估结果较精确,福山站预估与观测差值最小,范围在-2～2 MJ·m~(-2)。城市大气污染对日曝辐量影响比较显著,模型中不考虑大气污染因素,污染较重的济南市预估效果最差,平均百分比误差变大了20%,均方根误差变大7%。Elman神经网络模型预估结果优于广义回归神经网络模型结果,3个站平均百分比误差降低5%～18%,均方根误差平均减小了0.506 MJ·m~(-2)。Elman神经网络模型适应于山东省日总辐射曝辐量的长时间预估。
+KW  - Elman神经网络
+KW  - 日总辐射曝辐量
+KW  - 大气污染
+KW  - 气溶胶光学厚度
+ER  - 
+
+TY  - JOUR
+AU  - Chang, Ming
+AU  - Xi, Yunxiao
+AU  - Gong, Xiang
+T1  - 公众能否准确评价政府环保成效——基于CGSS2015的实证分析
+JF  - 生态经济
+PY  - 2019/09/01
+VL  - 35
+IS  - 09
+SP  - 212
+EP  - 215
+SN  - 1671-4407
+AB  - 文章基于2015年中国综合社会调查数据和省际截面数据,采用SE-DEA和Ologit模型结合的方法实证研究了公众对政府环保成效的满意程度。结果表明,公众无法准确评价政府环保成效,并且在政府环保成效较高的地区,公众对政府环保工作满意程度评价有下降趋势。此外,环保投资率、环保劳动力投入率以及环保工资的比率与政府环保工作的公众满意度均为正向相关关系。因此,提升公众对环境质量改善的感知程度,增加环保事业投资,加大环保工作人力资源投入和提升环保工作人员工资水平对提升公众的政府环保工作满意度均有积极作用。
+KW  - 环保工作满意度
+KW  - 环境规制效率
+KW  - 超效率模型
+KW  - 有序多元Logit
+ER  - 
+
+TY  - JOUR
+AU  - Chang, Ming
+AU  - Xi, Yunxiao
+AU  - Ma, Bingran
+AU  - Gong, Xiang
+T1  - 中国“十二五”期间环境规制效率时空差异与驱动机制研究
+JF  - 环境污染与防治
+PY  - 2019/07/15
+VL  - 41
+IS  - 07
+SP  - 860
+EP  - 863+869
+DO  - DOI 10.15985/j.cnki.1001-3865.2019.07.023
+SN  - 1001-3865
+AB  - 运用超效率数据包络分析法(SE-DEA)模型和固定效应回归模型探究中国"十二五"期间环境规制效率的时空差异和驱动机制。结果表明:(1)"十二五"时期,中国的环境规制综合效率平均值在0.86～1.16范围内波动,产生波动的原因主要是投入的环境保护资源被利用的程度不同。(2)"十二五"时期,中国环境规制综合效率、纯技术效率和规模效率均呈现东部地区>西部地区>中部地区的空间差异,东部地区综合效率主要受规模效率的影响,中部地区综合效率主要受纯技术效率的影响,西部地区没有明显的规律性。(3)"十二五"时期,在环境规制综合效率层面,政府干预程度是调节中国环境外部性的正向驱动机制,环境治理投资程度和开放程度则为负向驱动机制。
+KW  - 环境规制
+KW  - 驱动机制
+KW  - 政府失灵
+KW  - 市场失灵
+KW  - 污染避难所
+KW  - 环保投资
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Chao
+AU  - Ito, Akinori
+AU  - Shi, Zongbo
+AU  - Aita, Maki Noguchi
+AU  - Yao, Xiaohong
+AU  - Chu, Qiang
+AU  - Shi, Jinhui
+AU  - Gong, Xiang
+AU  - Gao, Huiwang
+T1  - Fertilization of the Northwest Pacific Ocean by East Asia Air Pollutants
+JF  - GLOBAL BIOGEOCHEMICAL CYCLES
+PY  - 2019/06
+VL  - 33
+IS  - 6
+SP  - 690
+EP  - 702
+DO  - DOI 10.1029/2018GB006146
+SN  - 0886-6236
+AB  - Haze particles as a key air pollutant contain high level of toxins, which were hypothesized to inhibit phytoplankton growth when deposited to the ocean, and thus indirectly affect the climate. However, field observations have yet to provide conclusive evidence to confirm this hypothesis. Onboard microcosm experiments in the Northwest Pacific Ocean (NWPO) show that haze particles collected at the East Asia continent had an inhibition impact on phytoplankton growth only when at very high particle loading (2 mg/L). In contrast, haze particles at low and medium loadings (0.03-0.6 mg/L) stimulated phytoplankton growth and shifted phytoplankton size structure toward larger cells, primarily due to the supply of inorganic nitrogen nutrients from the particles. Model simulations showed that haze particle loading in NWPO surface seawater was usually more than an order of magnitude lower than 2 mg/L. This indicates that haze particles are unlikely to cause harm but to stimulate phytoplankton growth in the nitrogen-limited NWPO. Ocean biogeochemical modeling further shows that deposited nitrogen significantly enhanced surface ocean chlorophyll a concentration in the winter and spring of 2014. Overall, these results demonstrate that haze particles stimulate rather than inhibit primary production in the NWPO. Plain Language Summary Increasing anthropogenic emissions of air pollutants from fast-developing East Asia leads to increasing deposition of aerosol particles to the Northwest Pacific Ocean (NWPO). Such particles contain both nutrients such as nitrogen and phosphorus and toxins such as copper and organic pollutants to the marine phytoplankton, which have contrasting effects on marine ecosystems and carbon uptake. However, the actual impact remains unknown. Detailed onboard incubation experiments confirm that Chinese haze particles have an overall stimulation effects on phytoplankton under representative ocean conditions in NWPO. Toxicity to phytoplankton is only observed when the added haze particle concentration is unrealistically high. Simulations suggest that nitrogen in the atmospheric deposition contributes significantly to the surface chlorophyll a concentration in NWPO and enhances carbon fixation, which indirectly offsets global warming.
+KW  - PHYTOPLANKTON GROWTH
+KW  - ANTHROPOGENIC NITROGEN
+KW  - YELLOW SEA
+KW  - CHINA
+KW  - AEROSOL
+KW  - DUST
+KW  - DEPOSITION
+KW  - IRON
+KW  - FEEDBACKS
+KW  - PROMOTION
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Qiang
+AU  - Xue, Di
+AU  - Liu, Xiaohuan
+AU  - Gong, Xiang
+AU  - Gao, Huiwang
+T1  - Process analysis of PM2.5 pollution events in a coastal city of China using CMAQ
+JF  - JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA
+PY  - 2019/05/15
+VL  - 79
+SP  - 225
+EP  - 238
+DO  - DOI https://doi.org/10.1016/j.jes.2018.09.007
+SN  - 1001-0742
+KW  - CMAQ
+KW  - Process analysis
+KW  - PM2.5
+KW  - Qingdao
+ER  - 
+
+TY  - JOUR
+AU  - Cao, Fuqiang
+AU  - Gao, Tao
+AU  - Dan, Li
+AU  - Xie, Lian
+AU  - Gong, Xiang
+T1  - Variability of summer precipitation events associated with tropical cyclones over mid-lower reaches of yangtze river basin: Role of the el niño-southern oscillation
+JF  - Atmosphere
+PY  - 2019/05/01
+VL  - 10
+IS  - 5
+SP  - 256
+DO  - DOI 10.3390/atmos10050256
+SN  - 2073-4433
+AB  - Based on tropical cyclone (TC) track data and gridded observational rainfall data of CN05.1 during the period of 1961 to 2014, we examine the contribution of TCs on three metrics of summertime rainfall regimes and identify the connection between TC-induced precipitation events and El Niño-Southern Oscillation (ENSO) in middle-lower reaches of Yangtze River Basin (MLYRB). At the regional scale, TCs are responsible for approximately 14.4%, 12.5%, and 6.9% of rainfall events for normal, 75th, and 95th percentile precipitation cases, respectively. There is no evidence of significant long-term trends of the three type events linked with TCs, while their interdecadal variability is remarkable. Fractionally, larger proportions of TC-induced events occur along southeast coastal regions of MLYRB for normal rainfall events, and they are recorded over southwest and central-east MLYRB for 95th percentile cases. Moreover, a larger contribution of 95th percentile precipitation events to summer total rainfall is found than that for 75th percentile cases, suggesting that TCs may exert stronger impacts on the upper tail of summertime precipitation distribution across MLYRB. The TC-induced normal rainfall events tend to occur more frequency over central-west MLYRB during negative phase of ENSO in summer. However, the higher likelihood of TC-induced rainfall for three defined metrics are found over the majority of areas over MLYRB during negative ENSO phase in spring. In preceding winter, La Niña episode plays a crucial role in controlling the frequency of both normal and 75th percentile precipitation events. © 2019 by the authors.
+KW  - Hurricanes
+KW  - Atmospheric pressure - Climatology - Rain - Storms - Tropics - Watersheds
+ER  - 
+
+TY  - JOUR
+AU  - Zhuang, Shupeng
+AU  - Gong, Xiang
+AU  - Lin, Chan
+AU  - Zhang, Shuhua
+T1  - 基于广义回归神经网络的日总辐射曝辐量预估
+JF  - 太阳能学报
+PY  - 2019/01/28
+VL  - 40
+IS  - 01
+SP  - 11
+EP  - 16
+SN  - 0254-0096
+AB  - 采用广义回归神经网络(generalized regression neural network,GRNN)模型对山东烟台市福山气象站2000～2003年日总辐射曝辐量进行预估。模型通过交叉验证方法确定其关键参数(光滑因子),以日照时数、平均气压、平均气温、日最高气温、相对湿度、气溶胶光学厚度6个变量作为输入量。结果显示:GRNN15.9%,均方根误差为2.32 MJ/m2,拟合优度为0.892,且模型的预估精度和拟合优度均明显优于LM-BP网络。气溶胶光学厚度对GRNN是预估当地日总辐射曝辐量的一种有效方法。
+KW  - 人工神经网络
+KW  - LM-BP网络
+KW  - 太阳辐射
+KW  - 预估
+ER  - 
+
+TY  - JOUR
+AU  - Duan, Deyu
+AU  - Gong, Xiang
+AU  - Yuan, Geng
+AU  - Zhai, Fahui
+T1  - Right linear map preserving the left spectrum of 2×2 quaternion matrices
+JF  - Proceedings of the Estonian Academy of Sciences
+PY  - 2018/12/20
+VL  - 67
+IS  - 4
+SP  - 378–386
+DO  - DOI 10.3176/proc.2018.4.08
+SN  - 1736-6046
+KW  - linear preserving map, quaternion matrix, left spectrum
+ER  - 
+
+TY  - JOUR
+AU  - Duan, Deyu
+AU  - Gong, Xiang
+AU  - Geng Yuan, 
+AU  - Zhai, Fahui
+T1  - Linear Map Preserving the Right Spectrum of Quaternion Matrices
+JF  - Advances in Applied Clifford Algebras
+PY  - 2018/11/01
+VL  - 28
+IS  - 5
+SP  - 87
+DO  - DOI 10.1007/s00006-018-0905-4
+SN  - 0188-7009
+KW  - Linear preserving map, Quaternion matrix, Right spectrum
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Qiuling
+AU  - Zhu, Shanliang
+AU  - Gong, Xiang
+AU  - Yang, Shuguo
+T1  - 新工科背景下提升工科学生经济决策能力的思考和建议
+JF  - 青岛科技大学学报(社会科学版)（增刊）
+PY  - 2018/07/26
+VL  - 34
+IS  - 第七期，总第132期
+SP  - 32
+EP  - 34
+SN  - 1671-8372
+KW  - 新经济
+KW  - 新工科
+KW  - 经济决策
+KW  - OBE模式
+ER  - 
+
+TY  - CPAPER
+AU  - Liping, Zou
+AU  - Renzheng, Wang
+AU  - Shupeng, Zhuang
+AU  - Chan, Lin
+AU  - Shuhua, Zhang
+AU  - Xiang, Gong
+T1  - ESTIMATION OF DAILY IRRADIATION EXPOSURE OF GLOBAL RADIATION USING ELMAN NEURAL NETWORK
+T2  - 第37届中国控制会议论文集（B）
+PY  - 2018/07/25
+SP  - 203
+EP  - 208
+AB  - Using the data of three M eteorological Stations at Fushan, Ji'nan and Juxian, 2000-2003, the Elman neural network model was established to estimate the daily solar irradiance. The modeling results showed that a the three M eteorological Stations, the M ean Percentage Error(M PE) ranged from 17.3% to 21.3%, the Root M ean Square Error(RM SE) from 1.7 to 2.02 M J·m~(-2). The difference between the estimated and observed daily solar irradiance was smallest at Fushan Stations among the three M eteorological Stations, ranging from-2 to 4 M J m~(-2). The estimated daily solar irradiances were greatly affected by the weather conditions, which were more accurate under the clear weather than those in other weather. Compared with the generalized regression neural network modeling results, the M PE decreased by 9%-16% and the RM SE decreased by 0.506 M J·m~(-2) on average at the three M eteorological Stations.
+ER  - 
+
+TY  - JOUR
+AU  - Chu, Qiang
+AU  - Liu, Ying
+AU  - Shi, Jie
+AU  - Zhang, Chao
+AU  - Gong, Xiang
+AU  - Yao, Xiaohong
+AU  - Guo, Xinyu
+AU  - Gao, Huiwang
+T1  - Promotion effect of Asian dust on phytoplankton growth and potential dissolved organic phosphorus (DOP) utilization in the South China Sea
+JF  - Journal of Geophysical Research: Biogeosciences
+PY  - 2018/03/15
+VL  - 123
+IS  - 3
+SP  - 1101
+EP  - 1116
+DO  - DOI 10.1002/2017JG004088
+SN  - 2169-8961
+KW  - 亚洲沙尘，浮游植物，溶解有机磷，南海
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Qiuling
+AU  - Zhu, Shanliang
+AU  - Gong, Xiang
+AU  - Yang, Shuguo
+T1  - Assessment Model of State Fragility and its Application Based on Climate Change
+JF  - Scholars Journal of Economics, Business and Management
+PY  - 2018/03/08
+VL  - 5
+IS  - 3
+SP  - 200
+EP  - 207
+SN  - 2348-5302
+KW  - State Fragility, Indicator System, Evaluation Model, Entropy Weight Method
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+AU  - Jiang, Wensheng
+AU  - Wang, Linhui
+AU  - Gao, Huiwang
+AU  - Boss, Emmanuel
+AU  - Yao, Xiaohong
+AU  - Kao, Shuhji
+AU  - Shi, Jie
+T1  - Analytical solution of the nitracline with the evolution of subsurface chlorophyll maximum in stratified water columns
+JF  - BIOGEOSCIENCES
+PY  - 2017/05/10
+VL  - 14
+IS  - 9
+SP  - 2371
+EP  - 2386
+DO  - DOI 10.5194/bg-14-2371-2017
+SN  - 1726-4170
+AB  - In a stratified water column, the nitracline is a layer where the nitrate concentration increases below the nutrient-depleted upper layer, exhibiting a strong vertical gradient in the euphotic zone. The subsurface chlorophyll maximum layer (SCML) forms near the bottom of the euphotic zone, acting as a trap to diminish the upward nutrient supply. Depth and steepness of the nitracline are important measurable parameters related to the vertical transport of nitrate into the euphotic zone. The correlation between the SCML and the nitracline has been widely reported in the literature, but the analytic solution for the relationship between them is not well established. By incorporating a piecewise function for the approximate Gaussian vertical profile of chlorophyll, we derive analytical solutions of a specified nutrient-phytoplankton model. The model is well suited to explain basic dependencies between a nitracline and an SCML. The analytical solution shows that the nitracline depth is deeper than the depth of the SCML, shoaling with an increase in the light attenuation coefficient and with a decrease in surface light intensity. The inverse proportional relationship between the light level at the nitracline depth and the maximum rate of new primary production is derived. Analytic solutions also show that a thinner SCML corresponds to a steeper nitracline. The nitracline steepness is positively related to the light attenuation coefficient but independent of surface light intensity. The derived equations of the nitracline in relation to the SCML provide further insight into the important role of the nitracline in marine pelagic ecosystems.
+KW  - Nitracline depth, Nitracline steepness, Subsurface chlorophyll maximum
+ER  - 
+
+TY  - JOUR
+AU  - Shi, Jie
+AU  - Gao, Huiwang
+AU  - Guo, Xinyu
+AU  - Yao, Xiaohong
+AU  - Gong, Xiang
+T1  - Contributions of physical and biogeochemical processes to phytoplankton biomass enhancement in the surface and subsurface layers during the passage of Typhoon Damrey: Phytoplankton Response to Typhoon
+JF  - Journal of Geophysical Research
+PY  - 2017/01/25
+VL  - 122
+IS  - 1
+SP  - 212
+EP  - 229
+DO  - DOI 10.1002/2016JG003331
+SN  - 2169-8961
+KW  - 台风达美
+KW  - 表层
+KW  - 次表层
+KW  - 浮游植物生物量
+KW  - 物理过程
+KW  - 生物过程
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+AU  - Shi, Jie
+AU  - Gao, Hui Wang
+AU  - Yao, Xiao Hong
+T1  - Steady-state solutions for subsurface chlorophyll maximum in stratified water columns with a bell-shaped vertical profile of chlorophyll
+JF  - Biogeosciences
+PY  - 2015/02/16
+VL  - 12
+IS  - 4
+SP  - 905
+EP  - 919
+DO  - DOI 10.5194/bg-12-905-2015
+SN  - doi:10.5194/bg-12-905-2015
+KW  - 次表层叶绿素最大值，稳态解，分层水体，高斯分布
+ER  - 
+
+TY  - JOUR
+AU  - Shi, Jie
+AU  - Gao, Huiwang
+T1  - Modeling Seasonal Variations of Subsurface Chlorophyll Maximum in South China Sea
+JF  - 中国海洋大学学报（英文版）
+PY  - 2014/03/30
+VL  - 13
+IS  - 4
+SP  - 561
+EP  - 571
+DO  - DOI 10.1007/s11802-014-2060-4
+SN  - 1672-5182
+KW  - 南海
+KW  - 次表层叶绿素最大值
+KW  - 季节变化
+KW  - 数值模拟
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+T1  - 南海北部次表层叶绿素最大值年际变化特征的数值模拟研究
+PY  - 2014
+KW  - 南海北部
+KW  - 次表层叶绿素最大值
+KW  - 年际变化
+KW  - 气候变化
+KW  - 数值模型
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+AU  - Shen, Xiuzhuan
+AU  - Zhong, Ming
+AU  - Zhang, Shuhua
+T1  - 发展中区域环境经济优化模型和最优控制策略
+JF  - 苏州科技学院学报(自然科学版)
+PY  - 2008/06/15
+VL  - 122
+IS  - 02
+SP  - 20
+EP  - 24
+SN  - 1672-0687
+AB  - 采用包含环境因素的多部门内生经济增长模型,讨论发展中区域的环境经济问题,探讨发展中区域环境经济可持续发展的可能性及相关的最优控制策略,为分析发展中区域环境经济提供了可行的模型和方法。
+KW  - 发展中区域经济
+KW  - 可持续发展
+KW  - 最优控制
+ER  - 
+
+TY  - JOUR
+AU  - Shen, Xiuzhuan
+AU  - Gong, Xiang
+AU  - Zhang, Shuhua
+T1  - 一类投资竞赛模型的稳定性分析
+JF  - 高师理科学刊
+PY  - 2008/05/30
+IS  - 03
+SP  - 30
+EP  - 32
+SN  - 1007-9831
+AB  - 建立了多个同类企业的投资竞赛数学模型,运用稳定性理论,对系统不动点的稳定性做出分析,给出企业间投资保持均衡态势时参数的取值范围,并分析了其经济学意义.通过数据仿真验证了理论分析的正确性.
+KW  - 投资竞赛
+KW  - 均衡
+KW  - 稳定性
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+AU  - Zhang, Shuhua
+T1  - 课堂教学质量的模糊综合评判
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2008/02/15
+VL  - 110
+IS  - 01
+SP  - 87
+EP  - 90
+SN  - 1672-6987
+AB  - 将模糊综合评判的数学方法应用于教师课堂教学质量的评估体系,建立了数学模型,对模型中的一级指标和二级指标分别采用德尔斐法和专家赋分的方法确定各评价指标权重。用此模型对被测教师的课堂教学质量进行了全面评价,并与专家评价结果进行比较,结果表明该模型具有较好的实用性。
+KW  - 模糊综合评判
+KW  - 权重
+KW  - 课堂教学质量
+ER  - 
+
+TY  - CPAPER
+AU  - Gong, Xiang
+AU  - Liu, Huiming
+AU  - Zhang, Shuhua
+T1  - A Collaboration-competition Network Model for Teachers Based on BA Growing Networks
+T2  - 2008 CHINESE CONTROL AND DECISION CONFERENCE, VOLS 1-11
+PY  - 2008
+SP  - 5134
+EP  - +
+AB  - Based on the development mechanism of BA growing networks, by a bipartite graph a model has been given which aims at a stationary growing social collaboration-competition network about teachers. In. this model the nodes are endowed with competition The degree distribution which obeys power-law form has been proved, and the simulation result is in agreement with the theoretic calculation Both the clustering coefficient calculated by dynamic equation and the average path length obtained by statistic make this network have a small-world effect The topological structure can provide some useful information to the policymakers of schools.
+KW  - Complex networks
+KW  - Collaboration-competition networks
+KW  - Scale-free
+KW  - Small-world Effect
+KW  - BA Networks
+ER  - 
+
+TY  - JOUR
+AU  - Gong, Xiang
+T1  - 南海北部次表层叶绿素最大值年际变化特征的数值模拟研究
+ER  - 

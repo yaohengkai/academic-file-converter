@@ -1,0 +1,1442 @@
+Type-成果类型 期刊论文
+Author-作者 Zong, Zhao-Yi; Guan, Fen-Fen; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive event-triggered control for multi-agent systems with state time-delays and full state constraints
+Source-来源 NONLINEAR DYNAMICS
+Time-出版/完成日期 2025-12
+Year-年 2025
+Period-期 25
+Roll-卷 113
+Keyword-关键词 CONSENSUS CONTROL; TRACKING CONTROL; NONLINEAR-SYSTEMS
+Summary-摘要 This paper proposes an innovative adaptive event-triggered control strategy for a class of state time-delays nonlinear multi-agent systems (MASs) with full state constraints. Firstly, a performance function is introduced to guarantee the output consensus error remains within a prescribed range. Secondly, by integrating barrier Lyapunov function (BLF) and Lyapunov-Krasovskii (LK) function, a novel Lyapunov function is constructed to ensure that system states satisfy constraint conditions while effectively mitigating the adverse effects of state time-delays. Furthermore, multi-dimensional Taylor networks (MTNs) are employed to approximate unknown nonlinear terms. Thirdly, an event-triggered mechanism is implemented to curtail communication overhead. Theoretical analysis proves that all signals are bounded, the tracking errors fulfill the desired performance requirements in both transient and steady states, and the Zeno phenomenon is excluded. Finally, the effectiveness of the proposed strategy is further validated through three simulation examples.
+ISSN-国际刊号 0924-090X
+PageCount-页码 34991-35014
+DOI-DOI 10.1007/s11071-025-11850-5
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Wang, Dong-Mei; Han, Yu-Qun; Lu, Li-Ting; Zhu, Shan-Liang
+Title-题名 Design of event-triggered adaptive finite-time controller for full-state constrained stochastic nonlinear systems with unknown control directions
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL
+Time-出版/完成日期 2025-10-03
+Year-年 2025
+Period-期 10
+Roll-卷 98
+Keyword-关键词 BARRIER LYAPUNOV FUNCTIONS; TRACKING CONTROL; FEEDBACK CONTROL; STABILIZATION
+Summary-摘要 In this article, the problem of event-triggered (ET) adaptive finite-time tracking control is investigated for full-state constrained stochastic nonlinear systems with unknown control directions. In the backstepping, multi-dimensional Taylor networks are employed to estimate the unknown nonlinearities and the command filter is used to overcome the problem of explosion of complexity. Subsequently, a novel adaptive updated law is created for co-designing the controller and the switching threshold-based ET mechanism by introducing the Nussbaum-type functions, which effectively handles the effects of the measurement errors due to the ET mechanism, and the challenges of controller design because of the presence of unknown control directions. The proposed control strategy can achieve that the closed-loop system is semi-global finite-time stable in probability, the system states are maintained in the predefined compact sets in a finite time and the system output tracking expectation signal is commendable while easing the communications burden. Finally, two examples are employed to illustrate the validity of the proposed control strategy.
+ISSN-国际刊号 0020-7179
+PageCount-页码 2429-2440
+DOI-DOI 10.1080/00207179.2025.2461591
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Hao, Wei-Jie; Sun, Jing-Jing; Zong, Zhao-Yi; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive predefined time tracking control for nonlinear multi-agent systems subject to input saturation: an improved command filtering approach
+Source-来源 NONLINEAR DYNAMICS
+Time-出版/完成日期 2025-08
+Year-年 2025
+Period-期 15
+Roll-卷 113
+Keyword-关键词 LINEAR-SYSTEMS; CONSENSUS; STABILIZATION
+Summary-摘要 This paper presents a practical predefined time control approach for nonlinear multi-agent systems with input saturation. A novel predefined time command filter, constructed using a hyperbolic tangent function, effectively addresses the issues of computational explosion problems and control singularity commonly observed in traditional backstepping designs. To enhance control precision and robustness, a filter compensation signal is introduced to mitigate errors caused by the command filter. Furthermore, a new injective and differentiable function is developed by integrating the properties of horizontal and oblique asymptotes, providing an effective solution for managing input saturation. Leveraging this foundation, a predefined time command filtering controller is designed by combining adaptive backstepping control with the multi-dimensional Taylor network technique, which significantly simplifies the controller design process. Utilizing practically predefined time stable theory, the boundedness of all closed-loop system signals is rigorously established, and it is proven that synchronization errors converge to a small neighborhood around the origin within the predefined time. Finally, simulation results validate the proposed method's effectiveness and practical applicability.
+ISSN-国际刊号 0924-090X
+PageCount-页码 19697-19716
+DOI-DOI 10.1007/s11071-025-11161-9; 10.1007/s11071-025-11161-9
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shan-Liang; Wang, Ming-Xin; Sun, Li-Hong; Duan, De-Yu; Han, Yu-Qun
+Title-题名 New Design to Adaptive Neural Asymptotic Tracking Control for a Class of Uncertain Stochastic Nonlinear Systems With Unknown Input Constraints
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2025-08
+Year-年 2025
+Period-期 8
+Roll-卷 39
+Keyword-关键词 FEEDBACK-CONTROL; STABILIZATION; STABILITY
+Summary-摘要 In this paper, we present a new scheme to design an adaptive neural backstepping tracking controller for a class of stochastic nonlinear systems with unknown input constraints including saturation and dead-zone. The control design is achieved by using certain auxiliary techniques. More specifically, some piecewise injective differential functions are constructed to approximate these nonlinearity constraints with a bounded approximation error. A new dimension reduction inequality related the norm of basis vectors of radial basis functions is established to design the virtual signals. Some negative power exponential functions and the inverse functions of the above injective differentiable functions are introduced to design the adaptive laws and controller, respectively. These techniques can enlarge the nonlinear systems currently studied by backstepping approach and neural networks. Furthermore, it is shown that all the signals in the closed-loop system are semi-globally uniformly, ultimately bounded in probability and the tracking error converges to zero. Meanwhile, the effectiveness of the proposed controller is demonstrated in the simulation study.
+ISSN-国际刊号 0890-6327
+PageCount-页码 1682-1695
+DOI-DOI 10.1002/acs.4019
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Wentao JIA;Xun GONG;Shanliang ZHU;Jifeng QI;Xianmei ZHOU;Hengkai YAO;Xiang GONG;Wenwu WANG
+Title-题名 A dual-attention embedded CNN model for estimating mixed layer depths in the Bay of Bengal
+Source-来源 Journal of Oceanology and Limnology
+Time-出版/完成日期 2025-07-15
+Year-年 2025
+Period-期 04
+Roll-卷 v.43
+Summary-摘要 Variations in ocean mixed layer depth(MLD) show a significant impact on energy balance in the global climate systems and marine ecosystems. At present, the accuracy of modeling MLD, especially in the region with complex ocean dynamics, remains a challenge, thus calling for an emergency using artificial intelligence approach to improve the assessment of the MLD. A novel convolutional neural network model was developed based on a dual-attention module(DA-CNN) to estimate the MLD in the Bay of Bengal(BoB) by integrating multi-source remote sensing data and Argo gridded data. Compared with the original CNN model, the DA-CNN model exhibits superior performance with notable improvements in the annual average root mean square error(RMSE) and R~2 values by 13.0% and 8.4%, respectively, while more accurately capturing the seasonal variations in MLD. Moreover, the results using the DA-CNN model show minimum RMSE and maximum R~2 values, in comparison to the calculation by the random forest, artificial neural network model, and the hybrid coordinate ocean model. Accordingly, our findings suggest that the newly developed DA-CNN model provides an effective advantage in studying the MLD and the associated ocean processes.
+ISSN-国际刊号 2096-5508
+PageCount-页码 1075-1092
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Guo, Yao-Yao; Han, Yu-Qun; Sun, Jing-Jing; Zhu, Shan-Liang
+Title-题名 Fault compensation-based adaptive tracking control for nonlinear systems with actuator saturation and multiple sensor faults
+Source-来源 PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART I-JOURNAL OF SYSTEMS AND CONTROL ENGINEERING
+Time-出版/完成日期 2025-07
+Year-年 2025
+Period-期 6
+Roll-卷 239
+Keyword-关键词 LINEAR-SYSTEMS
+Summary-摘要 An adaptive tracking control scheme based on a multi-dimensional Taylor network(MTN) is proposed for nonlinear systems with multiple sensor faults and actuator saturation. This article utilizes a smooth hyperbolic tangent function to transform the non-smooth actuator saturation model into a smooth linear model, thus addressing the challenges posed by actuator saturation on the system. By applying a third-order absolute value Lyapunov function and incorporating it into the adaptive control design process, the estimation of fault losses and design of compensation coefficients are carried out to eliminate the effects of sensor faults. Experimental results demonstrate that the proposed controller can eliminate the impact of sensor faults and actuator saturation, ensuring that all signals in the closed-loop system remain within bounded ranges. Additionally, it can drive the tracking error to converge to a small region near the origin.
+ISSN-国际刊号 0959-6518
+PageCount-页码 1119-1131
+DOI-DOI 10.1177/09596518241309123
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Du, Yang; Zhao, Wei; Zhu, Shan-Liang; Hao, Wei-Jie; Liu, Shi-Cheng; Han, Yu-Qun
+Title-题名 Event-Triggered Adaptive Asymptotic Tracking Control for Stochastic Non-Linear Systems With Unknown Hysteresis: A New Switching Threshold Approach
+Source-来源 INTERNATIONAL JOURNAL OF ROBUST AND NONLINEAR CONTROL
+Time-出版/完成日期 2025-04
+Year-年 2025
+Period-期 6
+Roll-卷 35
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; VARYING DELAY SYSTEMS; NEURAL-CONTROL; DESIGN
+Summary-摘要 This paper proposes a novel event-triggered adaptive asymptotic tracking control (ATC) method for stochastic non-linear systems with unknown hysteresis. Firstly, in order to reduce the depletion of network resources while optimizing the asymptotic tracking performance of the system, a switching threshold mechanism (STM)-based event-triggered control (ETC) strategy is adopted. Secondly, a first-order filter is utilized to address the problem of the contradiction between event-triggered mechanism (ETM) output and rate-dependent hysteresis actuator input. By incorporating an enhanced backstepping technique and a bounded estimation method, it is rigorously demonstrate that the system achieves zero tracking error, effectively compensates for unknown hysteresis, and ensures that all closed-loop signals remain bounded in probability. Meanwhile, the Zeno phenomenon is excluded. Finally, the effectiveness and superiority of the proposed control scheme are verified by the simulation results.
+ISSN-国际刊号 1049-8923
+PageCount-页码 2324-2341
+DOI-DOI 10.1002/rnc.7799
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Sun, Jing-Jing; Zhu, Shan-Liang; Guo, Yao-Yao; Han, Yu-Qun
+Title-题名 MTN-Based Adaptive Finite-Time Tracking Control for Switched Non-Linear Systems With Time-Varying State Function Constraints
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2025-04
+Year-年 2025
+Period-期 4
+Roll-卷 39
+Summary-摘要 This paper studies the finite-time control problem of a class of switched non-linear systems under time-varying state constraints and proposes an adaptive finite-time controller based on a multi-dimensional Taylor network (MTN). Firstly, the time-varying tangent barrier Lyapunov functions (TBLFs) are constructed to ensure that all system states are constrained within a certain range. Secondly, MTNs are used to estimate the unknown non-linear functions during the controller design process. The proposed control scheme ensures that the tracking error of the system can converge to a small domain of the origin in a finite-time. At the same time, all the signals of the closed-loop system are semi-global practical finite-time stable (SGPFS) and all states satisfy the defined time-varying state constraints. Finally, the effectiveness of the control strategy is verified through numerical simulation examples and practical simulation examples.
+ISSN-国际刊号 0890-6327
+PageCount-页码 724-735
+DOI-DOI 10.1002/acs.3973
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Du, Yang; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Event-triggered adaptive compensation control for stochastic nonlinear systems with multiple failures: An improved switching threshold strategy☆
+Source-来源 ISA TRANSACTIONS
+Time-出版/完成日期 2025-03
+Year-年 2025
+Roll-卷 158
+Keyword-关键词 STABILIZATION
+Summary-摘要 This paper considers the event-triggered adaptive fault-tolerant control (FTC) problem fora class of stochastic nonlinear systems suffering from finite number of actuator failures and abrupt system external failure. Unlike existing event-triggered mechanisms (ETMs), this paper proposes an improved switching threshold mechanism (STM) that effectively addresses the potential system security hazards caused by large signal impulses when both the magnitude size of the controller and its rate of change are too large, while also saving energy consumption. Especially, when the occurrence of both actuator failure and system external failure may lead to over-change rate of the controller, by using the multi-dimensional Taylor network (MTN) approximation technique, the adaptive fault-tolerant control scheme designed based on the improved STM not only has lower resource consumption, but also indirectly improves the control performance of the system by ensuring the system security operation. Not only does it ensure that all signals of the closed-loop system are bounded in probability and the tracking error converges through the proposed control scheme. The feasibility and superiority of the developed scheme is well shown by dynamic model simulations.
+ISSN-国际刊号 0019-0578
+PageCount-页码 62-72
+DOI-DOI 10.1016/j.isatra.2025.01.024
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, Xiaoqian; Li, Yuanlong; Ge, Kai; Tang, Xiaohui; Liu, Shouhua; Zhu, Shanliang
+Title-题名 Warming structure of the Kuroshio in the East China Sea since 1970
+Source-来源 ENVIRONMENTAL RESEARCH COMMUNICATIONS
+Time-出版/完成日期 2025-03-01
+Year-年 2025
+Period-期 3
+Roll-卷 7
+Keyword-关键词 SURFACE TEMPERATURE; DECADAL OSCILLATION; PACIFIC; OCEAN; VARIABILITY; TRANSPORT; CIRCULATION; MONSOON; YELLOW; WATERS
+Summary-摘要 The Kuroshio Current (KC) has witnessed rapid surface warming during the past half-century, impacting the marine ecosystems in surrounding regions. However, the vertical structure of the warming KC remains unclear. This study utilizes historical hydrographic observational data and ocean model experiments to investigate temperature changes of the KC in the East China Sea since 1970. The KC at the Pollution Nagasaki (PN) section has shown rapid warming in the upper 350 m and insignificant warming or cooling trends in the subsurface layer of 350-800 m. Our diagnosis suggests that the rapid upper-layer warming results from the downward displacement of isopycnal surfaces, whereas the subsurface cooling arises from lateral advection along isopycnal surfaces. In addition to surface heating, surface wind changes over the subtropical North Pacific-induced by the phase shift of the Pacific Decadal Oscillation (PDO)-also enhance the upper-layer warming of the KC by driving downwelling Rossby waves. The subsurface cooling reflects property changes of the North Pacific Intermediate Water (NPIW) which can be traced to buoyancy fluxes in the subpolar northwestern Pacific. By linking the regional changes observed in the ECS to basin-scale processes over the North Pacific, this work contributes to the understanding of the response of the KC to climate change.
+ISSN-国际刊号 2515-7620
+DOI-DOI 10.1088/2515-7620/adbba1
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 刘丹丹;朱善良;刘传玉;冯岭
+Title-题名 南太平洋热带-副热带区斜压不稳定的多年代际趋势及其机制分析
+Source-来源 海洋与湖沼
+Time-出版/完成日期 2025-01-03
+Year-年 2025
+Period-期 02
+Roll-卷 v.56
+Keyword-关键词 斜压不稳定;中尺度涡旋;涡动能;有效位能
+Summary-摘要 为了探究全球变暖对斜压不稳定的影响，本研究采用1°×1°的温度、盐度和流场格点数据，对1993～2022年南太平洋热带-副热带海区(south Pacific tropical-subtropical,SPTS)表层强化的Charney型斜压不稳定的长期变化趋势及其机制进行了分析。发现南太平洋热带区(south Pacific tropical,SPT)斜压不稳定的增长率表现出显著的减少趋势，每10 a减少0.12%，而南太平洋副热带区(South Pacific Subtropical,SPS)斜压不稳定的增长率则表现出显著的增加趋势，每10 a增加0.10%。上述增长率的变化趋势与卫星观测的涡旋动能(eddy kinetic energy,EKE)的变化趋势一致，且SPT的斜压不稳定的变化受剪切和层结的共同调控，而SPS的斜压不稳定的变化主要受剪切的影响，说明斜压不稳定性的变化体现了温盐和流场变化的综合效应。进一步分析发现，上述增长率及EKE的变化趋势与局地有效位能(available potential energy,APE)的趋势一致，突显了斜压不稳定性在能量转移转化中的关键作用。
+ISSN-国际刊号 0029-814X
+PageCount-页码 252-261
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhou, Ya-Feng; Zhao, Wei; Zhu, Shan-Liang; Han, Yu-Qun; Xing, Jian-Min; Zhou, Qing-Hua
+Title-题名 Multi-dimensional Taylor network-based adaptive fixed-time tracking control for a class of nonlinear systems with input delay
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL
+Time-出版/完成日期 2025-01-02
+Year-年 2025
+Period-期 1
+Roll-卷 98
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; SLIDING MODE CONTROL; FUZZY CONTROL; MULTIAGENT SYSTEMS; CONSENSUS TRACKING; FINITE-TIME; STABILIZATION
+Summary-摘要 For the nonlinear systems with input delay, an adaptive fixed-time tracking control strategy based on multi-dimensional Taylor network (MTN) is proposed for the first time. First, to address the main challenge brought by input delay, an auxiliary system is constructed, which transforms the input delay systems into non-delay systems. Second, the MTNs are introduced into the backstepping design process, which reduce the design difficulty by approximating unknown nonlinear functions. Thus, a control scheme subject to low complexity is obtained. Third, aside from ensuring that the tracking error converges within a small neighbourhood of the origin within a fixed-time, the designed control scheme not only makes all signals in the closed-loop system remain bounded, but also avoids the problem of finite-time control relying on initial state. Finally, three simulations are given to prove the feasibility and superiority of the proposed control scheme.
+ISSN-国际刊号 0020-7179
+PageCount-页码 56-67
+DOI-DOI 10.1080/00207179.2024.2319752
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Hao, Wei-Jie; Zong, Zhao-Yi; Wei, Shu-Zhen; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive Tracking Control of Nonlinear Multi-Agent Systems Subject to Multiple Constraints via Multi-Dimensional Taylor Network
+Source-来源 IEEE TRANSACTIONS ON AUTOMATION SCIENCE AND ENGINEERING
+Time-出版/完成日期 2025
+Year-年 2025
+Roll-卷 22
+Keyword-关键词 CONSENSUS
+Summary-摘要 This paper investigates the adaptive tracking control problem for nonlinear multi-agent systems operating under simultaneous input saturation and output performance constraints. To address asymmetric input saturation, an innovative auxiliary system is developed that generates compensatory signals based on the discrepancy between the input signal and the saturation function output. A central contribution is the introduction of a novel dynamic performance function (DPF), this function leverages signals from the auxiliary system to adaptively adjust performance boundaries, critically activating this adjustment only when input saturation occurs concurrently with synchronization errors exceeding predefined safety limits, thereby effectively resolving conflicts between the input and performance constraints. Furthermore, a first-order filter is employed within the backstepping control design to approximate virtual control derivatives, mitigating the "computational explosion" issue. An adaptive controller incorporating multi-dimensional Taylor network (MTN) is then synthesized based on this framework. Rigorous Lyapunov stability analysis confirms the boundedness of all signals within the closed-loop system. Supporting this theoretical finding, simulation results confirm the proposed control strategy's effectiveness and feasibility, demonstrating enhanced synchronization performance and robustness under these multiple, potentially conflicting constraints.
+ISSN-国际刊号 1545-5955
+PageCount-页码 16913-16924
+DOI-DOI 10.1109/TASE.2025.3581459
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 聂玉玲;徐俊丽;朱善良
+Title-题名 基于数据同化方法的风暴潮数值模型
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2024-12-15
+Year-年 2024
+Period-期 06
+Roll-卷 v.45;No.211
+Keyword-关键词 风暴潮;天文潮;风应力拖曳系数;数值模拟;数据同化方法
+Summary-摘要 风应力拖曳系数是风暴潮模型中的重要参数之一。本工作基于二维的风暴潮数值模型和伴随同化模型，利用数据同化方法反演出了空间分布形式的风应力拖曳系数。研究了空间分布形式的风应力拖曳系数和三种经验公式的风应力拖曳系数对渤、黄、东海海域内7303号台风发生期间的风暴潮水位的影响。结果表明，与风应力拖曳系数经验公式计算的风暴潮水位相比，利用空间分布形式的风应力拖曳系数计算的风暴潮水位更接近观测水位，这说明数据同化方法可以有效提高风暴潮水位的模拟精度。进一步地，讨论了数据同化过程中天文潮对风暴潮水位的影响。结果显示，当考虑M_2分潮后，基于数据同化方法计算的风暴潮水位最接近观测水位。因此，在风暴潮的模拟过程中应当考虑天文潮的影响。
+ISSN-国际刊号 1672-6987
+PageCount-页码 125-134
+DOI-DOI 10.16351/j.1672-6987.2024.06.016
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhao, Wei; Han, Yu-Qun; Zhu, Shan-Liang
+Title-题名 Adaptive asymptotic tracking control of constrained nonlinear MIMO systems subject to unknown hysteresis input: A novel network-based strategy
+Source-来源 EUROPEAN JOURNAL OF CONTROL
+Time-出版/完成日期 2024-11
+Year-年 2024
+Roll-卷 80
+Summary-摘要 This paper presents a referential adaptive asymptotic tracking control scheme for nonlinear multi-input and multi-output (MIMO) systems with time-varying full-state constraints and unknown hysteresis input. In order to achieve good asymptotic tracking effect, a zero-limit positive continuous function is introduced into the adaptive backstepping design process while thoroughly considering the impact of disturbance-like terms on the tracking effect. Additionally, anew variable is also imported to replace the reciprocal of unknown coefficient of the Bouc-Wen hysteresis model. Then, anew adaptive law about the new variable is added by combining the positive function, which can not only lessen the impact of the unknown hysteresis input on the tracking effect, but also avoid the "singularity"problem. Aiming at the time-varying full-state constraints, a appropriate time-varying log-type barrier Lyapunov function (TLBLF) is constructed to ensure that all the states of the system are restricted within the constraint scope. Finally, a significant adaptive asymptotic tracking scheme is designed based on multi-dimensional Taylor network (MTN) approximation technology. Apart from achieving high-precision asymptotic tracking performance, the proposed scheme ensures the boundedness of all signals of the closed-loop system without violating the full-state constraints. And, three simulations are given to verify the effectiveness of the scheme.
+ISSN-国际刊号 0947-3580
+DOI-DOI 10.1016/j.ejcon.2024.101127
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Lu, Li-Ting; Zhu, Shan-Liang; Wang, Dong-Mei; Han, Yu-Qun
+Title-题名 Distributed adaptive fault-tolerant control with prescribed performance for nonlinear multiagent systems
+Source-来源 COMMUNICATIONS IN NONLINEAR SCIENCE AND NUMERICAL SIMULATION
+Time-出版/完成日期 2024-11
+Year-年 2024
+Roll-卷 138
+Keyword-关键词 CONSENSUS TRACKING CONTROL; PARAMETERS
+Summary-摘要 This paper introduces a distributed adaptive fault-tolerant control scheme for nonlinear multi- agent systems afflicted by actuator failures. The proposed scheme ensures that the consensus- tracking errors of the systems meet the prescribed performance requirements. First, in the backstepping design process, a barrier function is constructed based on the proposed scalar function and normalization function to address the prescribed performance issue. Next, both multi-dimensional Taylor network (MTN) control and robust control techniques are utilized to address unknown nonlinear functions. Continuous switching functions are devised to transition from MTN control to robust control whenever the arguments of the unknown functions surpass the operating range of MTN. This effectively resolves the global problem of the system. Furthermore, a boundary estimation method is proposed to handle actuator failures that may occur infinitely. Stability analysis confirms that all signals in the closed-loop system are globally uniformly ultimately bounded. Additionally, the consensus-tracking errors can always be constrained within prescribed boundaries, achieving global convergence to a prescribed accuracy within a prescribed time. Users can flexibly and independently choose the desired settling time and accuracy, without being restricted by any initial conditions. Simulation results provide evidence of the efficacy of the proposed control method.
+ISSN-国际刊号 1007-5704
+DOI-DOI 10.1016/j.cnsns.2024.108222
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhao, Wei; Han, Yu-Qun; Zhou, Ya-Feng; Zhu, Shan-Liang
+Title-题名 Adaptive finite-time tracking control of nonlinear systems subject to input hysteresis and multiple objective constraints
+Source-来源 INTERNATIONAL JOURNAL OF ROBUST AND NONLINEAR CONTROL
+Time-出版/完成日期 2024-10
+Year-年 2024
+Period-期 15
+Roll-卷 34
+Keyword-关键词 DYNAMIC SURFACE CONTROL; NEURAL-CONTROL; ASYMPTOTIC TRACKING; FEEDBACK SYSTEMS; CONTROL DESIGN
+Summary-摘要 In this article, the problem of adaptive finite-time tracking control for a class of nonlinear systems subject to backlash-like input hysteresis and multiple objective constraints is investigated. For the purpose of realizing multiple objective constraints, a new time-varying barrier function (TVBF) is introduced to ensure that all objective constraint functions are always within the defined range. Meanwhile, based on the combination of the command filter approach and adaptive backstepping control, an error compensation system (ECS) is supplied to reduce the impact of filter error on control performance. Additionally, the problem of "singularity" caused by hysteresis is avoided by linearizing the backlash-like hysteresis model, and Nussbaum-type function is also applied to reduce the influence of hysteresis on the stability of the system. Then, by combining multi-dimensional Taylor network (MTN) technology and command filter backstepping approach, an adaptive finite-time control strategy is designed. The proposed control strategy ensures that all the signals in the closed-loop system realize finite-time semi-globally uniformly ultimately bounded (SGUUB), and the output signal of the system can track the reference signal greatly while adhering to multiple objective constraints. Finally, the effectiveness of the proposed control strategy is verified by a practical simulation example.
+ISSN-国际刊号 1049-8923
+PageCount-页码 10292-10314
+DOI-DOI 10.1002/rnc.7517
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhou, Ya-Feng; Zhu, Shan-Liang; Zhao, Wei; Han, Yu-Qun
+Title-题名 Adaptive fixed-time tracking control for nonlinear systems subject to asymmetric input saturation
+Source-来源 EUROPEAN JOURNAL OF CONTROL
+Time-出版/完成日期 2024-09
+Year-年 2024
+Roll-卷 79
+Keyword-关键词 MODEL PREDICTIVE CONTROL; MULTIAGENT SYSTEMS; FINITE-TIME; CONSENSUS; DESIGN
+Summary-摘要 For nonlinear systems with asymmetric input saturation, an adaptive fixed-time control strategy via multidimensional Taylor network (MTN) is proposed to effectively solve the tracking control problem. Firstly, the Gaussian error function and the differential mean value theorem are used to simulate the asymmetric input saturation model, that is, the nonlinear model is transformed into a linear model with a bounded perturbation. Secondly, MTNs are applied to control the design process, which approximate the nonlinear structures with linear combination of polynomials. Thirdly, in addition to the tracking error converging to an arbitrarily small neighborhood around the origin within a fixed time, the proposed control scheme not only guarantees that any signal in the controlled system remains bounded, but also avoids the problem of finite-time control relying on the initial state. Finally, three examples are used to validate the feasibility and superiority of the scheme.
+ISSN-国际刊号 0947-3580
+DOI-DOI 10.1016/j.ejcon.2024.101091
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhou, Xianmei; Zhu, Shanliang; Jia, Wentao; Yao, Hengkai
+Title-题名 Estimating Subsurface Thermohaline Structure in the Tropical Western Pacific Using DO-ResNet Model
+Source-来源 ATMOSPHERE
+Time-出版/完成日期 2024-09
+Year-年 2024
+Period-期 9
+Roll-卷 15
+Keyword-关键词 SALINITY PROFILE ESTIMATION; THERMAL STRUCTURE; DATA ASSIMILATION; SURFACE SALINITY; INDIAN-OCEAN; IN-SITU; TEMPERATURE; SATELLITE; VARIABILITY; MECHANISM
+Summary-摘要 Estimating the ocean's subsurface thermohaline information from satellite measurements is essential for understanding ocean dynamics and the El Ni & ntilde;o phenomenon. This paper proposes an improved double-output residual neural network (DO-ResNet) model to concurrently estimate the subsurface temperature (ST) and subsurface salinity (SS) in the tropical Western Pacific using multi-source remote sensing data, including sea surface temperature (SST), sea surface salinity (SSS), sea surface height anomaly (SSHA), sea surface wind (SSW), and geographical information (including longitude and latitude). In the model experiment, Argo data were used to train and validate the model, and the root mean square error (RMSE), normalized root mean square error (NRMSE), and coefficient of determination (R2) were employed to evaluate the model's performance. The results showed that the sea surface parameters selected in this study have a positive effect on the estimation process, and the average RMSE and R2 values for estimating ST (SS) by the proposed model are 0.34 degrees C (0.05 psu) and 0.91 (0.95), respectively. Under the data conditions considered in this study, DO-ResNet demonstrates superior performance relative to the extreme gradient boosting model, random forest model, and artificial neural network model. Additionally, this study evaluates the model's accuracy by comparing its estimations of ST and SS across different depths with Argo data, demonstrating the model's ability to effectively capture the most spatial features, and by comparing NRMSE across different depths and seasons, the model demonstrates strong adaptability to seasonal variations. In conclusion, this research introduces a novel artificial intelligence technique for estimating ST and SS in the tropical Western Pacific Ocean.
+DOI-DOI 10.3390/atmos15091043
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Liu, Si-Min; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive backstepping-based sampled-data tracking control with prescribed performance for switched nonlinear systems
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL
+Time-出版/完成日期 2024-08-02
+Year-年 2024
+Period-期 8
+Roll-卷 97
+Keyword-关键词 LARGE-SCALE SYSTEMS; OUTPUT-FEEDBACK; FUZZY CONTROL; STABILIZATION; DESIGN
+Summary-摘要 In this paper, the problem of sampled-data adaptive tracking control for a class of switched nonlinear systems with prescribed performance is considered. In order to guarantee the system is stable and achieves the prescribed performance in sampled-data control, a coordinate transformation satisfying the prescribed performance is introduced. In addition, the neural networks (NNs) used to approximate the unknown nonlinear functions and the backstepping technique are applied to design the sampled-data controller and the adaptive laws. An upper bound on the sampling period is obtained to maintain the stability of the systems. It is confirmed that the designed sampled-data scheme ensures that all signals of the closed-loop system are semi-globally uniformly ultimately bounded (SGUUB) and the tracking error is limited to the prescribed performance function. The effectiveness of the designed control scheme is demonstrated by two simulation examples.
+ISSN-国际刊号 0020-7179
+PageCount-页码 1934-1945
+DOI-DOI 10.1080/00207179.2023.2241921
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhai, Lian-Lian; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive multi-dimensional Taylor network tracking control of time-varying delay nonlinear systems subject to input saturation
+Source-来源 PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART I-JOURNAL OF SYSTEMS AND CONTROL ENGINEERING
+Time-出版/完成日期 2024-08
+Year-年 2024
+Period-期 7
+Roll-卷 238
+Keyword-关键词 DYNAMIC REGULATION; DESIGN
+Summary-摘要 For the tracking control problem of a class of nonlinear systems with input saturation constraint and time-varying delay, an adaptive tracking control scheme based on multi-dimensional Taylor network (MTN) is designed, and the proposed control scheme has the advantages of simple structure and small computation. A Gaussian error function is introduced to transform the input saturation into a linear model with bounded error. The Lyapunov-Krasovskii function is constructed, and the nonlinearity of the system is approximated using MTN, and an adaptive control strategy is constructed based on the backstepping method. The results show that the proposed control method can both ensure that all signals in the closed-loop system are bounded and achieve convergence of the tracking error to a small neighborhood near the origin. Numerical simulations verify the effectiveness of the method.
+ISSN-国际刊号 0959-6518
+PageCount-页码 1273-1284
+DOI-DOI 10.1177/09596518241233318
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhao, Wei; Zhu, Shan-Liang; Zhou, Ya-Feng; Han, Yu-Qun; Wang, Wen-Wu; Zhou, Qing-Hua
+Title-题名 Adaptive prescribed performance tracking control for uncertain nonlinear systems with unknown backlash-like hysteresis
+Source-来源 PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART I-JOURNAL OF SYSTEMS AND CONTROL ENGINEERING
+Time-出版/完成日期 2024-08
+Year-年 2024
+Period-期 7
+Roll-卷 238
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; DESIGN
+Summary-摘要 In this paper, an adaptive prescribed performance tracking control(PPTC) problem of uncertain nonlinear systems with unknown hysteresis input is investigated. For the purpose of implementing the PPTC, a performance function and an error conversion function are introduced. Moreover, a backlash-like hysteresis model is adopted to describe the hysteresis nonlinearity, which makes the controller design feasible. Additionally, by converting the backlash-like hysteresis model into a linear model with bounded error, the difficulties caused by hysteresis behavior on controller design are settled. Thus, integrating multi-dimensional Taylor network(MTN) approximation technique into adaptive backstepping method, an adaptive control scheme for uncertain nonlinear systems is proposed. Apart from ensuring that all signals of the closed-loop system keep bounded, the proposed control scheme not only makes the tracking error converge to an arbitrarily small neighborhood around the origin, but also guarantees the tracking error trajectory within the limits set by PPTC. Ultimately, two simulations are applied to verify the validity of the proposed control scheme.
+ISSN-国际刊号 0959-6518
+PageCount-页码 1206-1218
+DOI-DOI 10.1177/09596518241236978
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Lu, Li-Ting; Zhu, Shan-Liang; Wang, Dong-Mei; Han, Yu-Qun
+Title-题名 Predefined-time adaptive consensus control for nonlinear multi-agent systems with input quantization and actuator faults
+Source-来源 NONLINEAR DYNAMICS
+Time-出版/完成日期 2024-08
+Year-年 2024
+Period-期 16
+Roll-卷 112
+Keyword-关键词 TRACKING CONTROL; STABILIZATION; DESIGN
+Summary-摘要 Predefined-time control has experienced substantial advancements in recent years. Nevertheless, the current technology has not achieved widespread adoption in nonlinear multi-agent systems (NMASs), and significant issues pertaining to the input quantization and actuator failures remain unaddressed. This paper investigates the problem of predefined-time consensus control for NMASs with input quantization and actuator faults. Notably, the study takes into account scenarios where each actuator may experience an infinite number of faults. In conjunction with practical predefined-time stability theory, an innovative predefined-time adaptive consensus control method has been developed within the framework of the backstepping method, incorporating the approximation technique of the multi-dimensional Taylor network (MTN). Additionally, by utilizing the characteristics of quantized nonlinear sectors and the structural model of actuator faults, novel adaptive estimation techniques are devised to handle the effects caused by actuator faults and quantized inputs. To further alleviate computational burdens and tackle the issue of computational explosion, a finite-time differentiator is employed to estimate the derivative of the virtual control. The proposed control scheme achieves the desired performance of predefined-time convergence. Rigorous theoretical analyses indicate that the proposed control scheme can drive consensus errors to converge within a small range within a predefined-time, and users have the flexibility to choose the settling time. Moreover, all signals in the closed-loop system remain bounded. Finally, simulation results are provided to validate the effectiveness of the proposed approach.
+ISSN-国际刊号 0924-090X
+PageCount-页码 14215-14234
+DOI-DOI 10.1007/s11071-024-09818-y
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 He Wen-Jing;  Zhu Shan-Liang;  Lu Li-Ting;  Zhao Wei; Han Yu-Qun;
+Title-题名 Adaptive multi-switching-based global tracking control for switched nonlinear systems with prescribed performance
+Source-来源 IEEE Transactions on Automation Science and Engineering
+Time-出版/完成日期 2024-07-01
+Year-年 2024
+Period-期 3
+Roll-卷 21
+Keyword-关键词 global control; switched nonlinear systems; prescribed performance; multi-dimensional Taylor network
+Summary-摘要 This paper is concerned with the tracking control for a class of switched nonlinear systems subject to prescribed performance. Firstly, a barrier function and a normalized function are introduced to achieve prescribed performance control, which ensures that the tracking error evolves within prescribed boundary. Then, multi-dimensional Taylor network provides a new approach for how to estimate the nonlinearity arising from the backstepping control process. Significantly, the proposed multi-switching-based adaptive controller realizes that all signals in the closed-loop system are globally uniformly ultimately bounded while ensuring asymptotic tracking. Different from most existing network-approximation-based control strategies, the developed method in this paper is not only independent of the initial state, but also can achieve global stability. Finally, it is easy to verify the effectiveness of the proposed control method through two simulations.
+ISSN-国际刊号 1545-5955
+PageCount-页码 3243-3252
+DOI-DOI 10.1109/TASE.2023.3277470
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Lu, Li-Ting; Han, Yu-Qun; Wang, Dong-Mei; Zhu, Shan-Liang; Zhou, Qing-Hua
+Title-题名 Adaptive tracking control for a class of nonlinear systems with intermittent actuator faults under prescribe output tracking performance
+Source-来源 ASIAN JOURNAL OF CONTROL
+Time-出版/完成日期 2024-07
+Year-年 2024
+Period-期 4
+Roll-卷 26
+Keyword-关键词 TOLERANT CONTROL; FUZZY CONTROL; FEEDBACK; DESIGN
+Summary-摘要 This paper investigates the adaptive tracking control problem of a class of nonlinear systems with intermittent actuator faults and prescribed performance. In the backstepping design process, a performance function is incorporated to ensure that the tracking error adheres to the prescribed performance criteria. Simultaneously, multi-dimensional Taylor networks are used to approximate the unknown nonlinear functions in the system. Subsequently, to avoid jumps in the improved Lyapunov function when faults occur, a boundary estimation method is presented, which effectively compensates for the impact of intermittent actuator faults. Ultimately, based on Lyapunov stability theory, it is proven that all signals of the closed-loop system are bounded, and the tracking error can satisfy the prescribed transient and steady-state performance. Simulation results demonstrate the effectiveness of the proposed scheme.
+ISSN-国际刊号 1561-8625
+PageCount-页码 2011-2025
+DOI-DOI 10.1002/asjc.3317
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Wang, Dong-Mei; Zhu, Shan-Liang; Lu, Li-Ting; Han, Yu-Qun; Wang, Wenwu; Zhou, Qing-Hua
+Title-题名 Event-triggered adaptive tracking control for stochastic nonlinear systems under predetermined finite-time performance
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2024-07
+Year-年 2024
+Period-期 7
+Roll-卷 38
+Keyword-关键词 SLIDING MODE CONTROL
+Summary-摘要 In this paper, an event-triggered adaptive tracking control strategy is proposed for strict-feedback stochastic nonlinear systems with predetermined finite-time performance. Firstly, a finite-time performance function (FTPF) is introduced to describe the predetermined tracking performance. With the help of the error transformation technique, the original constrained tracking error is transformed into an equivalent unconstrained variable. Then, the unknown nonlinear functions are approximated by using the multi-dimensional Taylor networks (MTNs) in the backstepping design process. Meanwhile, an event-triggered mechanism with a relative threshold is introduced to reduce the communication burden between actuators and controllers. Furthermore, the proposed control strategy can ensure that all signals of the closed-loop system are bounded in probability and the tracking error is within a predefined range in a finite time. In the end, the effectiveness of the proposed control strategy is verified by two simulation examples.
+ISSN-国际刊号 0890-6327
+PageCount-页码 2465-2484
+DOI-DOI 10.1002/acs.3812
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 岳伟豪;徐永生;朱善良
+Title-题名 基于自注意力机制的深度学习的海洋三维温度场预测
+Source-来源 海洋预报
+Time-出版/完成日期 2024-06-11
+Year-年 2024
+Period-期 03
+Roll-卷 v.41;No.187
+Keyword-关键词 海水温度;三维温度场预测;自注意力记忆机制;SA-ConvLSTM;多步长递归预测
+Summary-摘要 目前主要从时空角度出发对海洋三维温度场进行预测，却忽略了相邻位置的海温相关关系。为弥补这一不足，构建一种融合了自注意力记忆模块与卷积式长短时记忆神经网络（ConvLSTM）模型的SA-ConvLSTM三维温度场预测模型，不仅可以从历史三维温度场中提取海温时空特征，还能获取并记忆相邻点位置信息，从而实现对三维温度场时空变化的把握。实验结果表明：相较于ConvLSTM模型，SA-ConvLSTM模型在滑动预测与多步长递归预测实验下的均方根误差和平均绝对误差提升约14%，且整体预测效果均优于基线模型、长短时记忆神经网络模型和ConvLSTM模型。
+ISSN-国际刊号 1003-0239
+PageCount-页码 22-32
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Wang, Dong-Mei; Han, Yu-Qun; Lu, Li-Ting; Zhu, Shan-Liang
+Title-题名 Dynamic event-triggered adaptive tracking control for stochastic nonlinear systems with deferred time-varying constraints
+Source-来源 CHAOS SOLITONS & FRACTALS
+Time-出版/完成日期 2024-05
+Year-年 2024
+Roll-卷 182
+Summary-摘要 This article investigates the problem of adaptive tracking control for stochastic nonlinear systems with deferred state constraints. The novel unified universal barrier function (UUBF) and deferred funnel error transformation are developed to handle various state constraints and adjust the tracking error more precisely, respectively. Multi -dimensional Taylor network (MTN) and dynamic event -triggered mechanism (DETM) are employed to design controller in the backstepping process, which can achieve full -state constraints and the tracking control after the preassigned time while conserving more communication resources. Finally, two simulation examples are presented to verify the effectiveness of the proposed control scheme.
+ISSN-国际刊号 0960-0779
+DOI-DOI 10.1016/j.chaos.2024.114814
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, Na; Han, Yu-Qun; He, Wen-Jing; Zhu, Shan-Liang
+Title-题名 A novel network-based controller design for a class of stochastic nonlinear systems with multiple faults and full state constraints
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL
+Time-出版/完成日期 2024-04
+Year-年 2024
+Period-期 4
+Roll-卷 97
+Keyword-关键词 BARRIER LYAPUNOV FUNCTIONS; TRACKING CONTROL; TOLERANT CONTROL; NEURAL-CONTROL; OBSERVER
+Summary-摘要 In this paper, the control issue of adaptive fault-tolerant is studied for a class of stochastic nonlinear systems with multiple faults and full state constraints, with multiple faults including the actuator faults and the external system fault. The problem with full state constraints are solved by constructing a logarithmic barrier Lyapunov functions (BLFs). By integrating multi-dimensional Taylor network (MTN) technology into the backstepping process, a new adaptive MTN-based fault-tolerant controller is designed. On the basis of considering multiple faults, the proposed control strategy can ensure that all signals in the closed-loop system are semi-global ultimately uniformly bounded (SGUUB) in probability, and all states of the system are constrained within the given boundary. Finally, three simulation examples are given to illustrate the effectiveness and practicability of the proposed control strategy.
+ISSN-国际刊号 0020-7179
+PageCount-页码 651-661
+DOI-DOI 10.1080/00207179.2022.2163297
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Yu-Qun Han; NaLi; Dong-Mei Wang; Ya-Feng Zhou; Shan-Liang Zhu
+Title-题名 Adaptive prescribed performance control for state constrained stochastic nonlinear systems with unknown control direction: a novel network-based approach
+Source-来源 Neural Computing and Applications
+Time-出版/完成日期 2024-02-01
+Year-年 2024
+Period-期 6
+Roll-卷 36
+Keyword-关键词 Stochastic nonlinear systems; State constrained; Adaptive tracking control; Prescribed performance; Multi-dimensional Taylor network
+ISSN-国际刊号 0941-0643
+PageCount-页码 2737-2748
+DOI-DOI DOI10.1007/s00521-023-09125-4
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 He Wen-Jing;  Zhu Shan-Liang;  Lu Li-Ting; Han Yu-Qun;
+Title-题名 A novel network-based adaptive fault-tolerant control of switched nonlinear systems subject to multiple faults under prescribed performance
+Source-来源 ISA Transactions
+Time-出版/完成日期 2024-02-01
+Year-年 2024
+Roll-卷 145
+Keyword-关键词 Adaptive control; Prescribed performance; Switched nonlinear systems; Multiple faults; Multi-dimensional Taylor network; Fault-tolerant control
+ISSN-国际刊号 0019-0578
+PageCount-页码 78-86
+DOI-DOI 10.1016/j.isatra.2023.12.008
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Du, Yang; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Event-triggered adaptive multi-dimensional Taylor network tracking control for stochastic nonlinear systems
+Source-来源 TRANSACTIONS OF THE INSTITUTE OF MEASUREMENT AND CONTROL
+Time-出版/完成日期 2024-01
+Year-年 2024
+Period-期 1
+Roll-卷 46
+Keyword-关键词 NEURAL-CONTROL; STABILIZATION
+Summary-摘要 For a class of stochastic nonlinear systems, this paper proposes a novel event-triggered adaptive control scheme by means of multi-dimensional Taylor network (MTN) approach for the first time, which has the advantages of alleviating computational burden and reducing communication frequency. In addition, the event-triggered control (ETC) strategy can effectively save network resource by alleviating the computational burden and reducing the communication frequency. Therefore, the proposed control approach can not only reduce communication frequency but also further alleviate computational burden, thereby saving network resource to a greater extent. The proposed control scheme ensures that all signals of the system are semi-global uniformly ultimately bounded (SGUUB) in probability and the tracking error can be made arbitrarily small by choosing appropriate design parameters. Meanwhile, Zeno behavior can be avoided. Finally, two simulation results are given to illustrate the effectiveness of the proposed scheme.
+ISSN-国际刊号 0142-3312
+PageCount-页码 193-203
+DOI-DOI 10.1177/01423312231174944
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhao, Yizhi; Qi, Jifeng; Zhu, Shanliang; Jia, Wentao; Gong, Xiang; Yin, Wenming; Yin, Baoshu
+Title-题名 Estimation of the barrier layer thickness in the Indian Ocean based on hybrid neural network model
+Source-来源 DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS
+Time-出版/完成日期 2023-12
+Year-年 2023
+Roll-卷 202
+Keyword-关键词 INTERANNUAL SALINITY VARIABILITY; SEA-SURFACE SALINITY; MIXED-LAYER; EQUATORIAL PACIFIC; IN-SITU; TOGA DECADE; TEMPERATURE; PREDICTION; ALGORITHM; BENGAL
+Summary-摘要 Accurately and effectively estimating of the barrier layer thickness (BLT) is essential for the research of ocean thermodynamics, ocean dynamics, and air-sea interaction. Artificial intelligence model provides an effective means for accurately estimating BLT from sea surface and gridded Argo data. The present study focuses on the application of a hybrid particle swarm optimization-based artificial neural networks model (PSO-ANN) for estimating the BLT in the Indian Ocean. The input variables of the hybrid model include sea surface temperature (SST), sea surface salinity (SSS), sea surface height (SSH) and precipitation (P), and the output variable is the BLT value. Multivariate satellite and gridded Argo data collected from the Indian Ocean between January 2012 and December 2019 (i.e., a database consists 239,568 training datasets and 34,224 testing datasets) are provided to prepare the training and testing datasets for the model. The parameters of ANN model, such as network parameter, network weights, and dropout rates are optimized using the PSO algorithm to achieve the best estimation model. R-squared (R2) and root mean square error (RMSE) are used to evaluate the performance of the model. Two groups of comparative experiments (Case 1 and Case 2) on the performance of the PSO-ANN model demonstrate that the model in Case 2 can better capture the complex features of the BLT in the ocean region. The performance of the PSO-ANN model in Case 2 is further compared with the data-driven estimation models such as the traditional ANN model and the known multilinear regression model (MRM), as well as the CESM2-WACCM dynamic model from CMIP6. The comparison results show that the dynamic model has the worst performance among the four models. Moreover, the annual average RMSE value for the PSO-ANN model is 1.83 m, which is 12% and 84% lower than that of the traditional ANN and MRM, respectively. The R2 value for the model of 0.85 is improved by 4% and 40% compared to that of two models. Furthermore, three regions with significant sea-sonal fluctuations of the BLT in the Indian Ocean are selected to further evaluate the estimation accuracy of the hybrid model in 2019; the Southeast Arabian Sea (SEAS), the Bay of Bengal (BoB), and the Eastern Equatorial Indian Ocean (EEIO). As a result, the hybrid model is capable of reflecting seasonal variation trends in these regions, but there is room for improvement in the estimation accuracy. In addition, the correlation analysis between BLT and sea surface parameters indicates that there exist significant correlations between the BLT and SSS, P. The results of this study show that the proposed hybrid model can be used to estimate and analyze BLT in certain regions with complex ocean dynamics processes. Moreover, the model can be extended to estimate other key ocean parameters and provide effective technical support for studying the internal ocean parameters.
+ISSN-国际刊号 0967-0637
+DOI-DOI 10.1016/j.dsr.2023.104179
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Wang, Ming-Xin;  Zhu, Shan-Liang;  Liu, Si-Min;  Du, Yang; Han, Yu-Qun;
+Title-题名 Design of adaptive finite-time fault-tolerant controller for stochastic nonlinear systems with multiple faults
+Source-来源 IEEE Transactions on Automation Science and Engineering
+Time-出版/完成日期 2023-10-01
+Year-年 2023
+Period-期 4
+Roll-卷 20
+Keyword-关键词 Adaptive control; fault-tolerant control; finite-time; stochastic nonlinear systems; MTN
+Summary-摘要 In this paper, the adaptive fault-tolerant control (FTC) problem is addressed for the stochastic nonlinear systems with multiple faults. The multiple faults, including the actuator and abrupt system faults, are first discussed in the same theoretical framework. The unknown nonlinearities are approximated by multi-dimensional Taylor networks (MTNs). By taking advantage of backstepping technique and finite-time control, the actual control law and virtual control signals are constructed, and then a novel adaptive FTC scheme based on the finite-time control method is proposed. The proposed controller guarantees that the closed-loop system is semi-global finite-time stable in probability (SGFSP) and the tracking error converges to a small neighborhood around the origin in the finite-time. Lastly, three examples are given to illustrate the effectiveness of the proposed scheme. Note to Practitioners-This research is motivated by the fact that actuators faults exist widely in real applications, which often degrade the control accuracy of the system and even result in the system instability. So far, the actuator and abrupt system faults of the stochastic nonlinear system have not yet been considered under the same theoretical framework. Therefore, this study designs a new MTN-based adaptive finite-time FTC scheme, which can ensure that the closed-loop system is SGFSP. The proposed control scheme has excellent practical value.
+ISSN-国际刊号 1545-5955
+PageCount-页码 2492-2502
+DOI-DOI 10.1109/TASE.2022.3206328
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Yang, Du; Zhu, Shan-Liang; Zhai, Lian-Lian; Han, Yu-Qun
+Title-题名 Switching threshold-based event-triggered adaptive asymptotic tracking control for stochastic nonlinear systems with full-state constraints
+Source-来源 INTERNATIONAL JOURNAL OF ROBUST AND NONLINEAR CONTROL
+Time-出版/完成日期 2023-09-10
+Year-年 2023
+Period-期 13
+Roll-卷 33
+Keyword-关键词 DESIGN
+Summary-摘要 In this article, the problem of event-triggered adaptive asymptotic tracking control (ATC) for stochastic nonlinear systems with unknown control directions (UCDs) and full state constraints is concerned. It must be said that the controller design and system analysis is more complex and difficult since the existence of stochastic disturbances, UCDs and full state constraints simultaneously. By introducing the lower bound of the UCDs into the barrier Lyapunov functions, an event-triggered adaptive MTN ATC scheme is proposed based on the boundary estimation method and a new event-triggered control (ETC) strategy, which can achieve satisfactory asymptotic tracking performance and control performance of the system, while reduce the occupation of network resources. The simulation results not only verify the effectiveness of the proposed control scheme, but also present different tracking performances between three ETC strategies for comparison, further confirming the superiority of the proposed ETC strategy in achieving asymptotic tracking performance.
+ISSN-国际刊号 1049-8923
+PageCount-页码 7908-7928
+DOI-DOI 10.1002/rnc.6803
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, Na; Du, Yang; Wang, Dong-Mei; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive decentralized prescribed performance control for a class of large-scale stochastic nonlinear systems subject to input saturation and full state constraints
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2023-09
+Year-年 2023
+Period-期 9
+Roll-卷 37
+Keyword-关键词 DYNAMIC SURFACE CONTROL; OUTPUT-FEEDBACK STABILIZATION; TRACKING CONTROL; NEURAL-CONTROL
+Summary-摘要 This paper focuses on an adaptive decentralized prescribed performance control problem for a class of large-scale stochastic nonlinear systems with asymmetric input saturation and full state constraints. Firstly, the obstacle of input saturation is overcome by introducing the Gaussian error functions. Secondly, the transient performance of the system output is realized by introducing the asymmetric error transfer functions. Thirdly, the full state constraints are considered in the backstepping control process, and the boundary of state constraints is ensured by constructing barrier Lyapunov functions. Then, the multidimensional Taylor network is employed to approximate the unknown nonlinearity, and an adaptive decentralized controller is designed. Finally, it is shown that the proposed control strategy can ensure that the closed-loop system is semi-global ultimately uniformly bounded in probability, and the tracking error of the system can be kept within an adjustable neighborhood of the origin. Two simulation examples are provided to illustrate the feasibility of the proposed control strategy.
+ISSN-国际刊号 0890-6327
+PageCount-页码 2451-2471
+DOI-DOI 10.1002/acs.3647
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;孙贵民;王明新;韩玉群;殷文明
+Title-题名 飞行器航迹倾角的自适应多维泰勒网控制
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2023-08-14
+Year-年 2023
+Period-期 04
+Roll-卷 v.44;No.203
+Keyword-关键词 多维泰勒网;自适应控制;backstepping方法;飞行器航迹倾角
+Summary-摘要 针对飞行器纵向模型的不确定性参数和随机干扰，研究了一类飞行器航迹倾角的自适应跟踪控制问题。在控制器设计过程中，将多维泰勒网(multidimensional Taylor network, MTN)的逼近特性和自适应backstepping方法相结合，利用MTN网络逼近未知光滑非线性函数，提出了一种新的自适应MTN控制方法。通过Lyapunov稳定性理论证明了闭环系统的所有信号依概率有界，跟踪误差收敛到原点附近任意小的邻域。仿真结果表明，该方法能够在简化控制器设计的同时保证飞行器航迹倾角跟踪上预定轨迹。
+ISSN-国际刊号 1672-6987
+PageCount-页码 112-119
+DOI-DOI 10.16351/j.1672-6987.2023.04.015
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 He, Wen-Jing; Zhu, Shan-Liang; Li, Na; Han, Yu-Qun
+Title-题名 Tracking control for switched nonlinear systems subject to output hysteresis via adaptive multi-dimensional Taylor network approach
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL
+Time-出版/完成日期 2023-07-03
+Year-年 2023
+Period-期 7
+Roll-卷 96
+Keyword-关键词 VARYING DELAY SYSTEMS; H-INFINITY CONTROL; FEEDBACK CONTROL; NEURAL-CONTROL; STABILIZATION
+Summary-摘要 For switched nonlinear systems with output hysteresis, by working on multi-dimensional Taylor network (MTN), an adaptive control strategy is put forward, which can effectively solve the tracking control problem. Firstly, the modified Bouc-Wen hysteresis model is employed to cope with the nonlinear problem caused by output hysteresis. Secondly, the Nussbaum function is introduced into the control design process, and MTN is used to approach nonlinear structures. Thirdly, a novel network adaptive control strategy is constructed with the help of a common Lyapunov function, which can realize the tracking control and stability of the system simultaneously. It is worth noting that as a new type of neural network, MTN is first used for control of switched systems with output hysteresis. Finally, two simulation examples show that the proposed control strategy is effective.
+ISSN-国际刊号 0020-7179
+PageCount-页码 1724-1735
+DOI-DOI 10.1080/00207179.2022.2067787
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Shan, Zheng-Duo; He, Wen-Jing; Han, Yu-Qun; Zhu, Shan-Liang
+Title-题名 Adaptive Decentralized Tracking Control for a Class of Large-Scale Nonlinear Systems with Dynamic Uncertainties Using Multi-dimensional Taylor Network Approach
+Source-来源 NEURAL PROCESSING LETTERS
+Time-出版/完成日期 2023-06
+Year-年 2023
+Period-期 3
+Roll-卷 55
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; SURFACE CONTROL; STABILIZATION; DESIGN
+Summary-摘要 For the large-scale nonlinear systems subject to dynamic uncertainties, an adaptive multi-dimensional Taylor network (MTN)-based decentralized control strategy is proposed, which can effectively solve output tracking control problem of the systems. Firstly, a dynamic signal is introduced to cope with the problem of unknown nonlinear dynamic uncertainties. Secondly, in each step of the backstepping, only one MTN is used to approximate the combination of unknown nonlinear functions. Then, in the last step of the backstepping, a new adaptive control scheme is designed, which realizes the stability and boundedness of the controlled systems. It is worth noting that the large-scale nonlinear systems, the unknown dynamic uncertainties and the MTN appear in the same framework for the first time. Finally, three simulation examples are presented to verify the feasibility of the proposed control strategy.
+ISSN-国际刊号 1370-4621
+PageCount-页码 3509-3531
+DOI-DOI 10.1007/s11063-022-11020-3
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Huang, Jing; Zhang, Linlin; Zhu, Shanliang; Wu, Jie; Yan, Xiaomei; Song, Weiqi; Yang, Shuguo
+Title-题名 The reliable sampling interval for monitoring interannual variability of the Kuroshio transport at 18?N
+Source-来源 JOURNAL OF SEA RESEARCH
+Time-出版/完成日期 2023-06
+Year-年 2023
+Roll-卷 193
+Keyword-关键词 NORTH EQUATORIAL CURRENT; WESTERN BOUNDARY CURRENTS; OCEAN CIRCULATION; MINDANAO CURRENT; BIFURCATION; SOUTH; EAST
+Summary-摘要 The sampling interval for reliably monitoring interannual variability of the Kuroshio transport was studied using satellite altimeter data and outputs from HYbrid Coordinate Ocean Model (HYCOM). Interannual variations of the Kuroshio velocity and transport crossing 18 degrees N were derived with different sampling interval, and their de-viations from the 'true' interannual signals derived from original time series were estimated. The results indicate that sampling with an interval shorter than 20 days is required to obtain the reliable interannual signals, i.e., the Root Mean Square of the deviation is <50% of the interannual signal. However, the longer sampling intervals will lead to serious aliasing and degradation of the true interannual signals, which is mainly attributed to the energetic intraseasonal oscillations in this region. Power spectrum analysis reveal that there are significant 80-day intraseasonal variations as well as semiannual fluctuations in the Kuroshio transport at 18 degrees N, which brings substantial sampling deviations relative to the true interannual variation. An ideal experiment is constructed to confirm that the reliable sampling interval of around 20 days, which can capture interannual variations and resolve the intraseasonal oscillation of the Kuroshio reliably at 18 degrees N. This study provides an important reference for the future monitoring of the interannual variation of the Kuroshio.
+ISSN-国际刊号 1385-1101
+DOI-DOI 10.1016/j.seares.2023.102374
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 He, Wen-Jing; Zhu, Shan-Liang; Li, Na; Han, Yu-Qun
+Title-题名 Adaptive finite-time control for switched nonlinear systems subject to multiple objective constraints via multi-dimensional Taylor network approach
+Source-来源 ISA TRANSACTIONS
+Time-出版/完成日期 2023-05
+Year-年 2023
+Roll-卷 136
+Keyword-关键词 TRACKING CONTROL; STABILIZATION; DESIGN; INPUT
+Summary-摘要 The finite-time control of switched nonlinear systems subject to multiple objective constraints is investigated in this article. Firstly, with the aim of dealing with the major challenge brought by multiple objective constraints, the time-varying and asymmetric barrier function is designed, which transforms multiple objective constrained systems into unconstrained systems. Secondly, the dynamic surface control technique is introduced into the backstepping design process, and the error generated in the filtering process is reduced by constructing the error compensation systems. Then, an adaptive finite-time controller based on multi-dimensional Taylor network (MTN) is proposed. The controller proposed in this article can avoid the "singularity" problem and ensure that the objective functions never violate constraints. Finally, the effectiveness of the finite-time control strategy proposed in this article is verified by the aircraft system simulation.(c) 2022 ISA. Published by Elsevier Ltd. All rights reserved.
+ISSN-国际刊号 0019-0578
+PageCount-页码 323-333
+DOI-DOI 10.1016/j.isatra.2022.10.048
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 汤贵艳;朱善良;周伟峰;杨树国
+Title-题名 基于高斯混合聚类和LightGBM算法的印度洋次表层温度反演研究
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2023-04-15
+Year-年 2023
+Period-期 02
+Roll-卷 v.44;No.201
+Keyword-关键词 高斯混合模型;轻量级梯度提升机;机器学习;海洋次表层温度
+Summary-摘要 海洋次表层的热力结构对于海洋环流和全球气候变化具有重要的意义。提出一种新的融合高斯混合模型(gaussion mixture model, GMM)和轻量级梯度提升机(light gradient boosting machine, LightGBM)算法的海洋次表层温度(ocean subsurface temperature, OST)反演模型，利用海表温度(sea surface temperature, SST)、海表盐度(sea surface salinity, SSS)、海表高度(sea surface height, SSH)、海表风场(sea surface wind, SSW)的水平分量(USSW)和垂直分量(VSSW)等多源海表参数对印度洋海域的次表层热力结构进行反演，并采用均方根误差和决定系数对模型进行验证。结果表明：所提出的模型可以准确反演印度洋海域的OST分布特征和季节变化规律。在此基础上，设计了不同海表参数输入组合的3种对比实验来定量分析不同海表参数对LightGBM模型的影响。结果表明：所有海表参数对模型都有积极作用，但5个输入参数(SST、SSS、SSH、USSW和VSSW)的LightGBM模型反演效果最好，3个输入参数(SST、SSS和SSH)和2个输入参数(SST和SSH)的LightGBM模型次之。另外，与已有的极限梯度增强(extreme gradient boosting, XGBoost)反演模型相比，5个输入参数的LightGBM模型具有更好的模拟能力。
+ISSN-国际刊号 1672-6987
+PageCount-页码 116-126
+DOI-DOI 10.16351/j.1672-6987.2023.02.016
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 He, Wen-Jing; Zhu, Shan-Liang; Li, Na; Han, Yu-Qun
+Title-题名 Adaptive Controller Design for Switched Stochastic Nonlinear Systems Subject to Unknown Dead-zone Input via New Type of Network Approach
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL AUTOMATION AND SYSTEMS
+Time-出版/完成日期 2023-02
+Year-年 2023
+Period-期 2
+Roll-卷 21
+Keyword-关键词 NEURAL TRACKING CONTROL; H-INFINITY CONTROL; GLOBAL STABILIZATION; LYAPUNOV FUNCTIONS; FUZZY CONTROL; FORM; STABILITY
+Summary-摘要 In this article, adaptive tracking control for a class of switched stochastic nonlinear systems subject to unknown dead-zone input using multi-dimensional Taylor network (MTN) is studied. Firstly, the characteristic function is introduced to convert the nonlinearity of the input dead-zone into a linear model. Secondly, a novel adaptive control method based on the backstepping recursive design technique is proposed, which combines MTN and common Lyapunov functions (CLFs). Significantly, a method to reduce the computational complexity of switched stochastic nonlinear systems is proposed for the first time, which introduces characteristic function and MTN technology. The result makes clear that the proposed controller can ensure all signals of the closed-loop system are bounded in probability, and the output of the system can track reference signal well. Finally, the effectiveness of proposed control method is verified by simulation results.
+ISSN-国际刊号 1598-6446
+PageCount-页码 499-507
+DOI-DOI 10.1007/s12555-021-0860-z
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, Na; Zhu, Shan-Liang; He, Wen-Jing; Han, Yu-Qun
+Title-题名 Controller design for nonlinear systems subject to both input saturation and asymmetry time-varying state constraints: A novel network-based approach
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2022-12
+Year-年 2022
+Period-期 12
+Roll-卷 36
+Keyword-关键词 ADAPTIVE TRACKING CONTROL; FEEDBACK SYSTEMS; NEURAL-CONTROL
+Summary-摘要 In this article, the issues of asymmetric input saturation and asymmetric time-varying state constraints are integrated into nonlinear systems for the first time, and a new adaptive tracking control strategy is proposed based on the multi-dimensional Taylor network (MTN) method. Firstly, by introducing a continuous auxiliary function, the input saturation is transformed into a smooth model with bounded error. Secondly, MTNs are employed to estimate nonlinear functions, asymmetric barrier Lyapunov functions (ABLFs) are constructed to make all state variables meet asymmetric constraints, and then a novel control scheme with simple structure is developed via backstepping. Thirdly, according to the Lyapunov stability theory, it is proved that all signals in the closed-loop systems are bounded, and all state variables do not violate the constraints. Finally, three examples show the effectiveness of the proposed scheme.
+ISSN-国际刊号 0890-6327
+PageCount-页码 3124-3141
+DOI-DOI 10.1002/acs.3503
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Wang, Ming-Xin; Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Multi-dimensional Taylor network-based control for a class of nonlinear stochastic systems with full state time-ying constraints and the finite-time output constraint
+Source-来源 ASIAN JOURNAL OF CONTROL
+Time-出版/完成日期 2022-11-01
+Year-年 2022
+Period-期 6
+Roll-卷 24
+Keyword-关键词 BARRIER LYAPUNOV FUNCTIONS; STRICT-FEEDBACK SYSTEMS; ADAPTIVE NEURAL-CONTROL; TRACKING CONTROL; CONTROL DESIGN; STABILIZATION; INPUT
+Summary-摘要 In this paper, the adaptive multi-dimensional Taylor network (MTN) control problem is investigated for nonlinear stochastic systems with full state time-ying constraints and the finite-time output constraint. By combining the MTN-based approximation method and the adaptive backstepping control method, a novel adaptive MTN control scheme is provided by constructing the time-ying barrier Lyapunov function (TVBLF). To implement the finite-time output constraint, the finite-time performance function (FTPF) is introduced in the control scheme. The proposed scheme can ensure that the tracking error finally converges to a small neighborhood of the origin in the finite-time and all signals in the closed-loop system are semi-globally uniformly ultimately bounded (SGUUB) in probability. Finally, two simulation examples are presented to show the effectiveness of the provided control scheme.
+ISSN-国际刊号 1561-8625
+PageCount-页码 3311-3325
+DOI-DOI 10.1002/asjc.2720
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun; He, Wen-Jing; Li, Na; Zhu, Shan-Liang
+Title-题名 Tracking control for large-scale switched nonlinear systems subject to asymmetric input saturation and output hysteresis: A new adaptive network-based approach
+Source-来源 INTERNATIONAL JOURNAL OF ROBUST AND NONLINEAR CONTROL
+Time-出版/完成日期 2022-09-25
+Year-年 2022
+Period-期 14
+Roll-卷 32
+Keyword-关键词 FEEDBACK CONTROL; DECENTRALIZED CONTROL; NEURAL-CONTROL
+Summary-摘要 For large-scale switched nonlinear systems subject to asymmetric input saturation and output hysteresis, an adaptive control strategy is put forward by using a novel neural network, that is, multi-dimensional Taylor network (MTN), which can effectively cope with the output tracking problem of this system. Firstly, asymmetric input saturation is expressed as the combination of a linear function and a bounded error function. Then, the modified Bouc-Wen hysteresis model is employed to solve the nonlinear problem caused by output hysteresis. Afterwards, based on the approximation ability of MTN, a novel adaptive decentralized control method is designed by combining Lyapunov stability theory with adaptive backstepping technology, which realizes the stability and boundedness of the controlled systems. It should be noted that the asymmetric input saturation, the output hysteresis, large-scale nonlinear systems and switched nonlinear systems appear in the same framework for the first time. Finally, a practical example and a numerical example are given to verify the availability of the proposed control strategy.
+ISSN-国际刊号 1049-8923
+PageCount-页码 8052-8072
+DOI-DOI 10.1002/rnc.6258
+Language-语种 英文
+
+Type-成果类型 会议论文
+Author-作者 Na Li;Yang Du;Yu-Qun Han;Shan-Liang Zhu
+Title-题名 Adaptive Multi-dimensional Taylor Network Control for Stochastic Nonlinear Systems with Full State Constraints and Dead-zone Input
+Source-来源 第34届中国控制与决策会议论文集（11）
+Time-出版/完成日期 2022-08-15
+Year-年 2022
+Summary-摘要 In this paper,the stochastic nonlinear systems with full state constraints and dead-zone input are considered in the same framework for the first time,and a new adaptive controller based on MTN is designed.Firstly,for the dead-zone input constraint problem,the characteristic function is introduced to avoid the nonlinearity of the dead-zone.Secondly,in the process of adaptive control design,MTN technology is employed to approximate the nonlinear structure generated in backstepping,and a simple controller is designed.By constructing the barrier Lyapunov functions(BLFs) to deal with the full state constraint problem,the proposed scheme ensures that all states of the closed-loop system do not exceed the constraint limit.Then,Lyapunov stability theory is used to analyze the stability.Finally,two simulation examples are given to illustrate the effectiveness and applicability of the proposed scheme.
+PageCount-页码 271-276
+Language-语种 英文
+
+Type-成果类型 会议论文
+Author-作者 Wen-Jing He;Si-Min Liu;Shan-Liang Zhu;Yu-Qun Han
+Title-题名 Adaptive Tracking Control for Switched Nonlinear Systems Subject to Input Delay and Saturation Using Multi-Dimensional Taylor Network Approach
+Source-来源 第34届中国控制与决策会议论文集（11）
+Time-出版/完成日期 2022-08-15
+Year-年 2022
+Summary-摘要 Aiming at switched nonlinear systems subject to input delay and saturation,a novel adaptive control strategy is proposed.Firstly,a compensation system is designed,which solves the problem caused by input delay and saturation.Then,multi-dimensional Taylor network(MTN) is used to approximate the unknown nonlinear function.Secondly,an adaptive MTN control strategy based on backstepping technology is proposed,which ensure that all signals in the closed-loop system are bounded and the tracking error remains within a small neighborhood of the origin.Finally,two simulation examples are given to verify the effectiveness of the control strategy proposed in this article.
+PageCount-页码 176-181
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Li, Na; Han, Yu-Qun; He, Wen-Jing; Zhu, Shan-Liang
+Title-题名 Control Design for Stochastic Nonlinear Systems with Full-state Constraints and Input Delay: A New Adaptive Approximation Method
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL AUTOMATION AND SYSTEMS
+Time-出版/完成日期 2022-08-01
+Year-年 2022
+Period-期 8
+Roll-卷 20
+Keyword-关键词 OUTPUT-FEEDBACK TRACKING; NEURAL-CONTROL; STABILIZATION
+Summary-摘要 In this paper, the full state constraints and input delay of stochastic nonlinear systems are studied. A new adaptive control algorithm is proposed using backstepping approach and multi-dimensional Taylor network (MTN) method. Firstly, the input delay problem is dealt with by introducing a new iable using the Pade approximation with Laplace transform. Secondly, MTNs are employed to approximate unknown nonlinear functions, and the barrier Lyapunov functions (BLFs) are constructed to deal with the state constraints. Based on this, a new approximation-based adaptive controller is proposed. Thirdly, it is proved that the proposed control method can ensure that all signals in the closed-loop system are semi-global ultimately uniformly bounded (SGUUB) in probability and the tracking error converges to a small neighborhood of the origin. Finally, two simulation examples are given to illustrate the effectiveness of the proposed design method.
+ISSN-国际刊号 1598-6446
+PageCount-页码 2768-2778
+DOI-DOI 10.1007/s12555-021-0451-z
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Gu, Chen; Qi, Jifeng; Zhao, Yizhi; Yin, Wenming; Zhu, Shanliang
+Title-题名 Estimation of the Mixed Layer Depth in the Indian Ocean from Surface Parameters: A Clustering-Neural Network Method
+Source-来源 SENSORS
+Time-出版/完成日期 2022-08-01
+Year-年 2022
+Period-期 15
+Roll-卷 22
+Keyword-关键词 TEMPERATURE ANOMALIES; THERMAL STRUCTURE; IN-SITU; SEA; VARIABILITY; SUBSURFACE; SALINITY; PACIFIC; SUMMER; BUDGET
+Summary-摘要 The effective estimation of mixed-layer depth (MLD) plays a significant role in the study of ocean dynamics and global climate change. However, the methods of estimating MLD still have limitations due to the sparse resolution of the observed data. In this study, a hybrid estimation method that combines the K-means clustering algorithm and an artificial neural network (ANN) model was developed using sea-surface parameter data in the Indian Ocean as a case study. The oceanic datasets from January 2012 to December 2019 were obtained via satellite observations, Argo in situ data, and reanalysis data. These datasets were unified to the same spatial and temporal resolution (1 degrees x 1 degrees, monthly). Based on the processed datasets, the K-means classifier was applied to divide the Indian Ocean into four regions with different characteristics. For ANN training and testing in each region, the gridded data of 84 months were used for training, and 12-month data were used for testing. The ANN results show that the optimized NN architecture comprises five input iables, one output iable, and four hidden layers, each of which has 40 neurons. Compared with the multiple linear regre model (MLR) with a root-mean-square error (RMSE) of 5.2248 m and the HYbrid-Coordinate Ocean Model (HYCOM) with an RMSE of 4.8422 m, the RMSE of the model proposed in this study was reduced by 27% and 22%, respectively. Three typical regions with high iability in their MLDs were selected to further evaluate the performance of the ANN model. Our results showed that the model could reveal the seasonal iation trend in each of the selected regions, but the estimation accuracy showed room for improvement. Furthermore, a correlation analysis between the MLD and input iables showed that the surface temperature and salinity were the main influencing factors of the model. The results of this study suggest that the pre-clustering ANN method proposed could be used to estimate and analyze the MLD in the Indian Ocean. Moreover, this method can be further expanded to estimate other internal parameters for typical ocean regions and to provide effective technical support for ocean researchers when studying the iability of these parameters.
+ISSN-国际刊号 1424-8220
+DOI-DOI 10.3390/s22155600
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Chu, Lei; Gao, Tian; Wang, Ming-Xin; Han, Yu-Qun; Zhu, Shan-Liang
+Title-题名 Adaptive decentralized control for large-scale nonlinear systems with finite-time output constraints by multi- dimensional Taylor network
+Source-来源 ASIAN JOURNAL OF CONTROL
+Time-出版/完成日期 2022-07-01
+Year-年 2022
+Period-期 4
+Roll-卷 24
+Keyword-关键词 BARRIER LYAPUNOV FUNCTIONS; TRACKING CONTROL; FEEDBACK CONTROL
+Summary-摘要 This paper investigates the adaptive decentralized control problem for a class of large-scale nonlinear systems with finite-time output constraints. In order to ensure that the tracking errors are constrained within a predefined  in finite time, a novel adaptive barrier Lyapunov function (BLF) control method is proposed by combining the modified finite-time performance function (FTPF) in the first step of backstepping process. Besides, the mean value theorem and regulating functions are employed to handle the difficulties caused by interconnection functions in large-scale systems. Subsequently, with the approximation performance of multi-dimensional Taylor network (MTN), a MTN-based adaptive decentralized tracking control scheme is developed to guarantee that the tracking errors satisfy the prescribed performance and all signals of the closed-loop systems are bounded. Finally, the stability theory analysis and simulation results demonstrate the effectiveness of the proposed method.
+ISSN-国际刊号 1561-8625
+PageCount-页码 1769-1779
+DOI-DOI 10.1002/asjc.2571
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shan-Liang; Han, Yu-Qun
+Title-题名 Adaptive decentralized prescribed performance control for a class of large-scale nonlinear systems subject to nonsymmetric input saturations
+Source-来源 NEURAL COMPUTING & APPLICATIONS
+Time-出版/完成日期 2022-07-01
+Year-年 2022
+Period-期 13
+Roll-卷 34
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; TRACKING CONTROL; STABILIZATION; DIRECTION
+Summary-摘要 This paper investigates an adaptive decentralized predefined performance control problem for a class of large-scale nonlinear systems with nonsymmetric input saturation by using multi-dimensional taylor network (MTN) approach. Firstly, the input saturation model is approximated by a smooth function with a bounded approximation error and unknown nonlinear functions are estimated by MTNs. Secondly, a decentralized tracking control algorithm is established by integrating the idea of prescribed performance control into backstepping recursive technique. Thirdly, by using the designed MTN-based adaptive decentralized controller, all the closed-loop signals are bounded and all the tracking errors satisfy the predefined transient and steady-state performance, respectively. Finally, the presented control method is effective by introducing three examples, and the simulation results verify that the correctness and reasonableness of the proposed control algorithm.
+ISSN-国际刊号 0941-0643
+PageCount-页码 11123-11140
+DOI-DOI 10.1007/s00521-022-07032-8
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shan-Liang; Wang, Ming-Xin; Han, Yu-Qun
+Title-题名 Adaptive multi-dimensional Taylor network control for nonlinear stochastic systems with time-delay
+Source-来源 PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART I-JOURNAL OF SYSTEMS AND CONTROL ENGINEERING
+Time-出版/完成日期 2022-03-01
+Year-年 2022
+Period-期 3
+Roll-卷 236
+Keyword-关键词 OUTPUT-FEEDBACK CONTROL; TRACKING CONTROL; NEURAL-CONTROL; DYNAMIC REGULATION; STABILIZATION; DESIGN
+Summary-摘要 In this article, the problem of adaptive multi-dimensional Taylor network control for strict-feedback nonlinear stochastic systems with time-delay is investigated. To overcome the control degradation resulting from the delay terms, the appropriate integral-type Lyapunov-Krasovskii functions are introduced. A novel adaptive multi-dimensional Taylor network control scheme is provided via backstepping technique. The proposed adaptive multi-dimensional Taylor network controller can ensure that all signals in the closed-loop system are bounded in probability and the tracking error eventually converges to a small neighborhood of the origin. Three simulation examples are given to demonstrate the effectiveness of the proposed control scheme.
+ISSN-国际刊号 0959-6518
+PageCount-页码 579-591
+DOI-DOI 10.1177/09596518211040285
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 He, Wen-Jing; Han, Yu-Qun; Li, Na; Zhu, Shan-Liang
+Title-题名 Novel adaptive controller design for a class of switched nonlinear systems subject to input delay using multi-dimensional Taylor network
+Source-来源 INTERNATIONAL JOURNAL OF ADAPTIVE CONTROL AND SIGNAL PROCESSING
+Time-出版/完成日期 2022-03-01
+Year-年 2022
+Period-期 3
+Roll-卷 36
+Keyword-关键词 TRACKING CONTROL; BACKSTEPPING DESIGN; NEURAL-CONTROL; FUZZY CONTROL; STABILIZATION; STABILITY
+Summary-摘要 For the tracking control problem of a class of switched nonlinear systems with input delay, this article proposes an adaptive tracking control scheme based on multi-dimensional Taylor network (MTN) approach. First, Pade approximation and Laplace transform are employed to overcome the problem of input delay, and a new iable is introduced. Second, the MTNs are used to approximate the uncertain nonlinear structures in the process of controller design via backstepping. The results show that the controller designed in this article can keep all the signals in the closed-loop system are bounded, meanwhile, the output tracking error can be converged to arbitrarily small. It should be pointed out that MTN-based approach is applied to switched nonlinear systems subject to input delay for the first time. Finally, three examples are presented to verify the effectiveness of the proposed control strategy.
+ISSN-国际刊号 0890-6327
+PageCount-页码 607-624
+DOI-DOI 10.1002/acs.3362
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 初蕾;朱善良;王明新;韩玉群
+Title-题名 具有有限时间输出约束的切换非线性时滞系统的多维泰勒网自适应控制
+Source-来源 控制与决策
+Time-出版/完成日期 2022-01-25
+Year-年 2022
+Period-期 02
+Roll-卷 v.37
+Keyword-关键词 有限时间输出约束;切换信号;时滞非线性系统;多维泰勒网;自适应控制;反步法
+Summary-摘要 研究一类具有有限时间输出约束的切换非线性时滞系统的控制器设计问题.为了在有限时间将输出跟踪误差限制在预定边界内,引入一种改进的有限时间性能函数(FTPF).在控制器的设计过程中,利用障碍Lyapunov函数来解决输出约束问题.然后,将多维泰勒网(MTN)的逼近特性与自适应反步技术相结合,提出一种新的自适应MTN控制方法.在该方法中,通过设计Lyapunov-Krasovskii泛函,使得存在时滞的情况下,仍然能够保证切换系统的稳定性.最后,通过仿真实例表明所提出设计方案的有效性和实用性.
+ISSN-国际刊号 1001-0920
+PageCount-页码 361-369
+DOI-DOI 10.13195/j.kzyjc.2020.0991
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shan-Liang;  Wang, Ming-Xin; Han, Yu-Qun;
+Title-题名 Adaptive finite-time control for stochastic nonlinear systems using multi-dimensional Taylor network
+Source-来源 Transactions of the Institute of Measurement and Control
+Time-出版/完成日期 2022-01-01
+Year-年 2022
+Period-期 2
+Roll-卷 44
+Keyword-关键词 Adaptive controlfinite-time controlmulti-dimensional Taylor networkstochastic nonlinear systems
+Summary-摘要 In this paper, the problem of adaptive finite-time multi-dimensional Taylor network (MTN) control for a class of stochastic nonlinear systems is investigated. By combining the MTN-based approximate method and adaptive backstepping technique, a novel adaptive finite-time MTN control scheme is proposed. In this scheme, the MTNs are used to approximate the unknown nonlinear functions of the systems. The finite-time Lyapunov stability theory is utilized to prove the stability of the close-loop system. The proposed scheme can ensure that all signals in the closed-loop system are bounded in probability and the tracking error converges to a small neighborhood of the origin in a finite time. Three simulation examples are presented to show the effectiveness of the control scheme. It should be pointed that the adaptive MTN controller proposed in this paper has the advantages of fast computational speed and good real-time performance thanks to the simple structure of the MTN.
+ISSN-国际刊号 0142-3312
+PageCount-页码 457-467
+DOI-DOI 10.1177/01423312211039629
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;韩玉群;邢建民;杨树国
+Title-题名 数学建模活动促进教学与科研融合的研究与实践
+Source-来源 数学建模及其应用
+Time-出版/完成日期 2021-12-15
+Year-年 2021
+Period-期 04
+Roll-卷 v.10;No.42
+Keyword-关键词 数学建模;教学改革;科教融合;人才培养
+Summary-摘要 在大学数学教学活动中，广大高校数学教师面临的一个突出问题是如何做好教学和科研的融合，有效提升人才培养质量.为了解决这个问题，本文总结了我校数学建模活动促进科教融合的相关举措与实践经验.长期的教学实践表明，构建层次化的建模活动平台，多学科协同育人，是实现数学建模教学常态化、课外实践经常化和应用研究专业化的有效举措.该举措能够培养具有扎实数学应用能力的创新型人才，提高教师教学与科研水平，提升高校服务社会的能力.
+ISSN-国际刊号 2095-3070
+PageCount-页码 38-42
+DOI-DOI 10.19943/j.2095-3070.jmmia.2021.04.05
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun; He, Wen-Jing; Li, Na; Zhu, Shan-Liang
+Title-题名 Adaptive Tracking Control of a Class of Nonlinear Systems with Input Delay and Dynamic Uncertainties Using Multi-dimensional Taylor Network
+Source-来源 INTERNATIONAL JOURNAL OF CONTROL AUTOMATION AND SYSTEMS
+Time-出版/完成日期 2021-12-01
+Year-年 2021
+Period-期 12
+Roll-卷 19
+Keyword-关键词 STOCHASTIC-SYSTEMS; DEAD ZONE
+Summary-摘要 This paper concerns on the control problem of a class of nonlinear systems with input delay and dynamic uncertainties using multi-dimensional Taylor Network (MTN) control method. Firstly, a new iable is introduced to eliminate the effect of input delay by combining Pade approximation with Laplace transformation. Secondly, a MTN-backstepping-based control strategy is constructively designed by introducing a new coordinate transformation, and the proposed controller has the advantages of simple structure and good real-time performance. Finally, the effectiveness of the proposed MTN-based control approach is demonstrated by three examples.
+ISSN-国际刊号 1598-6446
+PageCount-页码 4078-4089
+DOI-DOI 10.1007/s12555-020-0708-y
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Gao, Tian; Zhu, Shanliang; Liu, Jing; Shen, Jun; Shen, Jialie; Yang, Shuguo; Xiong, Pengcheng
+Title-题名 A new context-aware approach for automatic Chinese poetry generation
+Source-来源 KNOWLEDGE-BASED SYSTEMS
+Time-出版/完成日期 2021-11-28
+Year-年 2021
+Roll-卷 232
+Summary-摘要 Chinese poetry has been a favorite literary genre for thousands of years. Chinese ancient poetry is still being read and practiced, and many famous ancient Chinese poets are honored and adorned. Recently, deep learning has been widely adopted for poetry generation. In this paper, we present a new contextaware Chinese poetry generation method based on sequence-to-sequence framework. We generate a new concept called keyword team, which is a combination of all the keywords to capture the context of the Chinese poetry. Then we use the keyword, the keyword team and the previously generated lines to generate the present line in the poetry. We find that, by including keyword teams into the generation of the poetry, it can additionally perceive the keywords of preceding and succeeding lines to generate the present line, which can effectively improve the adhesion among the overall lines. The comprehensive evaluation results show that our proposed model outperforms many of the state-of-the-art poetry generation models. (C) 2021 Elsevier B.V. All rights reserved.
+ISSN-国际刊号 0950-7051
+DOI-DOI 10.1016/j.knosys.2021.107409
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 谢秋玲;张艳;闫天阳;朱善良
+Title-题名 青岛市文化创意产业与区域经济协调发展研究
+Source-来源 青岛职业技术学院学报
+Time-出版/完成日期 2021-11-15
+Year-年 2021
+Period-期 06
+Roll-卷 v.34;No.140
+Keyword-关键词 青岛;文化创意产业;区域经济;动态耦合模型
+Summary-摘要 文化创意产业与区域经济之间存在一种相互促进、互为因果的耦合关系。运用动态耦合模型,对青岛市2008—2019年的文化创意产业与区域经济的动态耦合程度进行实证分析。结果表明,两者的综合水平均呈现曲折上升趋势,耦合度先上升后降低。目前,青岛市正处于文化创意产业与区域经济的协调发展阶段,且整个系统将在未来一段时间内长期处于这一发展阶段,同时,文化创意产业对区域经济增长的影响较小,需采取措施建立两者之间协调发展的长效机制。
+ISSN-国际刊号 1672-2698
+PageCount-页码 5-9
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun;   Zhu, Shan-Liang;  Duan, De-Yu;  Chu, Lei; Xiong, Peng-Cheng; Yang, Shu-Guo;
+Title-题名 Observer-based adaptive neural tracking control for a class of stochastic nonlinear systems
+Source-来源 International Journal of Control
+Time-出版/完成日期 2021-05-04
+Year-年 2021
+Period-期 5
+Roll-卷 94
+Keyword-关键词 Stochastic nonlinear systems; neural networks; reduced-order state observer; adaptive tracking control; output feedback
+ISSN-国际刊号 0020-7179
+PageCount-页码 1344-1354
+DOI-DOI 10.1080/00207179.2019.1648876
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Shanliang Zhu; Yu Zhao; Yanjie Zhang; Qingling Li; Wenwu Wang; Shuguo Yang
+Title-题名 Short-Term Traffic Flow Prediction With Wavelet and Multi-Dimensional Taylor Network Model
+Source-来源 IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS
+Time-出版/完成日期 2021-05-03
+Year-年 2021
+Period-期 5
+Roll-卷 22
+Keyword-关键词 Traffic flow prediction; multi-dimensional Taylor network; wavelet transform
+ISSN-国际刊号 1524-9050
+PageCount-页码 3203-3208
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun; Li, Na; He, Wen-Jing; Zhu, Shan-Liang
+Title-题名 Adaptive multi-dimensional Taylor network funnel control of a class of nonlinear systems with asymmetric input saturation
+Source-来源 International Journal of Adaptive Control and Signal Processing
+Time-出版/完成日期 2021-05-01
+Year-年 2021
+Period-期 5
+Roll-卷 35
+Keyword-关键词 asymmetric input saturation; funnel control; multi-dimensional Taylor network; nonlinear systems
+ISSN-国际刊号 0890-6327
+PageCount-页码 713-726
+DOI-DOI 10.1002/acs.3224
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Haoyu Wang; Tingqiang Song; Shanliang Zhu; Shuguo Yang; Liqiang Feng
+Title-题名 Subsurface Temperature Estimation from Sea Surface Data Using Neural Network Models in the Western Pacific Ocean
+Source-来源 MATHEMATICS
+Time-出版/完成日期 2021-04-14
+Year-年 2021
+Period-期 8
+Roll-卷 9
+Keyword-关键词 ocean subsurface temperature; multisource sea surface data; neural network model; western Pacific Ocean
+ISSN-国际刊号 2227-7390
+PageCount-页码 852
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Han Yu-Qun;  Zhu Shan-Liang; Yang Shu-Guo; Chu Lei
+Title-题名 Adaptive multi-dimensional Taylor network tracking control for a class of nonlinear systems
+Source-来源 International Journal of Control
+Time-出版/完成日期 2021-02-01
+Year-年 2021
+Period-期 2
+Roll-卷 94
+Keyword-关键词 Multi-dimensional Taylor network; adaptive tracking control; nonlinear systems; backstepping technique
+ISSN-国际刊号 0020-7179
+PageCount-页码 277-285
+DOI-DOI 10.1080/00207179.2019.1590649
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Chu Lei;  Han Yu-Qun; Zhu Shan-Liang; Wang Ming-Xin
+Title-题名 Multi-dimensional Taylor network-based adaptive control for nonlinear systems with unknown parameters
+Source-来源 Transactions of the Institute of Measurement and Control
+Time-出版/完成日期 2021-02-01
+Year-年 2021
+Period-期 3
+Roll-卷 43
+Keyword-关键词 Multi-dimensional Taylor network; nonlinear systems; adaptive control; backstepping technique; unknown parameters
+ISSN-国际刊号 0142-3312
+PageCount-页码 646-655
+DOI-DOI 10.1177/0142331220953355
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良；张淑芳；张新丽
+Title-题名 基于OBE教学模式的数学建模课程教学实践探究
+Source-来源 当代教育实践与教学研究（电子刊）
+Time-出版/完成日期 2020-12-30
+Year-年 2020
+Period-期 23
+Keyword-关键词 OBE教学模式；数学建模；课程体系
+ISSN-国际刊号 2095-6711
+PageCount-页码 205-207
+Language-语种 中文
+
+Type-成果类型 会议论文
+Author-作者 Chu, Lei ; Zhang, Shuhua; Wang, Mingxin; Zhu, Shanliang ; Han, Yuqun
+Title-题名 Observer-Based Adaptive Multi-dimensional Taylor Network Control for Nonlinear Systems with Time-Delay
+Source-来源 9th IEEE Data Driven Control and Learning Systems Conference
+Time-出版/完成日期 2020-11-20
+Year-年 2020
+Keyword-关键词 Multi-dimensional Taylor network , Nonlinear systems , Adaptive control , Output-feedback , Backstepping
+ISSN-国际刊号 978-1-7281-5921-8
+PageCount-页码 504-508
+DOI-DOI 10.1109/DDCLS49620.2020.9275281
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shan-Liang;Duan, De-Yu;Chu, Lei;Wang, Ming-Xin;Han, Yu-Qun;Xiong, Peng-Cheng
+Title-题名 Adaptive multi-dimensional Taylor network tracking control for a class of switched nonlinear systems with input nonlinearity
+Source-来源 Trans Inst Meas Control
+Time-出版/完成日期 2020-09-01
+Year-年 2020
+Period-期 13
+Keyword-关键词 Adaptive control systems;Backstepping - Closed loop control systems - Closed loop systems - Navigation
+Summary-摘要 In this paper, a multi-dimensional Taylor network (MTN)-based adaptive tracking control approach is proposed for a class of switched nonlinear systems with input nonlinearity. Firstly, the input nonlinearity is assumed to be bounded by a sector interval. Secondly, with the help of MTNs approximating the unknown nonlinear functions, a novel adaptive MTN control scheme has the advantages of low cost, simple structure and real time feature is developed via backstepping technique. It is shown that the tracking error finally converges to a small domain around the origin and all signals in the closed-loop system are bounded. Finally, two examples are given to demonstrate the effectiveness of the proposed control scheme. © The Author(s) 2020.
+ISSN-国际刊号 0142-3312
+PageCount-页码 2482-2491
+DOI-DOI 10.1177/0142331220916601
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 张新丽；朱善良
+Title-题名 工科研究生《数学物理方程》案例教学研究
+Source-来源 教育研究
+Time-出版/完成日期 2020-07-28
+Year-年 2020
+Period-期 7
+Roll-卷 3
+Keyword-关键词 研究生；案例教学；数学建模
+ISSN-国际刊号 2630-4686
+PageCount-页码 186-187
+DOI-DOI DOI:10.32629/er.v3i7.2977
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Shanliang Zhu; Chengcheng Li; Yi Yang; Qingling Li
+Title-题名 Temperature control of rubber composites by adaptive multi-dimensional Taylor network during microwave heating process
+Source-来源 Progress In Electromagnetics Research M
+Time-出版/完成日期 2020-05-11
+Year-年 2020
+Roll-卷 92
+Keyword-关键词 Temperature Control
+ISSN-国际刊号 1937-8726
+PageCount-页码 115-125
+DOI-DOI doi:10.2528/PIERM20020402
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 ShanLiang Zhu; Lei Chu; MingXin Wang; Yuqun Han; Shuguo Yang
+Title-题名 Multi-Dimensional Taylor Network-Based Adaptive Output-Feedback Tracking Control for a Class of Nonlinear Systems
+Source-来源 IEEE Access
+Time-出版/完成日期 2020-04-22
+Year-年 2020
+Roll-卷 8
+Keyword-关键词 Multi-dimensional Taylor network, nonlinear systems, adaptive control, output-feedback, backstepping
+ISSN-国际刊号 2169-3536
+PageCount-页码 77298-77307
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Shanliang Zhu; Shufang Zhang; Xinli Zhang; Qingling Li
+Title-题名 Response Solutions for a Singularly Perturbed System Involving Reflection of the Argument
+Source-来源 Advances in Mathematical Physics
+Time-出版/完成日期 2020-03-21
+Year-年 2020
+Roll-卷 2020
+Keyword-关键词 Response Solutions
+ISSN-国际刊号 1687-9120
+PageCount-页码 1-9
+DOI-DOI 10.1155/2020/6738247
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;李涛;顾雨晨;李成成;陈海龙;王东旭;李庆领
+Title-题名 微波加热多层橡胶复合材料的温度场分布及界面特性研究
+Source-来源 橡胶工业
+Time-出版/完成日期 2020-03-10
+Year-年 2020
+Period-期 06
+Roll-卷 v.67
+Keyword-关键词 多层橡胶复合材料;时域有限差分法;微波加热;温度场分布;界面特性
+Summary-摘要 针对不同波源下微波加热多层橡胶复合材料,建立基于Maxwell方程的一维非稳态有源加热偏微分方程(PDE)模型,以丁苯橡胶材料和丁腈橡胶材料复合为例,采用时域有限差分法进行模拟仿真,研究多层(两层)橡胶复合材料在单/双波源下材料厚度和微波功率对加热温度场和界面特性的影响。结果表明:微波功率变化会影响多层橡胶复合材料加热温度分布;在叠加橡胶材料的交界面处,微波振幅会有微小变化;将介电损耗小的橡胶材料直接暴露于微波源,有利于微波穿过介电损耗小的橡胶材料向深处传播,且各层橡胶材料厚度宜控制在临界穿透深度以下;相对于单波源加热,多波源加热能改善多层橡胶复合材料加热的均匀性。与传统有限元模型的分析结果进行比较,验证了本研究模型的有效性。
+ISSN-国际刊号 1000-890X
+PageCount-页码 415-422
+
+Type-成果类型 期刊论文
+Author-作者 韩宇阳;杨艺;李方晓;朱善良;韩玉群
+Title-题名 高压油管的压强控制策略研究
+Source-来源 工程数学学报
+Time-出版/完成日期 2019-12-31
+Year-年 2019
+Period-期 增刊1
+Roll-卷 36
+Keyword-关键词 高压共轨系统;优化模型;离散模型;遍历法
+ISSN-国际刊号 1005-3085
+PageCount-页码 49-60
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Jin-Tai Yua; Jie-Qiong Li; John Suckling; Lei Feng; An Pang; Yan-Jiang Wang; Bo Song; Shan-Liang Zhu; De-Hu Li; Hui-Fu Wang; Chen-Chen Tan; Qiang Dong; Lan Tan; Vincent Mokk; Paul S. Aisenl; Michael M. Weiner
+Title-题名 Frequency and longitudinal clinical outcomes of Alzheimer’s AT(N) biomarker profiles: A longitudinal study
+Source-来源 Alzheimer's & Dementia
+Time-出版/完成日期 2019-09-15
+Year-年 2019
+Period-期 15
+Roll-卷 9
+Keyword-关键词 Alzheimer’s disease; Research framework; Biomarker; Prognosis
+ISSN-国际刊号 1552-5260
+PageCount-页码 1208-1217
+DOI-DOI https://doi.org/10.1016/j.jalz.2019.05.006
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Yu, Jin-Tai; Li, Jie-Qiong; Suckling, John; Feng, Lei; Pan, An; Wang, Yan-Jiang; Song, Bo; Zhu, Shan-Liang; Li, De-Hu; Wang, Hui-Fu; Tan, Chen-Chen; Dong, Qiang; Tan, Lan; Mok, Vincent; Aisen, Paul S.; Weiner, Michael M.
+Title-题名 Frequency and longitudinal clinical outcomes of Alzheimer's AT(N) biomarker profiles: A longitudinal study
+Source-来源 ALZHEIMERS & DEMENTIA
+Time-出版/完成日期 2019-09
+Year-年 2019
+Period-期 9
+Roll-卷 15
+Keyword-关键词 COGNITIVE DECLINE; HYPOTHETICAL MODEL; BETA-AMYLOIDOSIS; DISEASE; INDIVIDUALS; ASSOCIATION; NEURODEGENERATION; TRAJECTORIES; DEFINITION; PREVALENCE
+Summary-摘要 Introduction: We aimed to estimate the frequency of each AT(N) (beta-amyloid deposition [A], pathologic tau [T], and neurodegeneration [N]) profile in different clinical diagnosis groups and to describe the longitudinal change in clinical outcomes of individuals in each group. Methods: Longitudinal change in clinical outcomes and conversion risk of AT(N) profiles are assessed using linear mixed-effects models and multivariate Cox proportional-hazard models, respectively. Results: Participants with A+T+N+ showed faster clinical progression than those with A-T-N- and A+T +/- N-. Compared with A-T-N-, participants with A+T+N +/- had an increased risk of conversion from cognitively normal (CN) to incident prodromal stage of Alzheimer's disease (AD), and from MCI to AD dementia. A+T +N+ showed an increased conversion risk when compared with A+T +/- N-. Discussion: The 2018 research framework may provide prognostic information of clinical change and progression. It may also be useful for targeted recruitment of participants with AD into clinical trials. (C) 2019 the Alzheimer's Association. Published by Elsevier Inc. All rights reserved.
+ISSN-国际刊号 1552-5260
+PageCount-页码 1208-1217
+DOI-DOI 10.1016/j.jalz.2019.05.006
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun; Zhu, Shan-Liang; Duan, De-Yu; Yang, Shu-Guo
+Title-题名 Adaptive neural output feedback tracking control for a class of nonlinear systems
+Source-来源 International Journal of Systems Science
+Time-出版/完成日期 2019-08-18
+Year-年 2019
+Period-期 11
+Roll-卷 50
+Keyword-关键词 Neural network; nonlinear; system; unmeasurable states; adaptive tracking control; dynamic surface control
+ISSN-国际刊号 0020-7721
+PageCount-页码 2088-2101
+DOI-DOI 10.1080/00207721.2019.1645918
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;王浩宇;高鑫;赵玉;谢秋玲;周伟峰;杨树国
+Title-题名 一种基于改进混合高斯模型的运动目标检测算法
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2019-07-23
+Year-年 2019
+Period-期 04
+Roll-卷 v.40;No.179
+Keyword-关键词 运动目标检测;ViBe算法;混合高斯模型;形态学方法
+Summary-摘要 针对运动目标检测中ViBe算法的鬼影、阴影和噪声干扰问题,本研究提出一种融入改进混合高斯模型(GMM)的ViBe算法。该算法改进混合高斯模型的自适应性,使混合高斯模型的K值与学习率对背景进行自适应调节;对视频帧进行训练,构造"虚拟"背景代替第一帧图像进行背景建模,算法能够有效地提取背景建模初始化的视频运动目标,从而消除鬼影现象。该算法用像素分类法提取前景目标,经形态学处理得到完整的运动目标。实验结果表明:与几种运动目标检测算法相比,本研究提出的算法不仅能够有效地抑制鬼影、阴影和噪声干扰,而且该算法自适应性强、检测速度快、检测结果可靠。
+ISSN-国际刊号 1672-6987
+PageCount-页码 113-118
+DOI-DOI 10.16351/j.1672-6987.2019.04.015
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Han, Yu-Qun;   Zhu, Shan-Liang;  Duan, De-Yu;  Chu, Lei; Yang, Shu-Guo;
+Title-题名 Adaptive decentralized tracking control of a class of large-scale nonlinear systems with unknown dead-zone inputs using neural network
+Source-来源 Transactions of the Institute of Measurement and Control
+Time-出版/完成日期 2019-07-01
+Year-年 2019
+Period-期 16
+Roll-卷 41
+Keyword-关键词 Decentralized, tracking control, large-scale nonlinear system, dead-zone input, neural network
+ISSN-国际刊号 0142-3312
+PageCount-页码 4499–4510
+DOI-DOI 10.1177/0142331219861189
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Jianmin Xing; Shuguo yang; Shanliang Zhu; Ruikun Zhang; Deyu Duan;  Xiuli Li
+Title-题名 Construction and Implementation of "Two-Axis Linkage, Five-Layer Hierarchy" Mathematical Modeling Teaching System Based on Innovation Ability Cultivation
+Source-来源 Scholars Journal of Physics, Mathematics and Statistics
+Time-出版/完成日期 2019-03-30
+Year-年 2019
+Period-期 3
+Roll-卷 6
+Keyword-关键词 Two-axis linkage; five-level hierarchy; two elections four trainings and three phases; Five-fold  edification
+ISSN-国际刊号 2393-8064
+PageCount-页码 35-41
+DOI-DOI 10.21276/sjpms.2019.6.3.3
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 谢秋玲;朱善良;宫响;杨树国
+Title-题名 新工科背景下提升工科学生经济决策能力的思考和建议
+Source-来源 青岛科技大学学报(社会科学版)（增刊）
+Time-出版/完成日期 2018-07-26
+Year-年 2018
+Period-期 第七期，总第132期
+Roll-卷 34
+Keyword-关键词 新经济；新工科；经济决策；OBE模式
+ISSN-国际刊号 1671-8372
+PageCount-页码 32-34
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 韩玉群;  朱善良; 杨树国;
+Title-题名 Adaptive Multi-Dimensional Taylor Network Tracking Control for a Class of Stochastic Nonlinear Systems With Unknown Input Dead-Zone
+Source-来源 IEEE ACCESS
+Time-出版/完成日期 2018-07-12
+Year-年 2018
+Period-期 0
+Roll-卷 6
+Keyword-关键词 Tracking control; stochastic nonlinear systems; dead-zone; backstepping technique; multi-dimensional Taylor network
+ISSN-国际刊号 2169-3536
+PageCount-页码 34543-34554
+DOI-DOI 10.1109/ACCESS.2018.2849511
+Language-语种 英文
+
+Type-成果类型 会议论文
+Author-作者 朱善良;  高鑫;  王浩宇;  许广伟;  谢秋玲; 杨树国
+Title-题名 Moving Object Real-time Detection and Tracking Method Based on Improved Gaussian Mixture Model
+Source-来源 Proceedings of 2018 IEEE 7th Data Driven Control and Learning Systems Conference, DDCLS 2018
+Time-出版/完成日期 2018-03-25
+Year-年 2018
+ISSN-国际刊号 9781538626184
+PageCount-页码 654-658
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 谢秋玲;朱善良;宫响;杨树国
+Title-题名 Assessment Model of State Fragility and its Application Based on Climate Change
+Source-来源 Scholars Journal of Economics, Business and Management
+Time-出版/完成日期 2018-03-08
+Year-年 2018
+Period-期 3
+Roll-卷 5
+Keyword-关键词 State Fragility, Indicator System, Evaluation Model, Entropy Weight Method
+ISSN-国际刊号 2348-5302
+PageCount-页码 200-207
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 谢秋玲;朱善良;孙宗帝;
+Title-题名 Study on Optimal Control Strategy of PM2.5 in Wuhan, China
+Source-来源 International journal of  Mathematical and Computational Science
+Time-出版/完成日期 2016-10-31
+Year-年 2016
+Period-期 8
+Roll-卷 10
+Keyword-关键词 grey relational degree, multiple linear regression, membership function, nonlinear programming
+ISSN-国际刊号 1307-6892
+PageCount-页码 384-387
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 邢建民;段得玉;朱善良
+Title-题名 中国果蔬发展战略研究
+Source-来源 青岛科技大学学报（自然科学版）增刊
+Time-出版/完成日期 2016-08-25
+Year-年 2016
+Period-期 8月
+Roll-卷 37
+Keyword-关键词 聚类分析；灰色预测；方差分析；线性规划
+ISSN-国际刊号 1672-6987
+PageCount-页码 213-218
+Language-语种 中文
+
+Type-成果类型 会议论文
+Author-作者 Du, Zongjie;Zhu, Shanliang;Shao, Wei;Sui, Shulin
+Title-题名 Study on energy consumption of hotel based on extended STIRPAT model
+Source-来源 Proceedings of the 28th Chinese Control and Decision Conference, CCDC 2016
+Time-出版/完成日期 2016-08-03
+Year-年 2016
+Summary-摘要 Energy consumption of hotel can be a hot topic in smart city. To find the key impact factors of energy consumption to realize the energy saving target. This paper examined the impact factors of occupancy rate, unit area of revenue, temperature factor and unit revenue of energy consumption. However, the current study on energy consumption of hotel is limited to the relationship with the single impact factor at home and abroad. In this paper, by taking the energy consumption data of a five-star hotel as a case, we explored the impact factors of occupancy rate, unit area of revenue, temperature factor and unit revenue of energy consumption on energy use intensity (EUI) change based on the extended STIRPAT model. Empirical results indicate that factors such as occupancy rate, unit area of revenue, and unit revenue of energy consumption can cause an increase in energy consumption of the hotel, but temperature factor can lead to a decrease in energy consumption of the hotel. The empirical results also reveal that the extended STIRPAT model can be used to predict and evaluate energy consumption of hotel. Finally, the study can provide managerial reference according to the regression results for energy saving management of hotel. &copy; 2016 IEEE.
+PageCount-页码 2052-2056
+Language-语种 英文
+
+Type-成果类型 会议论文
+Author-作者 Du Zongjie; Zhu Shanliang; Shao Wei; Sui Shulin
+Title-题名 Study on Energy Consumption of Hotel Based on Extended STIRPAT Model
+Source-来源 PROCEEDINGS OF THE 28TH CHINESE CONTROL AND DECISION CONFERENCE (2016 CCDC)
+Time-出版/完成日期 2016
+Year-年 2016
+Keyword-关键词 impact factors; energy use intensity; STIRPAT model; energy saving
+Summary-摘要 Energy consumption of hotel can be a hot topic in smart city. To find the key impact factors of energy consumption to realize the energy saving target. This paper examined the impact factors of occupancy rate, unit area of revenue, temperature factor and unit revenue of energy consumption. However, the current study on energy consumption of hotel is limited to the relationship with the single impact factor at home and abroad. In this paper, by taking the energy consumption data of a five-star hotel as a case, we explored the impact factors of occupancy rate, unit area of revenue, temperature factor and unit revenue of energy consumption on energy use intensity (EUI) change based on the extended STIRPAT model. Empirical results indicate that factors such as occupancy rate, unit area of revenue, and unit revenue of energy consumption can cause an increase in energy consumption of the hotel, but temperature factor can lead to a decrease in energy consumption of the hotel. The empirical results also reveal that the extended STIRPAT model can be used to predict and evaluate energy consumption of hotel. Finally, the study can provide managerial reference according to the regression results for energy saving management of hotel.
+ISSN-国际刊号 1948-9439
+PageCount-页码 2052-2056
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;王燕娇
+Title-题名 基于SPSS的大学生考试成绩正态性检验方法对比分析
+Source-来源 青岛科技大学（自然科学版）增刊
+Time-出版/完成日期 2015-08-01
+Year-年 2015
+Period-期 增刊1
+Roll-卷 36
+Keyword-关键词 正态性检验方法；卡方拟合优度检验法
+ISSN-国际刊号 1672-6987
+PageCount-页码 202-204
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhang, Xinli; Zhu, Shanliang
+Title-题名 Oscillation for a Nonlinear Dynamic System with a Forced Term on Time Scales
+Source-来源 ABSTRACT AND APPLIED ANALYSIS
+Time-出版/完成日期 2014
+Year-年 2014
+Summary-摘要 We consider a class of two- dimensional nonlinear dynamic system with a forced term on a time scale T and obtain sufficient conditions for all solutions of the system to be oscillatory. Our results not only unify the oscillation of two- dimensional differential systems and difference systems but also improve the oscillation results that have been established by Saker, 2005, since our results are not restricted to the case where b(t) not equal 0 for all t is an element of T and g(u) = u Some examples are given to illustrate the results.
+ISSN-国际刊号 1085-3375
+DOI-DOI 10.1155/2014/747838
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;
+Title-题名 时间尺度上二维动力系统的振动性和渐近性
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2013-04-15
+Year-年 2013
+Period-期 02
+Roll-卷 v.34;No.141
+Keyword-关键词 动力系统;;时间尺度;;振动性;;二维
+Summary-摘要 借助时间尺度的有关理论,运用不动点定理和不等式技巧研究时间尺度上一类非线性动力系统的渐近性和振动性。给出具有某种渐近性的非振动解存在和所有解振动的充要条件,推广并改进已有某些结果。
+ISSN-国际刊号 1672-6987
+PageCount-页码 212-215
+DOI-DOI 10.16351/j.1672-6987.2013.02.002
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhang, Xinli; Zhu, Shanliang
+Title-题名 Oscillation of Two-Dimensional Neutral Delay Dynamic Systems
+Source-来源 ADVANCES IN MATHEMATICAL PHYSICS
+Time-出版/完成日期 2013
+Year-年 2013
+Summary-摘要 We consider a class of nonlinear two-dimensional dynamic systems of the neutral type (x(t) - a(t)x(tau(1)(t)))(Delta) = p(t)f(1)(y(t)), y(Delta)(t) = -q(t)f(2)(x(tau(2)(t))). We obtain sufficient conditions for all solutions of the system to be oscillatory. Our oscillation results when a(t) = 0 improve the oscillation results for dynamic systems on time scales that have been established by Fu and Lin (2010), since our results do not restrict to the case where f(u) = u. Also, as a special case when T = R, our results do not require a(n) to be a positive real sequence. Some examples are given to illustrate the main results.
+ISSN-国际刊号 1687-9120
+DOI-DOI 10.1155/2013/871961
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;张新丽;
+Title-题名 时间尺度上一类高阶中立型动力方程非振动解的存在性
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2012-08-15
+Year-年 2012
+Period-期 04
+Roll-卷 v.33;No.137
+Keyword-关键词 动力方程;;时间尺度;;非振动性;;中立型
+Summary-摘要 借助时间尺度上的有关理论和不动点定理,研究一类较为广泛的时间尺度上高阶带强迫项非线性中立型动力方程,建立该类方程非振动解存在的充要条件。所得结果推广和改进了已有的结论,并通过一个例子阐述主要结果。
+ISSN-国际刊号 1672-6987
+PageCount-页码 427-430
+DOI-DOI 10.16351/j.1672-6987.2012.04.001
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 Zhu, Shanliang; Sheng, Chunyun
+Title-题名 Oscillation and Nonoscillation Criteria for Nonlinear Dynamic Systems on Time Scales
+Source-来源 DISCRETE DYNAMICS IN NATURE AND SOCIETY
+Time-出版/完成日期 2012
+Year-年 2012
+Summary-摘要 We consider the nonlinear dynamic system x(Delta)(t) = a(t)g(y(t)), y(Delta)(t) = -f(t, x(sigma)(t)). We establish some necessary and sufficient conditions for the existence of oscillatory and nonoscillatory solutions with special asymptotic properties for the system. We generalize the known results in the literature. Some examples are included to illustrate the results.
+ISSN-国际刊号 1026-0226
+DOI-DOI 10.1155/2012/137471
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;
+Title-题名 时间尺度上高阶带强迫项中立型动力方程正解的存在性
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2011-10-15
+Year-年 2011
+Period-期 05
+Roll-卷 v.32;No.132
+Keyword-关键词 动力方程;;时间尺度;;正解;;中立型
+Summary-摘要 借助时间尺度上的有关理论和Banach压缩映射原理,研究一类较为广泛的时间尺度上高阶带强迫项中立型动力方程正解的存在性。建立该类方程正解存在的几个新的充分条件,并给出一个例子验证所得结果。
+ISSN-国际刊号 1672-6987
+PageCount-页码 534-537
+DOI-DOI 10.16351/j.1672-6987.2011.05.001
+Language-语种 中文
+
+Type-成果类型 会议论文
+Author-作者 Shan-liang Zhu;
+Title-题名 Oscillation Results for Functional Differential Systems
+Source-来源 Proceeding of the Sixth International Conference of Matrices and Operators Volume 1
+Time-出版/完成日期 2011-07-08
+Year-年 2011
+Roll-卷 Vol.1
+Summary-摘要 This paper is concerned with the oscillation problem of functional differential systems of the form x'(t) = Q_0x(t) +(?) dη(0)x(t +θ),where Q_0 andη(θ) are in R~(n×n).Based on its characteristic equation, new oscillation criteria for this system are obtained by utilizing the Lozinskii measures of matrices.
+PageCount-页码 300-303
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;
+Title-题名 时间标度上一类动力方程解的振动准则
+Source-来源 科学技术与工程
+Time-出版/完成日期 2009-07-01
+Year-年 2009
+Period-期 13
+Roll-卷 v.9
+Keyword-关键词 时间标度;;振动性;;动力方程
+Summary-摘要 考虑时间标度上一阶线性动力方程解的振动性,建立了这类方程的解振动的充分条件,所得结论包含有关成果。
+ISSN-国际刊号 1671-1815
+PageCount-页码 3731-3732
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 苏鸿雁；李博；朱善良
+Title-题名 浅谈“数学分析”课程的教学模式在数学专业人才培养中的作用与实践[J]
+Source-来源 高等理科教育
+Time-出版/完成日期 2008-12-30
+Year-年 2008
+Period-期 教育教学研究专辑（一）
+Keyword-关键词 数学分析，数学实践
+ISSN-国际刊号 1000-4076
+PageCount-页码 58-59
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 吴玮;朱善良;苏鸿雁;
+Title-题名 时间测度上一类超前型微分方程解的振动性
+Source-来源 青岛远洋船员学院学报
+Time-出版/完成日期 2008-06-30
+Year-年 2008
+Period-期 02
+Roll-卷 No.81
+Keyword-关键词 时间测度;;振动性;;微分方程;;超前型
+Summary-摘要 考虑时间测度上一阶线性超前型微分方程解的振动性,我们建立了这类方程的解振动的充分条件,所得结论包含了微分方程和差分方程的有关结果,同时,我们的结论也包括了更多种情况。
+ISSN-国际刊号 1671-7996
+PageCount-页码 44-46
+Language-语种 中文
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;李博;邱南南;
+Title-题名 调整专业课程体系,拓宽专业口径,培养合格人才——信息与计算科学专业的建设与改革
+Organ-机构 青岛科技大学数理学院;青岛科技大学数理学院 山东青岛266061;山东青岛266061
+Source-来源 科技信息(科学教研)
+Time-出版/完成日期 2008-01-20
+Year-年 2008
+Period-期 03
+Roll-卷 No.251
+Keyword-关键词 课程体系;;专业口径;;信息与计算科学
+Summary-摘要 信息与计算科学专业是一门新兴的理科专业,探索如何办好本专业是一项较有意义的工作,调整课程体系,拓宽专业口径,将信息与计算融为一体,是专业建设的新途径,另外,文章还初步讨论了信息与计算科学专业的实践教学和师资队伍建设问题。
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1001-9960
+CN-国内刊号 37-1021/N
+CitedFreq-被引频次 2
+PageCount-页码 125+215
+Language-语种 中文
+Discipline-中图分类号 TP3-4
+Community-归属院系 数理学院
+FirstAuthor-第一作者 01995 朱善良
+
+Type-成果类型 期刊论文
+Author-作者 王天顺;于彬;朱善良
+Title-题名 数学建模课程教学改革的新思路
+Organ-机构 青岛科技大学数理学院
+Source-来源 菏泽学院学报
+Time-出版/完成日期 2007-06-15
+Year-年 2007
+Period-期 教研专刊
+Roll-卷 29
+Keyword-关键词 数学建模，素质教育，教学改革
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1673-2103
+CN-国内刊号 37-1436/Z
+PageCount-页码 8-9
+Language-语种 中文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 01392 王天顺
+
+Type-成果类型 期刊论文
+Author-作者 朱善良;闫信州;
+Title-题名 时间测度上具变号系数时滞微分方程解的渐近性与振动性
+Organ-机构 青岛科技大学数理系,莱阳农学院理学院 山东青岛266061,山东青岛266109
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2006-04-30
+Year-年 2006
+Period-期 02
+Keyword-关键词 时间测度;;振动性;;渐近性;;时滞
+Summary-摘要 考虑时间测度上一类时滞微分方程的振动性,建立了这类方程的解振动的充分条件,同时,讨论了该方程非振动解的渐近性质。
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1672-6987
+CN-国内刊号 37-1419/N
+Indexed-收录 中国科技核心期刊
+CitedFreq-被引频次 2
+PageCount-页码 182-185
+Language-语种 中文
+Discipline-中图分类号 O175
+Community-归属院系 数理学院
+FirstAuthor-第一作者 01995 朱善良
+
+

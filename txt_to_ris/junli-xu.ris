@@ -1,0 +1,317 @@
+TY  - JOUR
+AU  - Nie, Yuling
+AU  - Xu, Junli
+AU  - Zhu, Shanliang
+T1  - 基于数据同化方法的风暴潮数值模型
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2024/12/15
+VL  - 45
+IS  - 06
+SP  - 125
+EP  - 134
+DO  - DOI 10.16351/j.1672-6987.2024.06.016
+SN  - 1672-6987
+AB  - 风应力拖曳系数是风暴潮模型中的重要参数之一。本工作基于二维的风暴潮数值模型和伴随同化模型，利用数据同化方法反演出了空间分布形式的风应力拖曳系数。研究了空间分布形式的风应力拖曳系数和三种经验公式的风应力拖曳系数对渤、黄、东海海域内7303号台风发生期间的风暴潮水位的影响。结果表明，与风应力拖曳系数经验公式计算的风暴潮水位相比，利用空间分布形式的风应力拖曳系数计算的风暴潮水位更接近观测水位，这说明数据同化方法可以有效提高风暴潮水位的模拟精度。进一步地，讨论了数据同化过程中天文潮对风暴潮水位的影响。结果显示，当考虑M_2分潮后，基于数据同化方法计算的风暴潮水位最接近观测水位。因此，在风暴潮的模拟过程中应当考虑天文潮的影响。
+KW  - 风暴潮
+KW  - 天文潮
+KW  - 风应力拖曳系数
+KW  - 数值模拟
+KW  - 数据同化方法
+ER  - 
+
+TY  - JOUR
+AU  - Bi, Xin
+AU  - Shi, Wenqi
+AU  - Xu, Junli
+AU  - Lv, Xianqing
+T1  - Influence of Grid Resolution and Assimilation Window Size on Simulating Storm Surge Levels
+JF  - JOURNAL OF MARINE SCIENCE AND ENGINEERING
+PY  - 2024/07
+VL  - 12
+IS  - 7
+DO  - DOI 10.3390/jmse12071233
+AB  - Grid resolution and assimilation window size play significant roles in storm surge models. In the Bohai Sea, Yellow Sea, and East China Sea, the influence of grid resolution and assimilation window size on simulating storm surge levels was investigated during Typhoon 7203. In order to employ a more realistic wind stress drag coefficient that varies with time and space, we corrected the storm surge model using the spatial distribution of the wind stress drag coefficient, which was inverted using the data assimilation method based on the linear expression Cd = (a + b x U10) x 10-3. Initially, two grid resolutions of 5 ' x 5 ' and 10 ' x 10 ' were applied to the numerical storm surge model and adjoint assimilation model. It was found that the influence of different grid resolutions on the numerical model is almost negligible. But in the adjoint assimilation model, the root mean square (RMS) errors between the simulated and observed storm surge levels under 5 ' x 5 ' and 10 ' x 10 ' grid resolutions were 11.6 cm and 15.6 cm, and the average PCC and WSS values for 10 tidal stations changed from 89% and 92% in E3 to 93% and 96% in E4, respectively. The results indicate that the finer grid resolution can yield a closer consistency between the simulation and observations. Subsequently, the effects of assimilation window sizes of 6 h, 3 h, 2 h, and 1 h on simulated storm surge levels were evaluated in an adjoint assimilation model with a 5 ' x 5 ' grid resolution. The results show that the average RMS errors were 11.6 cm, 10.6 cm, 9.6 cm, and 9.3 cm under four assimilation window sizes. In particular, the RMS errors for the assimilation window sizes of 1 h and 6 h at RuShan station were 3.9 cm and 10.2 cm, a reduction of 61.76%. The PCC and WSS values from RuShan station in E4 and E7 separately showed significant increases, from 85% to 98% and from 92% to 99%. These results demonstrate that when the assimilation window size is smaller, the simulated storm surge level is closer to the observation. Further, the results show that the simulated storm surge levels are closer to the observation when using the wind stress drag coefficient with a finer grid resolution and smaller temporal resolution.
+KW  - FORECASTING SYSTEM
+KW  - DRAG COEFFICIENT
+KW  - SEA
+KW  - MODEL
+KW  - SURFACE
+ER  - 
+
+TY  - JOUR
+AU  - Ma, Kai
+AU  - Liu, Chuanyu
+AU  - Xu, Junli
+AU  - Wang, Fan
+T1  - Contrasts of bimodal tropical instability waves(TIWs)-induced wind stress perturbations in the Pacific Ocean among observations, ocean models, and coupled climate models
+JF  - Journal of Oceanology and Limnology
+PY  - 2024/01/15
+VL  - 42
+IS  - 01
+SP  - 1
+EP  - 23
+SN  - 2096-5508
+AB  - The coupling between wind stress perturbations and sea surface temperature(SST)perturbations induced by tropical instability waves(TIWs) in the Pacific Ocean has been revealed previously and proven crucial to both the atmosphere and ocean. However, an overlooked fact by previous studies is that the loosely defined “TIWs” actually consist of two modes, including the Yanai wave-based TIW on the equator(hereafter eTIW) and the Rossby wave-based TIW off the equator(hereafter vTIW).Hence, the individual feedbacks of the wind stress to the bimodal TIWs remain unexplored. In this study,individual coupling relationships are established for both eTIW and v TIW, including the relationship between the TIW-induced SST perturbations and two components of wind stress perturbations, and the relationship between the TIW-induced wind stress perturbation divergence(curl) and the downwind(crosswind) TIW-induced SST gradients. Results show that, due to different distributions of eTIW and vTIW, the coupling strength induced by the eTIW is stronger on the equator, and that by the vTIW is stronger off the equator. The results of any of eTIW and vTIW are higher than those of the loosely defined TIWs. We further investigated how well the coupling relationships remained in several widely recognized oceanic general circulation models and fully coupled climate models. However, the coupling relationships cannot be well represented in most numerical models. Finally, we confirmed that higher resolution usually corresponds to more accurate simulation. Therefore, the coupling models established in this study are complementary to previous research and can be used to refine the oceanic and coupled climate models.
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Ma, Kai
+AU  - Nie, Yuling
+AU  - Liu, Chuanyu
+AU  - Bi, Xin
+AU  - Shi, Wenqi
+AU  - Lv, Xianqing
+T1  - Numerical Study on Storm Surge Level Including Astronomical Tide Effect Using Data Assimilation Method
+JF  - ATMOSPHERE
+PY  - 2023/01
+VL  - 14
+IS  - 1
+DO  - DOI 10.3390/atmos14010038
+SN  - 2073-4433
+AB  - In the storm surge model, the wind drag coefficient C-d is a critical parameter that has a great influence on the forecast of the storm surge level. In the present study, the effect of ious wind drag coefficient parameterizations on the storm surge level is investigated in the Bohai Sea, Yellow Sea and East China Sea for Typhoons 7203 and 7303. Firstly, the impacts of initial values of a and b in the linear  C-d = (a   b x U-10) x 10(-3) on the pure storm surge model are evaluated based on the data assimilation method. Results indicate that when a and b (i.e., the wind drag coefficients given by Smith, Wu, Geernaert et al. and Mel et al.) are non-zeros, the performance of the model has little difference, and the result from Wu is slightly better. However, they are superior to the performance of the model adopting zero initial values. Then, we discuss the influences of diverse ways of calculating wind drag coefficients, which are inverted by data assimilation method (including both linear and constant C-d) and given in the form of linear formulas, on simulating pure storm surge level. They show that the data assimilation-based coefficients greatly exceed those of the ordinary coefficient formulas. Moreover, the wind drag coefficient in the linear form is a little better than that in constant form when the data assimilation method is used. Finally, the assessment of the impact of astronomical tides on the storm surge level is conducted, and the simulation demonstrates that the storm surge model, which has the combination of four constituents (M-2, S-2, K-1, O-1) and wind drag coefficient inverted by the data assimilation method with the linear C-d, exhibits the best performance.
+KW  - WIND-STRESS
+KW  - DRAG COEFFICIENT
+KW  - INITIAL CONDITIONS
+KW  - BOTTOM FRICTION
+KW  - YELLOW SEA
+KW  - BOHAI SEA
+KW  - HEAT-FLUX
+KW  - SIMULATION
+KW  - PARAMETERIZATION
+KW  - CONSTITUENTS
+ER  - 
+
+TY  - JOUR
+AU  - Wu, Lulu
+AU  - Hou, Yu
+AU  - Xu, Junli
+AU  - Zhao, Yong
+T1  - Robust Mesh Segmentation Using Feature-Aware Region Fusion
+JF  - SENSORS
+PY  - 2023/01
+VL  - 23
+IS  - 1
+DO  - DOI 10.3390/s23010416
+SN  - 1424-8220
+AB  - This paper introduces a simple but powerful segmentation algorithm for 3D meshes. Our algorithm consists of two stages: over-segmentation and region fusion. In the first stage, adaptive space partition is applied to perform over-segmentation, which is very efficient. In the second stage, we define a new intra-region difference, inter-region difference, and fusion condition with the help of ious shape features and propose an iterative region fusion method. As the region fusion process is feature aware, our algorithm can deal with complex 3D meshes robustly. Massive qualitative and quantitative experiments also validate the advantages of the proposed algorithm.
+KW  - SURFACE SEGMENTATION
+KW  - DECOMPOSITION
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Nie, Yuling
+AU  - Ma, Kai
+AU  - Shi, Wenqi
+AU  - Lv, Xianqing
+T1  - Assimilation Research of Wind Stress Drag Coefficient Based on the Linear Expre
+JF  - JOURNAL OF MARINE SCIENCE AND ENGINEERING
+PY  - 2021/10/01
+VL  - 9
+IS  - 10
+DO  - DOI 10.3390/jmse9101135
+SN  - 2077-1312
+AB  - The wind stress drag coefficient plays an important role in storm surge models. This study reveals the influences of wind stress drag coefficients, which are given in form of formulas and inverted by the data assimilation method, on the storm surge levels in the Bohai Sea, Yellow Sea, and East China Sea during Typhoon 7008. In the process of data assimilation, the drag coefficient is based on the linear  C-d = (a   b x U-10) x 10(-3) (generally speaking, a and b are empirical parameters determined by observed data). The results showed that the performance of the data assimilation method was far superior to those of drag coefficient formulas. Additionally, the simulated storm surge levels obviously changed in the neighborhood of typhoon eye. Furthermore, the effect of initial values of a and b in the C-d  on the storm surge levels was also investigated when employing the data assimilation method. The results indicated that the simulation of storm surge level was the closest to the observation when a and b were simultaneously equal to zero, whereas the simulations had slight differences when the initial values of a and b were separately equal to the drag coefficients from the work of Smith, Wu, and Geernaert et al.. Therefore, we should choose appropriate initial values for a and b by using the data assimilation method. As a whole, the data assimilation method is much better than drag coefficient parameterization formulas in the simulation of storm surges.</p>
+KW  - STORM-SURGE
+KW  - INITIAL CONDITIONS
+KW  - HEAT-FLUX
+KW  - SURFACE
+KW  - SEA
+KW  - OCEAN
+KW  - PARAMETERIZATION
+KW  - SIMULATION
+ER  - 
+
+TY  - JOUR
+AU  - Li, Shuyao
+AU  - Cui, Hongyan
+AU  - Xu, Junli
+AU  - Gong, Xiang
+AU  - Qiao, Fangli
+AU  - Yang, Yanzhao
+AU  - Wang, Ping
+AU  - Han, Yuqun
+AU  - Shan, Feng
+T1  - Factors contributing to rapid decline of Arctic sea ice in autumn
+JF  - Advances in Polar Science
+PY  - 2021/06/15
+VL  - 32
+IS  - 02
+SP  - 96
+EP  - 104
+DO  - DOI 10.13679/j.advps.2020.0039
+SN  - 1674-9928
+AB  - Autumn Arctic sea ice has been declining since the beginning of the era of satellite sea ice observations. In this study, we examined the factors contributing to the decline of autumn sea ice concentration. From the Beaufort Sea to the Barents Sea, autumn sea ice concentration has decreased considerably between 1982 and 2020, and the rates of decline were the highest around the Beaufort Sea. We calculated the correlation coefficients between sea ice extent(SIE) anomalies and anomalies of sea surface temperature(SST), surface air temperature(SAT) and specific humidity(SH). Among these coefficients, the largest absolute value was found in the coefficient between SIE and SAT anomalies for August to October, which has a value of-0.9446. The second largest absolute value was found in the coefficient between SIE and SH anomalies for September to November, which has a value of-0.9436. Among the correlation coefficients between SIE and SST anomalies, the largest absolute value was found in the coefficient for August to October, which has a value of-0.9410. We conducted empirical orthogonal function(EOF) analyses of sea ice, SST, SAT, SH, sea level pressure(SLP) and the wind field for the months where the absolute values of the correlation coefficient were the largest. The first EOFs of SST, SAT and SH account for 39.07%, 63.54% and 47.60% of the total variances, respectively, and are mainly concentrated in the area between the Beaufort Sea and the East Siberian Sea. The corresponding principal component time series also indicate positive trends. The first EOF of SLP explains 41.57% of the total variance. It is mostly negative in the central Arctic. Over the Beaufort, Chukchi and East Siberian seas, the zonal wind weakened while the meridional wind strengthened. Results from the correlation and EOF analyses further verified the effects of the ice–temperature, ice–SH and ice–SLP feedback mechanisms in the Arctic. These mechanisms accelerate melting and decrease the rate of formation of sea ice. In addition, stronger meridional winds favor the flow of warm air from lower latitudes towards the polar region, further promoting Arctic sea ice decline.
+ER  - 
+
+TY  - JOUR
+AU  - Li, Ning
+AU  - Xu, Junli
+AU  - Lv, Xianqing
+T1  - Application of Dynamically Constrained Interpolation Methodology in Simulating National-Scale Spatial Distribution of PM2.5 Concentrations in China
+JF  - ATMOSPHERE
+PY  - 2021/02
+VL  - 12
+IS  - 2
+DO  - DOI 10.3390/atmos12020272
+SN  - 2073-4433
+AB  - Numerous studies have revealed that the sparse spatiotemporal distributions of ground-level PM2.5 measurements affect the accuracy of PM2.5 simulation, especially in large geographical regions. However, the high precision and stability of ground-level PM2.5 measurements make their role irreplaceable in PM2.5 simulations. This article applies a dynamically constrained interpolation methodology (DCIM) to evaluate sparse PM2.5 measurements captured at scattered monitoring sites for national-scale PM2.5 simulations and spatial distributions. The DCIM takes a PM2.5 transport model as a dynamic constraint and provides the characteristics of the spatiotemporal variations of key model parameters using the adjoint method to improve the accuracy of PM2.5 simulations. From the perspective of interpolation accuracy and effect, kriging interpolation and orthogonal polynomial fitting using Chebyshev basis functions (COPF), which have been proved to have high PM2.5 simulation accuracy, were adopted to make a comparative assessment of DCIM performance and accuracy. Results of the cross validation confirm the feasibility of the DCIM. A comparison between the final interpolated values and observations show that the DCIM is better for national-scale simulations than kriging or COPF. Furthermore, the DCIM presents smoother spatially interpolated distributions of the PM2.5 simulations with smaller simulation errors than the other two methods. Admittedly, the sparse PM2.5 measurements in a highly polluted region have a certain degree of influence on the interpolated distribution accuracy and rationality. To some extent, adding the right amount of observations can improve the effectiveness of the DCIM around existing monitoring sites. Compared with the kriging interpolation and COPF, the results show that the DCIM used in this study would be more helpful for providing reasonable information for monitoring PM2.5 pollution in China.
+ER  - 
+
+TY  - CPAPER
+AU  - Xu, Junli
+AU  - Zhao, Yong
+T1  - Impacts of High Frequency Spectral Tail of the Surface Gravity Waves on the Stokes Drift
+T2  - IOP Conference Series: Earth and Environmental Science
+PY  - 2019/12/02
+SN  - 1755-1307
+KW  - Stokes drift
+KW  - EDP spectrum
+KW  - Combi spectrum
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Zhang, Yuhong
+AU  - Lv, Xianqing
+AU  - Liu, Qiang
+T1  - Inversion of Wind-Stress Drag Coefficient in Simulating Storm Surges by Means of Regularization Technique
+JF  - INTERNATIONAL JOURNAL OF ENVIRONMENTAL RESEARCH AND PUBLIC HEALTH
+PY  - 2019/10/10
+VL  - 16
+IS  - 19
+SP  - 1
+EP  - 16
+DO  - DOI 10.3390/ijerph16193591
+SN  - 1661-7827
+KW  - storm surge
+KW  - adjoint assimilation
+KW  - regularization technique
+KW  - typhoon
+KW  - drag coe#14
+KW  - cient
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Zhao, Yong
+T1  - 三重积分计算的投影法与截面法的分析
+JF  - 青岛科技大学学报(自然科学版)
+PY  - 2018/08/15
+VL  - 39
+IS  - S1
+SP  - 131
+EP  - 133
+SN  - 1672-6987
+AB  - 本工作通过计算空间非均匀密度几何体的质量,来介绍三重积分的投影法和截面法,有助于学生更直观的理解和掌握三重积分的计算方法。
+KW  - 三重积分
+KW  - 投影法
+KW  - 截面法
+ER  - 
+
+TY  - JOUR
+AU  - Xiaolong, Zong
+AU  - Minjie, Xu
+AU  - Junli, Xu
+AU  - Xianqing, Lv
+T1  - Improvement of the ocean pollutant transport model by using the surface spline interpolation
+JF  - Tellus A: Dynamic Meteorology and Oceanography
+PY  - 2018/08/06
+IS  - 70
+SP  - 1
+EP  - 13
+DO  - DOI https://doi.org/10.1080/16000870.2018.1481689
+SN  - 1600-0870
+AB  - The independent point scheme (IPS) is applied to inverting initial condition with the adjoint method for the ocean pollutant transport model in this work. As an improvement, the linear Cressman interpolation is removed and the surface spline interpolation is implemented in the IPS. A series of numerical experiments are carried out to test and compare the improved IPS. And experiment results show that through applying the improved IPS, what is further reduced is mean absolute errors between simulation results and observations. Moreover, the inverted distributions are more smooth, accurate and reasonable. In addition, the application of improved IPS also reduces the variables that need to be inverted and promotes the computational efficiency. By these numerical experiment results, it is demonstrated that the combination of improved IPS and adjoint method can be used for the inversion of initial conditions and parameters estimation more effectively and reliably.
+KW  - surface spline interpolation, Cressman interpolation, adjoint method, the ocean pollutant transport
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Yong
+AU  - Qin, Hong
+AU  - Zeng, Xueying
+AU  - Xu, Junli
+AU  - Dong, Junyu
+T1  - Robust and effective mesh denoising using L0sparse regularization
+JF  - CAD Computer Aided Design
+PY  - 2018/08
+VL  - 101
+IS  - 无
+SP  - 82
+EP  - 97
+DO  - DOI 10.1016/j.cad.2018.04.001
+SN  - 0010-4485
+AB  - Mesh denoising is of great practical importance in geometric analysis and processing. In this paper we develop a novel L0sparse regularization method to robustly and reliably eliminate noises while preserving features with theoretic guarantee, and our assumption is that, local regions of a noise-free shape should be smooth unless they contain geometric features. Both vertex positions and facet normals are integrated into the L0norm to measure the sparsity of geometric features, and are then optimized in a sparsity-controllable fashion. We design an improved alternating optimization strategy to solve the L0minimization problem, which is proved to be both convergent and stable. As a result, our sparse regularization exhibits its advantage to distinguish features from noises. To further improve the computational performance, we propose a multi-layer approach based on joint bilateral upsampling to handle large and complicated meshes. Moreover, the aforementioned framework is naturally accommodating the need of denoising time-varying mesh sequences. Both theoretical analysis and various experimental results on synthetic and natural noises have demonstrated that, our method can robustly recover multifarious features and smooth regions of 3D shapes even with severe noise corruption, and outperform the state-of-the-art methods. © 2018 Elsevier Ltd
+KW  - Mesh generation
+KW  - Convex optimization
+KW  - Alternating optimizations - Computational performance - Joint bilateral up samplings - L0 norm - Mesh denoising - Nonconvex optimization - Sparse regularizations - State-of-the-art methods
+ER  - 
+
+TY  - CPAPER
+AU  - Junli, Xu
+AU  - Qiang, Liu
+AU  - Xianqing, Lv
+T1  - Numerical study of the storm surges caused by increasing wind speeds in the Bohai Sea, Yellow Sea and East China Sea
+T2  - IOP Conference Series: Earth and Environmental Science
+PY  - 2018/07/17
+VL  - 170
+IS  - 3
+SN  - 17551307
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Zhang, Yuhong
+AU  - Cao, Anzhou
+AU  - Liu, Qiang
+AU  - Lv, Xianqing
+T1  - Effects of tide-surge interactions on storm surges along the coast of the Bohai Sea, Yellow Sea, and East China Sea
+JF  - Science China(Earth Sciences)
+PY  - 2016/06/01
+VL  - 59
+IS  - 06
+SP  - 1308
+EP  - 1316
+SN  - 1674-7313
+AB  - A two-dimensional coupled tide-surge model was used to investigate the effects of tide-surge interactions on storm surges along the coast of the Bohai Sea, Yellow Sea, and East China Sea. In order to estimate the impacts of tide-surge interactions on storm surge elevations, Typhoon 7203 was assumed to arrive at 12 different times, with all other conditions remaining constant. This allowed simulation of tide and total water levels for 12 separate cases. Numerical simulation results for Yingkou, Huludao, Shijiusuo, and Lianyungang tidal stations were analyzed. Model results showed wide variations in storm surge elevations across the 12 cases. The largest difference between 12 extreme storm surge elevation values was of up to 58 cm and occurred at Yingkou tidal station. The results indicate that the effects of tide-surge interactions on storm surge elevations are very significant. It is therefore essential that these are taken into account when predicting storm surge elevations.
+KW  - Storm surges, Astronomical tides, Tide-surge interactions, Typhoon 7203, Coupled tide-surge model
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Song, Jinbao
+T1  - Effects of wind input and wave dissipation formulations on the steady Ekman current solution
+JF  - Chinese Journal of Oceanology and Limnology
+PY  - 2014/05/15
+VL  - 32
+IS  - 03
+SP  - 709
+EP  - 719
+SN  - 0254-4059
+AB  - The effects of different wind input and wave dissipation formulations on the steady Ekman current solution are described. Two formulations are considered: one from the wave modeling(WAM) program proposed by Hasselmann and Komen and the other provided by Tsagareli and Babanin. The solution adopted for our study was presented by Song for the wave-modifi ed Ekman current model that included the Stokes drift, wind input, and wave dissipation with eddy viscosity increasing linearly with depth. Using the Combi spectrum with tail effects, the solutions are calculated using two formulations for wind input and wave dissipation, and compared. Differences in the results are not negligible. Furthermore, the solution presented by Song and Xu for the eddy viscosity formulated using the K-Profi le Parameterization scheme under wind input and wave dissipation given by Tsagareli and Babanin is compared with that obtained for a depth-dependent eddy viscosity. The solutions are further compared with the available well-known observational data. The result indicates that the Tsagareli and Babanin scheme is more suitable for use in the model when capillary waves are included, and the solution calculated using the K-Profi le Parameterization scheme agrees best with observations.
+KW  - Combi spectrum
+KW  - Stokes drift
+KW  - wind input
+KW  - wave dissipation
+KW  - steady Ekman current solution
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Junli
+AU  - Song, Jinbao
+T1  - 高频表面波对定常Ekman流解的影响
+JF  - 海洋与湖沼
+PY  - 2014/01/15
+VL  - 45
+IS  - 01
+SP  - 197
+EP  - 205
+SN  - 0029-814X
+AB  - 基于Jenkins(1989)建立的包含Stokes漂流、风输入和波耗散影响的修正Ekman模型,采用Paskyabi等(2012)使用的推广的Donelan等(1987)中的谱和波耗散函数,并利用Paskyabi等(2012)中修正方法给出的包含高频波的风输入函数,在粘性不依赖于水深及粘性随深度线性变化的条件下,研究了包含高频毛细重力波的随机表面波对Stokes漂流和Song(2009)导出的波浪修正定常Ekman流解的影响。结果表明高频表面波使Stokes漂流在海表面剪切加强,对定常Ekamn流解的影响通常不能忽略,但对Ekman流场的角度偏转影响很小。最后,将考虑高频表面波尾谱影响所估算的定常Ekman流解与已有观测结果以及经典Ekman解进行了比对分析。
+KW  - 高频波
+KW  - 定常Ekman流解
+KW  - Stokes漂流
+KW  - 风输入
+KW  - 波耗散
+ER  - 

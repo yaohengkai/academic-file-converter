@@ -1,0 +1,111 @@
+Type-成果类型 期刊论文
+Author-作者 Liu, Qingliang; Yang, Shuguo; Liu, Jing; Zhao, Li; Xiong, Pengcheng; Shen, Jun
+Title-题名 An efficient video watermark method using blockchain
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 266061, Peoples R China;Weifang Univ Sci & Technol, Weifang 262700, Peoples R China;Qingdao Hosp Tradit Chinese Med, Qingdao 266061, Peoples R China;Univ Wollongong, Sch Comp & Informat Technol, Wollongong, NSW 2522, Australia
+Source-来源 KNOWLEDGE-BASED SYSTEMS
+Time-出版/完成日期 2023-01-10
+Year-年 2023
+Roll-卷 259
+Keyword-关键词 SINGULAR-VALUE DECOMPOSITION; DISCRETE WAVELET TRANSFORM; DWT-SVD; ROBUST; BLIND
+Summary-摘要 Nowadays, one of the most common approaches for video watermarking is to use singular value decomposition in the discrete wavelet transform domain. In our prior work, we formulated a video watermarking problem to achieve the maximum peak signal to noise ratio as an optimization problem. It chooses wavelet coefficient points in key frames with minimum distortion cost. Yet the existing solution has two drawbacks (1) it requires to store a large number of coordinates depending on the watermark size; (2) it is vulnerable to video frame attacks on the video frame texture area. To avoid them, this paper proposes a blockchain-based approach. Its main concept is to choose wavelet coefficient blocks in key frames and leverage blockchain to connect all the blocks. Our experimental results show that this approach is memory efficient because it only requires to store a single key for a key frame, which is independent of the watermark size; and the overall robustness is greatly improved due to the randomness of the hash function used in the blockchain. Hence, this work had made novel and significant contributions to the field of video watermarking. (c) 2022 Elsevier B.V. All rights reserved.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0950-7051
+Indexed-收录 SCI(E)
+DOI-DOI 10.1016/j.knosys.2022.110066
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 04088 刘庆亮
+
+Type-成果类型 期刊论文
+Author-作者 Liu, Qingliang;Yang, Shuguo;Liu, Jing;Xiong, Pengcheng;Zhou, Mengchu
+Title-题名 A discrete wavelet transform and singular value decomposition-based digital video watermark method
+Organ-机构 School of Mathematics and Physics, Qingdao University of Science and Technology, Qingdao, 266061, China;Weifang University of Science and Technology, Weifang, 262700, China;Department of ECE, New Jersey Institute of Technology Newark, NJ 07102-1982, United States
+Source-来源 Appl. Math. Model.
+Time-出版/完成日期 2020-09
+Year-年 2020
+Roll-卷 85
+Keyword-关键词 Computer graphics;Digital watermarking - Discrete wavelet transforms - Image coding - Image compression - Image quality - Multimedia systems - Signal reconstruction - Signal to noise ratio - Singular value decomposition - Watermarking  - Wavelet decomposition
+Summary-摘要 Digital video watermark is widely used to protect copyright and content authentication. DWT-SVD based method, i.e., discrete wavelet transform (DWT) and singular value decomposition (SVD) based method, is one of the most popular state-of-the-art methods. There are two main criteria to evaluate it, i.e., imperceptibility and robustness. The former is measured via the peak signal to noise ratio (PSNR) and structural similarity (SSIM). They should be as high as possible after the watermark is embedded. Robustness measures how easy to restore the embedded watermark by the owner even if the watermarked video is damaged by an outside attacker. Current studies randomly choose embedded positions for watermark, which hardly achieves its highest imperceptibility and robustness. In this paper, we propose a more imperceptible and robust digital video watermarking method than the existing one. First, we introduce a method to measure video frame distortion in a wavelet transform domain. Second, we model the problem to achieve the minimum video frame distortion as an optimization problem, i.e., choose embedded positions that can maximize peak signal to noise ratio. Finally, we evaluate and compare our method with the state-of-the-art approaches by using real experiments and show its advantages in both imperceptibility and robustness. &copy; 2020 Elsevier Inc.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0307-904X
+Indexed-收录 SCI(E);EI
+DOI-DOI 10.1016/j.apm.2020.04.015
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 04088 刘庆亮
+
+Type-成果类型 期刊论文
+Author-作者 杨树国;刘庆亮;熊鹏程;
+Title-题名 基于超混沌的RBF神经网络图像自适应水印算法
+Organ-机构 青岛科技大学数理学院;亚马逊A9中央经济搜索部;
+Source-来源 青岛科技大学学报(自然科学版)
+Time-出版/完成日期 2018-09-19
+Year-年 2018
+Period-期 05
+Roll-卷 v.39;No.174
+Keyword-关键词 超混沌;;RBF神经网络;;JND模型;;盲检测
+Summary-摘要 为了更好地保护图像版权信息,本工作结合超混沌系统和RBF神经网络,提出一种基于超混沌的RBF神经网络模型加密算法,根据JND(最小可视觉误差)模型实现水印的自适应嵌入,并应用RBF神经网络进行水印信息盲检测。实验研究表明:该算法复杂度较低、容易实现,并且具有良好的安全性、不可感知性和鲁棒性。
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1672-6987
+CN-国内刊号 37-1419/N
+Indexed-收录 中国科技核心期刊
+CitedFreq-被引频次 1
+PageCount-页码 106-110+118
+Fund-基金 山东省教育科学“十二五”规划课题项目(YBS15014);;
+山东省重点研发计划项目(2015GGX101020);;
+青岛市科技发展计划项目(KJZD-13-27-JCH);;
+山东省研究生教育创新计划项目(SDYY16010)
+DOI-DOI 10.16351/j.1672-6987.2018.05.016
+Language-语种 中文
+Discipline-中图分类号 TP309.7;TP183
+Community-归属院系 数理学院
+FirstAuthor-第一作者 02363 杨树国
+
+Type-成果类型 会议论文
+Author-作者 Liu, Qingliang; Sui, Shujiao; Yang, Shuguo; Xiong, Pengcheng
+Title-题名 An Image Watermarking Algorithm Based on Discrete Hopfield Neural Network Encryption
+Organ-机构 School of Mathematics and Physics, Qingdao University of Science and Technology, Qingdao, 266061, China;Institute of Intelligence Science and Data Technology, School of Mathematics and Physics, Qingdao University of Science and Technology, Qingdao, 266061, China;Central Economics Team, Amazon Inc., 345 Boren Ave N, Seattle, WA, 98109, United States
+Source-来源 Journal of Physics: Conference Series
+Time-出版/完成日期 2018-08-10
+Year-年 2018
+Period-期 6
+Roll-卷 1087
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1742-6588
+Indexed-收录 EI
+PageCount-页码 062039-1-7
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 04088 刘庆亮
+
+Type-成果类型 期刊论文
+Author-作者 刘庆亮;杨树国
+Title-题名 基于小波变换的图像双水印算法
+Organ-机构 青岛科技大学数理学院
+Source-来源 电脑与电信
+Time-出版/完成日期 2017-10-01
+Year-年 2017
+Period-期 10
+Keyword-关键词 双水印；Arnold变换；二维超混沌模型；离散小波变换；JND模型
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1008-6609
+PageCount-页码 1-5
+Language-语种 中文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 04088 刘庆亮
+
+Type-成果类型 会议论文
+Author-作者 杨树国; 刘庆亮
+Title-题名 Image watermarking algorithm based on wavelet transform
+Organ-机构 A College of Mathematics and Physics, QUST, Qingdao, China
+Source-来源 IEEE 2nd Intermational Conference on Signal and Image Processiong
+Time-出版/完成日期 2017-08-04
+Year-年 2017
+IsFirstDep-第一署名单位 本机构
+Indexed-收录 EI
+PageCount-页码 116-121
+Language-语种 中文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 02363 杨树国
+ISBN-ISBN 978-1-5386-0968-2
+

@@ -1,0 +1,198 @@
+Type-成果类型 期刊论文
+Author-作者 Dong, Xiaochun; Zhang, Ruikun; Chen, Xiaoxue; Lin, Xue
+Title-题名 Distributed optimisation algorithm based on iterative learning control
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 266061, Peoples R China
+Source-来源 INTERNATIONAL JOURNAL OF SYSTEMS SCIENCE
+Time-出版/完成日期 2025-03-12
+Year-年 2025
+Period-期 4
+Roll-卷 56
+Keyword-关键词 TIME CONSENSUS PROTOCOLS; CONSTRAINED CONSENSUS; SYSTEMS; CONVERGENCE
+Summary-摘要 In this paper, we study the distributed optimisation problem in an iterative environment, where the global objective function consists of agents' local objective functions, and each agent with the local objective function performs repeated tasks in finite time. The objective is to minimise the global objective function by the local communication of agents in the repeated running system. To solve this problem, we propose a distributed optimisation algorithm based on iterative learning methods that combines the terminal iterative learning strategy with the subgradient strategy. When the initial states of all agents are the same in each iteration, by the proposed algorithm, it is proved that all agents' states asymptotically converge to the optimal solution. Moreover, considering that the initial states of agents in each iteration may not be accurately measured, we further study the distributed optimisation problem under different initial states. We find that all agents' states asymptotically converge to the neighbourhood of the optimal solution. Finally, the effectiveness of the algorithm is verified by the numerical simulations.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0020-7721
+Indexed-收录 SCI(E)
+PageCount-页码 827-840
+Fund-基金 Shandong Provincial Natural Science Foundation, China [ZR2021QF040]
+DOI-DOI 10.1080/00207721.2024.2388810
+Language-语种 英文
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 Yun Shang;   ZunShui Cheng;  YouMing Xin; Xue Lin;
+Title-题名 Prescribed finite-time adaptive tracking control for a class of full state constrained non-strict feedback nonlinear multi-agent systems
+Organ-机构 Qingdao Univ Sci & Technol, Coll Math & Phys, Songling St, Qingdao 266061, Shandong, Peoples R China
+Source-来源 NONLINEAR DYNAMICS
+Time-出版/完成日期 2025-02-01
+Year-年 2025
+Period-期 3
+Roll-卷 113
+Keyword-关键词 Adaptive neural control; Prescribed finite-time; Multi-agent systems; Full state constraints; Universal barrier Lyapunov function
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0924-090X
+Indexed-收录 SCI(E)
+PageCount-页码 2427-2447
+DOI-DOI 10.1007/s11071-024-10351-1
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 02471 尚云
+
+Type-成果类型 期刊论文
+Author-作者 Shang, Yun; Cheng, Zunshui; Xin, Youming; Lin, Xue
+Title-题名 Adaptive fixed-time neural consensus control for a class of uncertain nonlinear multi-agent systems with full state constraints
+Organ-机构 Qingdao Univ Sci & Technol, Coll Math & Phys, Qingdao 266061, Peoples R China
+Source-来源 NEUROCOMPUTING
+Time-出版/完成日期 2024-10-01
+Year-年 2024
+Roll-卷 600
+Keyword-关键词 TRACKING CONTROL; SATURATION; PROTOCOLS
+Summary-摘要 This paper is concerned with the fixed-time consensus control problem for non-strict feedback multi-agent systems with asymmetric output constraints and full state constraints. Considering the feasibility of controlling execution, a novel practical virtual control signal is developed utilizing both saturation function and hyperbolic tangent function to ensure that this signal can remain within the same restricted range as the corresponding state variable throughout entire operation process. In backstepping steps, the design of ideal virtual control signal also adopts a different form of piecewise function than before, introducing high-order polynomial functions to avoid singularity problems in the derivation process. In addition, function approximation ability of radial basis function neural networks technique is applied to estimate uncertainties derived from the system functions and controller design procedure. Moreover, universal barrier Lyapunov function approach is improved for constructing an adaptive constrained synchronization control scheme. By fixed-time stability theory, it is shown that the tracking errors of the MAS converge to an adjustable region around the origin in a fixed time and the state variables always obey their constraints. And the upper bound of the settling time is merely dependent on design parameters, which is not affected by the initial states of MAS. The effectiveness of the proposed control strategy is shown by a numerical simulation example at last. Two scenarios are provided to demonstrate the advantages of the control protocol proposed in this paper.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0925-2312
+Indexed-收录 SCI(E)
+Fund-基金 National Natural Science Foundation of China [62103215, 62103217]; Natural Science Foundation of Shandong Province, China [ZR2020MF065, ZR2020MF080, ZR2021QF040]
+DOI-DOI 10.1016/j.neucom.2024.128164
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 02471 尚云
+
+Type-成果类型 期刊论文
+Author-作者 Xue Lin；Qiang Jiao
+Title-题名 The Equilibrium Analysis for Competitive Spreading Over Networks With Mutations
+Organ-机构 Qingdao University of Science and Technology；Xidian University
+Source-来源 IEEE CONTROL SYSTEMS LETTERS
+Time-出版/完成日期 2024-06-17
+Year-年 2024
+Period-期 无
+Roll-卷 8
+Keyword-关键词 Competing viruses, multi-group SIS models, mutations, equilibrium analysis
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 2475-1456
+PageCount-页码 1709-1704
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03703 林雪
+
+Type-成果类型 期刊论文
+Author-作者 Zhang, Ruikun; Sang, Shangyu; Zhang, Jingyuan; Lin, Xue
+Title-题名 Quantized Iterative Learning Bipartite Containment Tracking Control for Unknown Nonlinear Multi-agent Systems
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 26601, Peoples R China
+Source-来源 NEURAL PROCESSING LETTERS
+Time-出版/完成日期 2024-05
+Year-年 2024
+Period-期 3
+Roll-卷 56
+Keyword-关键词 DISCRETE-TIME-SYSTEMS; CONSENSUS PROTOCOLS; NETWORKS; AGENTS
+Summary-摘要 This paper proposes a quantized model-free adaptive iterative learning control (MFAILC) algorithm to solve the bipartite containment tracking problem of unknown nonlinear multi-agent systems, where the interactions between agents include cooperation and antagonistic interactions. To design the controller, the agent's dynamics is transformed into the linear data model based on the dynamic linearization method, and then a quantized MFAILC algorithm is established based on the quantized values of the relative output measurements. The designed controller only depends on the input and output data of the agent. We prove that under the quantized MFAILC algorithm, the multi-agent systems can achieve the bipartite containment, that is, the output trajectories of followers converge to the convex hull formed by the leaders' trajectories and the leaders' symmetric trajectories. Finally, we provide simulations to illustrate the effectiveness of our theoretical results.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1370-4621
+Indexed-收录 SCI(E)
+Fund-基金 National Natural Science Foundation of China [ZR2021QF040]; Shandong Provincial Natural Science Foundation, China [12001308, 61963032]; National Natural Science Foundation of China
+DOI-DOI 10.1007/s11063-024-11649-2
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 02488 张瑞坤
+
+Type-成果类型 期刊论文
+Author-作者 Lin, Xue; Shang, Yun; Jiao, Qiang
+Title-题名 Epidemic Spreading Over Multi-Layer Networks With Stubborn Agents
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 266061, Peoples R China;Xidian Univ, Sch Mechanoelect Engn, Xian 710071, Peoples R China
+Source-来源 IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II-EXPRESS BRIEFS
+Time-出版/完成日期 2024-02
+Year-年 2024
+Period-期 2
+Roll-卷 71
+Keyword-关键词 PROPAGATION; STABILITY; DYNAMICS; MODELS
+Summary-摘要 This brief studies the networked SIS (Susceptible-Infected-Susceptible) model coupled with the opinion dynamics, where the epidemic spread and the opinion evolution influence each other. We consider that the epidemic spreads over a contact network consisting of n agents (i.e., communities), and the opinion evolves in an influence network with stubborn agents who do not change their opinions. To understand the effects of stubborn agents on the epidemic process, we derive the conditions for the stability, existence, and uniqueness of the healthy state and endemic equilibrium. These results show how stubborn agents' opinions affect the epidemic threshold. By the analysis of the endemic equilibrium, we find that agents' opinions can result in a lower size of the outbreak compared with the networked SIS model without considering the opinion, and show how to inhibit the endemic average level by reshaping stubborn agents' opinions.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1549-7747
+Indexed-收录 SCI(E)
+PageCount-页码 812-816
+Fund-基金 National Natural Science Foundation of China
+DOI-DOI 10.1109/TCSII.2023.3314618
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03703 林雪
+
+Type-成果类型 期刊论文
+Author-作者 Zhang, Jingyuan; Zhang, Ruikun; Lin, Xue
+Title-题名 A stabilized multiple time step method for coupled Stokes-Darcy flows and transport model
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 266061, Shandong, Peoples R China
+Source-来源 AIMS MATHEMATICS
+Time-出版/完成日期 2023
+Year-年 2023
+Period-期 9
+Roll-卷 8
+Keyword-关键词 DOMAIN DECOMPOSITION METHODS; FINITE-ELEMENT METHODS; GALERKIN; APPROXIMATIONS; PARALLEL
+Summary-摘要 A stabilized finite element algorithm with different time steps on different physical variables for the coupled Stokes-Darcy flows system with the solution transport is studied. The viscosity in the model is assumed to depend on the concentration. The nonconforming piecewise linear Crouzeix-Raviart element and piecewise constant are used to approximate velocity and pressure in the coupled Stokes-Darcy flows system, and conforming piecewise linear finite element is used to approximate concentration in the transport system. The time derivatives are discretized with different step sizes for the partial differential equations in these two systems. The existence and uniqueness of the approximate solution are unconditionally satisfied. A priori error estimates are established, which also provides a guidance on the ratio of time step sizes with respect to the ratio of the physical parameters. Numerical examples are presented to verify the theoretical results.
+IsFirstDep-第一署名单位 本机构
+Indexed-收录 SCI(E)
+PageCount-页码 21406-21438
+Fund-基金 National Natural Science Foundation of China [12001308]; Natural Science Foundation of Shandong Province [ZR2021QF040]
+DOI-DOI 10.3934/math.20231091
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03462 张静源
+
+Type-成果类型 期刊论文
+Author-作者 Shangyu Sang; Ruikun Zhang; Xue Lin
+Title-题名 Model-Free Adaptive Iterative Learning Bipartite Containment Control for Multi-Agent Systems
+Organ-机构 School of Mathematics and Physics, Qingdao University of Science and Technology
+Source-来源 Sensors
+Time-出版/完成日期 2022-10-01
+Year-年 2022
+Period-期 19
+Roll-卷 22
+Keyword-关键词 multi-agent systems; signed networks; model-free adaptive iterative learning control
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1424-8220
+Indexed-收录 SCI(E)
+DOI-DOI 10.3390/s22197115
+Language-语种 英文
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 Zhang, Yandan; Wang, Yu; Wang, Tianshun; Lin, Xue; Cheng, Zunshui
+Title-题名 Stability and Bifurcation Analysis on a Fractional Model of Disease Spreading with Different Time Delays
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Qingdao 266061, Peoples R China;Southeast Univ, Sch Math, Nanjing 211189, Peoples R China
+Source-来源 NEURAL PROCESSING LETTERS
+Time-出版/完成日期 2022-06-01
+Year-年 2022
+Period-期 3
+Roll-卷 54
+Keyword-关键词 VALUED NEURAL-NETWORKS; COMPLEX NETWORKS; HOPF-BIFURCATION; NEUTRAL DELAYS; SYSTEMS; SYNCHRONIZATION
+Summary-摘要 This paper investigates the problem of stabilization and Hopf bifurcation for a fractional order disease spreading model simulated by small-world networks via two types of time delays, that is, the linear and nonlinear time delays. It is worth mentioning that the study of making delay parameter pairs as the bifurcation parameter is unprecedented. Firstly, we build a fractional disease transmi network model based on the Caputo fractional derivative, and fix one type of time delay and use another one as the bifurcation parameter to get criterions of stability and Hopf bifurcation. Then, numerical fitting obtains clear stable region and bifurcation  curve, and Hopf bifurcation occurs at the equilibrium when select time delay parameter pairs are in the area through the bifurcation  curve. Finally, some numerical examples verify the effectiveness of theories. In addition, simulation examples of regular lattices show that the new model covers the extreme conditions of regula and random networks, and it presents more flexible internal nonlinear interactions than previous models.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 1370-4621
+Indexed-收录 SCI(E)
+PageCount-页码 1977-1993
+Fund-基金 Mathematical Tianyuan Fund of National Natural Science Foundation of China [12126345]; National Natural Science Foundation of China [61374011]; Natural Science Foundation of Shandong Province of China [ZR2020MF080, ZR2020MF065]
+DOI-DOI 10.1007/s11063-021-10715-3
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03203 张艳丹
+
+Type-成果类型 专利
+Author-作者 林雪;王玉冰;姜学勤
+Title-题名 一种列车容错控制方法
+Organ-机构 青岛科技大学
+Time-出版/完成日期 2021-07-13
+Keyword-关键词 容错控制;线性矩阵不等式;执行器故障;状态空间表达式;观测器;控制器增益;李雅普诺夫函数;参考轨迹;跟踪误差;模干扰
+Summary-摘要 本发明提供了一种列车容错控制方法：基于多质点模型进行列车纵向运动受力分析,以每一车厢的实时位移和实时速度为状态变量,建立执行器故障下的列车非线性状态空间表达式；构造T-S模糊规则,建立列车T-S模糊控制系统表达式；设计扰动观测器,补偿可建模干扰对列车驾驶性能的影响,建立干扰误差状态空间表达式；构造候选子李雅普诺夫函数,运用线性矩阵不等式求解干扰观测器增益系数；基于列车运行参考轨迹定义列车运行位移跟踪误差和速度跟踪误差,基于T-S模糊逻辑和分离原理设计列车运行容错控制方法；构造总系统的候选李雅普诺夫函数验证系统稳定性,运用线性矩阵不等式求解控制器增益系数,确保列车发生执行器故障时仍能维持期望的性能安全运行。
+IsFirstDep-第一署名单位 本机构
+CitedFreq-被引频次 0
+Language-语种 中文
+Community-归属院系 自动化与电子工程学院
+
+Type-成果类型 专利
+Author-作者 林雪;卢炳奇;马彩青
+Title-题名 一种多列车协同追踪运行的控制方法
+Organ-机构 青岛科技大学
+Time-出版/完成日期 2021-07-13
+Keyword-关键词 追踪运行;纵向运动;李雅普诺夫函数;附加阻力;动力方程;运动误差;运行阻力;跟踪误差;控制方法;受力分析
+Summary-摘要 本发明提供了一种多列车协同追踪运行的控制方法：按照列车运行方向,对追踪运行的多列车从前至后依次进行纵向运动受力分析,建立多列车的纵向运动动力方程组；根据前后两车之间的位移误差和速度误差,建立多列车的纵向运动误差动力方程组；设计基本阻力和附加阻力下多列车协同追踪运行的H-∞驾驶策略；建立多列车协同追踪运行的H-∞性能指标函数；构造李雅普诺夫函数；证明H-∞驾驶策略下多列车能够协同追踪运行。本发明能够有效衰减或去除基本运行阻力和附加阻力对多列车追踪运行的影响；确保多列车追踪运行时均具有良好的位置跟踪性能和速度跟踪性能；确保多列车追踪运行时相邻列车间保持期望的安全距离。
+IsFirstDep-第一署名单位 本机构
+CitedFreq-被引频次 0
+Language-语种 中文
+Community-归属院系 自动化与电子工程学院
+

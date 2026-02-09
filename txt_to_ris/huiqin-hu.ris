@@ -1,0 +1,184 @@
+TY  - JOUR
+AU  - Hu, Huiqin
+AU  - Ruan, Chengqing
+AU  - Yu, Xiaolin
+T1  - Ensemble-Based Adaptive Observations for Improving Sea Fog Prediction in Coastal Regions around the Bohai Sea:Case Study with Cold-Front Synoptic Pattern
+JF  - Advances in Atmospheric Sciences
+PY  - 2025/03/06
+VL  - 42
+IS  - 04
+SP  - 794
+EP  - 815
+SN  - 0256-1530
+AB  - This study explored the observation strategy and effectiveness of synoptic-scale adaptive observations for improving sea fog prediction in coastal regions around the Bohai Sea based on a poorly predicted fog event with cold-front synoptic pattern(CFSP). An ensemble Kalman filter data assimilation system for the Weather Research and Forecasting model was adopted with ensemble sensitivity analysis(ESA). By comparing observation impacts(estimated from a 40-member ensemble with ESA) among different meteorological observation variables and pressure levels, the temperature at 850 hPa and surface layer(850 hPa-and-surface temperature) was selected as the target observation type. Additionally, the area with large observation impacts for this observation type was predicted in the transition region of the surface low–high system.This area developed southward with the low and moved eastward with the low–high system, which could be explained by the main features of CFSP. Moreover, both experiments assimilating synthetic and real observations showed that assimilating 850 hPa-and-surface temperature observations generally yielded better fog coverage forecasts in areas with greater observation impacts than areas with smaller impacts. However, the effectiveness of adaptive observations was reduced when real observations rather than synthetic observations were assimilated, which is possibly due to factors such as observation and model errors. The main conclusions above were verified by another typical fog event with CFSP characteristics. Results of this study highlight the importance of improved initial conditions in the transition region of the low–high system for improving fog prediction and provide scientific guidance for implementing an observation network for fog forecasting over the Bohai Sea.
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Kun
+AU  - Guo, Wuhong
+AU  - Da, Lianglong
+AU  - Liu, Jingyi
+AU  - Hu, Huiqin
+AU  - Cui, Baolong
+T1  - Improving the thermal structure predictions in the Yellow Sea by conducting targeted observations in the CNOP-identified sensitive areas
+JF  - Scientific reports
+PY  - 2021/09/30
+VL  - 11
+IS  - 1
+SP  - 19518
+DO  - DOI 10.1038/s41598-021-98994-7
+SN  - 2045-2322
+KW  - 热力结构预报
+KW  - 目标观测
+ER  - 
+
+TY  - JOUR
+AU  - Hu, Huiqin
+AU  - Liu, Jingyi
+AU  - Da, Lianglong
+AU  - Guo, Wuhong
+AU  - Liu, Kun
+AU  - Cui, Baolong
+T1  - Identification of the sensitive area for targeted observation to improve vertical thermal structure prediction in summer in the Yellow Sea
+JF  - Acta Oceanologica Sinica
+PY  - 2021/07/15
+VL  - 40
+IS  - 07
+SP  - 77
+EP  - 87
+DO  - DOI 10.1007/s13131-021-1738-x
+SN  - 0253-505X
+AB  - The sensitive area of targeted observations for short-term(7 d) prediction of vertical thermal structure(VTS) in summer in the Yellow Sea was investigated. We applied the Conditional Nonlinear Optimal Perturbation(CNOP)method and an adjoint-free algorithm with the Regional Ocean Modeling System(ROMS). We used vertical integration of CNOP-type temperature errors to locate the sensitive areas, where reduction of initial errors is expected to yield the greatest improvement in VTS prediction for the selected verification area. The identified sensitive areas were northeast-southwest orientated northeast to the verification area, which were possibly related to the southwestward background currents. Then, we performed a series of sensitivity experiments to evaluate the effectiveness of the identified sensitive areas. Results show that initial errors in the identified sensitive areas had the greatest negative effect on VTS prediction in the verification area compared to errors in other areas(e.g., the verification area and areas to its east and northeast). Moreover, removal of initial errors through deploying simulated observations in the identified sensitive areas led to more refined prediction than correction of initial conditions in the verification area itself. Our results suggest that implementation of targeted observation in the CNOP-based sensitive areas is an effective method to improve short-term prediction of VTS in summer in the Yellow Sea.
+KW  - 目标观测
+KW  - 敏感区
+KW  - 垂直热力结构
+KW  - 条件非线性最优扰动
+ER  - 
+
+TY  - JOUR
+AU  - Li, M.
+AU  - S., Zhang
+AU  - L., Wu
+AU  - X., Lin
+AU  - P., Chang
+AU  - G., Danabasoglu
+AU  - Z., Wei
+AU  - X., Yu
+AU  - H., Hu
+AU  - X., Ma
+AU  - Al., Et
+T1  - A high-resolution Asia-Pacific regional coupled prediction system with dynamically downscaling coupled data assimilation
+JF  - Science Bulletin
+PY  - 2020/11/15
+VL  - 65
+IS  - 21
+SP  - 1849
+EP  - 1858
+DO  - DOI 10.1016/j.scib.2020.07.022
+SN  - 2095-9273
+KW  - 区域耦合预报系统
+KW  - 耦合资料同化
+ER  - 
+
+TY  - JOUR
+AU  - Li, M.
+AU  - S., Zhang
+AU  - L., Wu
+AU  - X., Lin
+AU  - P., Chang
+AU  - G., Danabasoglu
+AU  - Z., Wei
+AU  - X., Yu
+AU  - H., Hu
+AU  - X., Ma
+AU  - Al., Et
+T1  - An Examination of the Predictability of Tropical Cyclone Genesis in High-Resolution Coupled Models with Dynamically Downscaled Coupled Data Assimilation Initialization
+JF  - Advances in Atmospheric Sciences
+PY  - 2020/09/01
+VL  - 37
+IS  - 9
+SP  - 939
+EP  - 950
+DO  - DOI 10.1007/s00376-020-9220-9
+SN  - 0256-1530
+KW  - 热带气旋可预报性
+KW  - 耦合资料同化
+ER  - 
+
+TY  - JOUR
+AU  - Hu, Huiqin
+AU  - Huang, Fei
+AU  - Zhang, Shaoqing
+AU  - Ruan, Chengqing
+AU  - Gao, Shanhong
+AU  - Li, Pengyuan
+T1  - Case Study of Fog Predictability for an Event with Cold-Front Synoptic Pattern
+JF  - Journal of Ocean University of China
+PY  - 2019/04/06
+VL  - 18
+IS  - 02
+SP  - 271
+EP  - 281
+DO  - DOI 10.1007/s11802-019-3823-8
+SN  - 1672-5182
+AB  - Fog has recently become a frequent high-impact weather phenomenon along the coastal regions of North China. Accurate fog forecasting remains challenging due to limited understanding of the predictability and mechanism of fog formation associated with synoptic-scale circulation. One frequent synoptic pattern of fog formation in this area is associated with cold front passage(cold-front synoptic pattern, CFSP). This paper explored the predictability of a typical CFSP fog event from the perspective of analyzing key characteristics of synoptic-scale circulation determining fog forecasting performance and the possible mechanism. The event was ensemble forecasted with the Weather Research and Forecasting model. Two groups of ensemble members with good and bad forecasting performance were selected and composited. Results showed that the predictability of this case was largely determined by the simulated strengths of the cold-front circulation(i.e., trough and ridge and the associated surface high). The bad-performing members tended to have a weaker ridge behind a stronger trough, and associated higher pressure over land and a weaker surface high over the sea, leading to an adverse impact on strength and direction of steering flows that inhibit warm moist advection and enhance cold dry advection transported to the focus region. Associated with this cold dry advection, adverse synoptic conditions of stratification and moisture for fog formation were produced, consequently causing failure of fog forecasting in the focus region. This study highlights the importance of accurate synoptic-scale information for improved CFSP fog forecasting, and enhances understanding of fog predictability from perspective of synoptic-scale circulation.
+KW  - 雾可预报性
+KW  - 冷锋天气型
+KW  - 集合预报
+KW  - 合成分析
+ER  - 
+
+TY  - JOUR
+AU  - He, Zhiwei
+AU  - Zhang, Qinghong
+AU  - Zhao, Kun
+AU  - Hu, Huiqin
+T1  - Initiation and Evolution of Elevated Convection in a Nocturnal Squall Line Along the Meiyu Front
+JF  - Journal of Geophysical Research: Atmospheres
+PY  - 2018/07/27
+VL  - 123
+IS  - 14
+SP  - 7292
+EP  - 7310
+DO  - DOI DOI10.1029/2018JD028511
+SN  - 2169-897X
+KW  - 对流初始化
+KW  - 夜间飙线
+ER  - 
+
+TY  - JOUR
+AU  - Hu, Huiqin
+AU  - Zhang, Qinghong
+AU  - Sun, Juanzhen
+AU  - Ruan, Chengqing
+AU  - Huang, Fei
+AU  - Zhang, Shaoqing
+T1  - Impact of high-frequency observations on fog forecasting: a case study of OSSE
+JF  - TELLUS SERIES A-DYNAMIC METEOROLOGY AND OCEANOGRAPHY
+PY  - 2017/11/16
+VL  - 69
+IS  - 1
+SP  - 1396182
+SN  - 1600-0870
+KW  - 雾预报
+KW  - 高频观测
+KW  - 资料同化
+ER  - 
+
+TY  - JOUR
+AU  - Hu, Huiqin
+AU  - Sun, Juanzhen
+AU  - Zhang, Qinghong
+T1  - Assessing the Impact of Surface and Wind Profiler Data on Fog Forecasting Using WRF 3DVAR: An OSSE Study on a Dense Fog Event over North China
+JF  - Journal of applied meteorology and climatology
+PY  - 2017/04/01
+VL  - 56
+IS  - 4
+SP  - 1059
+EP  - 1081
+DO  - DOI 10.1175/JAMC-D-16-0246.1
+SN  - 1558-8424
+KW  - 雾预报
+KW  - 资料同化
+KW  - 风廓线
+ER  - 

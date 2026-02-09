@@ -1,0 +1,194 @@
+Type-成果类型 期刊论文
+Author-作者 Xiao, Hanlin; Yang, Jiaheng; Gao, Peng; Ai, Jingjing; Hu, Xiaochen; Han, Zhongyi; Fan, Tingting
+Title-题名 CO2 emission dispersion of multiple point sources in the localized regions together with its intensity inversion model
+Organ-机构 Qingdao Univ Sci & Technol, Coll Math & Phys Sci, Shandong Adv Optoelect Mat & Technol Engn Lab, Qingdao 266061, Peoples R China
+Source-来源 ENVIRONMENTAL TECHNOLOGY
+Time-出版/完成日期 2025-07-29
+Year-年 2025
+Period-期 17
+Roll-卷 46
+Keyword-关键词 GAUSSIAN PLUME MODEL; PARIS AGREEMENT
+Summary-摘要 The rapid and stable monitoring of CO2 emissions from point sources in localized regions remains a key challenge in energy conservation and emission reduction efforts. To address this challenge, the Gaussian plume model is adopted for the rapid prediction of carbon emission dispersion from multiple point sources, and an inversion model for carbon emission intensities is constructed based on the Simplex search algorithm. By incorporating elevation data, the Gaussian plume model is modified to adapt to undulating mountainous terrain, and the impacts of the Gaussian diffusion model on the CO2 concentration diffusion of multiple point sources are analyzed under the conditions of the observation height, atmospheric stability and terrain correction. When the number of monitoring stations reach 10, the average inversion error ranges from 0.01 to 0.47% under various atmospheric conditions, together with an average inversion uncertainty in a range of [0.09%, 1.22%], indicating that enhancing the number of monitoring stations and selecting more stable atmospheric conditions can significantly improve the inversion accuracy of the carbon emission intensities from multiple point sources. This work provides a theoretical guidance for formulating the energy conservation and emission reduction policies together with monitoring and reducing the anthropogenic carbon emission.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0959-3330
+Indexed-收录 SCI(E)
+PageCount-页码 3308-3319
+Fund-基金 Natural Science Foundation of Shandong Province [ZR2024MF098, ZR2022MF266]
+DOI-DOI 10.1080/09593330.2025.2463034
+Language-语种 英文
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 Huang, Xingfang; Huang, Fei; Qu, Hengxin; Fan, Tingting; Xu, Shibin
+Title-题名 Enhanced impact of western North Pacific tropical cyclones on El Nino intensity in the past 40 years
+Organ-机构 Ocean Univ China, Dept Marine Meteorol, Qingdao, Peoples R China;Ocean Univ China, Frontier Sci Ctr Deep Ocean Multispheres & Earth S, Qingdao, Peoples R China;Ocean Univ China, Phys Oceanog Lab, Qingdao, Peoples R China;Laoshan Lab, Qingdao, Peoples R China;Qingdao Univ Sci & Technol, Sch Math & Phys, Shandong Adv Optoelect Mat & Technol Engn Lab, Qingdao, Peoples R China
+Source-来源 ATMOSPHERIC RESEARCH
+Time-出版/完成日期 2025-04-01
+Year-年 2025
+Roll-卷 315
+Keyword-关键词 OCEAN-ATMOSPHERE; ENSO EVENTS; FREQUENCY
+Summary-摘要 Tropical cyclones (TCs) in the western North Pacific (WNP) can modulate the intensity of ENSO by weakening the Walker circulation and exciting or enhancing the eastward oceanic Kelvin waves. We find that WNP TCs have played an increasingly important role in the development of El Nino over the past 40 years, and that TCs contribute more to atmospheric circulation, SST and thermocline depth anomalies. The accumulated cyclone energy (ACE) in the WNP shows an enhanced explanatory capability for the Nino 3.4 index. TCs excite oceanic Kelvin waves with greater amplitudes compared to the past. Through diagnostic analysis of the temperature tendency equation, it is also found that TCs contribute more strongly to thermocline feedback and zonal advection feedback three months later. Consequently, it can be concluded that TCs play an increasingly significant positive feedback role in ENSO dynamics in the current climate context.
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0169-8095
+Indexed-收录 SCI(E)
+Fund-基金 NSFC [41975061]; Shandong Natural Science Foundation Project [ZR2019ZD12]
+DOI-DOI 10.1016/j.atmosres.2024.107907
+Language-语种 英文
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 董茹月;许士斌;黄菲;樊婷婷;赵振驰
+Title-题名 黑潮影响热带气旋强度的统计分析
+Organ-机构 中国海洋大学海洋与大气学院;中国海洋大学物理海洋教育部重点实验室;中国海洋大学深海圈层与地球系统前沿科学中心;青岛科技大学数理学院
+Source-来源 中国海洋大学学报(自然科学版)
+Time-出版/完成日期 2023-05-23
+Year-年 2023
+Period-期 06
+Roll-卷 v.53;No.348
+Keyword-关键词 黑潮;热带气旋强度;非绝热加热;统计分析
+Summary-摘要 本文利用东京台风中心(Tokyo-Typhoon Center)发布的热带气旋(Tropical cyclone, TC) best-tracks资料，统计了1979—2019年经过黑潮关键区热带气旋的强度变化特征，并进一步分析了其中的物理机制。统计结果显示，黑潮对不同强度TC的加热效果不同，整体而言，TC外缘靠近黑潮关键区至TC中心进入关键区阶段，TC风速显著增强；TC中心进入关键区后，风速数值的分布范围较集中，黑潮暖水对TC风速的影响与TC当前强度有关，强度较弱的TC风速增强，而强度较强TC的风速下限略增大但其风速均值减小。黑潮暖水通过增加海表面的热通量，造成低层水汽辐合，对流层中层湿度增大，水汽上升至高空释放凝结潜热增多，导致TC暖心增强，垂直速度增大，对流增强，从而增强TC强度。TC暖心变化较低层水汽通量的变化滞后约12 h,导致TC中心移出关键区后强度不会迅速减弱。
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 1672-5174
+CN-国内刊号 37-1414/P
+Indexed-收录 北大核心期刊;中国科技核心期刊;CSCD
+CitedFreq-被引频次 2
+PageCount-页码 17-29
+Fund-基金 国家自然科学基金项目(41975061)资助~~
+DOI-DOI 10.16441/j.cnki.hdxb.20210469
+Language-语种 中文
+Discipline-中图分类号 P731.27;P457.8
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 赵振驰;许士斌;黄菲;董茹月;陈文聪;樊婷婷
+Title-题名 东海黑潮暖舌对热带气旋“派比安”(1807)强度的影响
+Organ-机构 中国海洋大学海洋与大气学院;中国海洋大学物理海洋教育部重点实验室;中国海洋大学海洋高等研究院;国家海洋局北海环境监测中心;中国气象科学研究院人工智能气象应用研究所;青岛科技大学数理学院
+Source-来源 海洋气象学报
+Time-出版/完成日期 2023-05-15
+Year-年 2023
+Period-期 02
+Roll-卷 v.43;No.174
+Keyword-关键词 热带气旋;东海黑潮;海气相互作用;热带气旋边界层
+Summary-摘要 通过使用天气研究与预报(Weather Research and Forecasting, WRF)模式对热带气旋(Tropical Cyclone, TC)个例“派比安”(1807)进行了一组数值试验，分析了东海黑潮暖舌对“派比安”强度的影响。研究结果表明，东海黑潮暖舌高海面温度(以下简称“海温”)导致TC区域内海气界面热通量显著增加，并造成TC边界层不稳定特征发展，形成了有利于垂直对流发展的边界层环境。因此TC内特别是TC眼墙处对流更为活跃，TC强度显著提高，同时黑潮暖舌对TC的局部加热还会引起TC内部对流活动的非对称分布。根据数值试验的结果，黑潮暖舌为“派比安”整体动能增加做出约24.7%的贡献，中心气压变化对东海黑潮暖舌高海温特征的响应时间约为10 h。此外，在黑潮暖舌作用下，“派比安”7级风圈半径扩张16.3%,最大风速半径收缩10.7%。
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 2096-3599
+CN-国内刊号 37-1512/P
+CitedFreq-被引频次 2
+PageCount-页码 20-30
+Fund-基金 国家自然科学基金面上项目(41975061)
+DOI-DOI 10.19513/j.cnki.issn2096-3599.2023.02.002
+Language-语种 中文
+Discipline-中图分类号 P461.2
+Community-归属院系 数理学院
+
+Type-成果类型 期刊论文
+Author-作者 Gao, Peng; Han, Zhongyi; Bai, Zhaoming; Huang, Yue; Yang, Zhenlin; Fan, Tingting; Yang, Jiaheng; Liu, Dongdong; Ai, Jingjing
+Title-题名 Assessment and correction of radiometric calibration for the medium resolution spectral imager on FY-3C
+Organ-机构 Qingdao Univ Sci & Technol, Coll Math & Phys Sci, Shandong Adv Optoelect Mat & Technol Engn Lab, Qingdao, Peoples R China;Xian Polytech Univ, Sch Sci, Xian, Peoples R China
+Source-来源 OPTICAL ENGINEERING
+Time-出版/完成日期 2022-08-01
+Year-年 2022
+Period-期 8
+Roll-卷 61
+Keyword-关键词 ON-ORBIT CALIBRATION; PERFORMANCE; TERRA
+Summary-摘要 As a keystone instrument on the Fengyun-3C (FY-3C) satellite, the medium resolution spectral imager (MERSI) provides global coverage of top-of-atmosphere radiances for a broad range of scientific studies of the earth system. Based on the onboard measurements of the blackbody (BB) and deep space view (SV), the modified radiometric calibration equation was first given for the MERSI thermal emission band. The accuracy of the radiometric calibration was evaluated by comparing the average irradiance corresponding to the spectral response function and the irradiance corresponding to the wavelength, whose relative error was <0.40%. Moreover, the BB-derived brightness temperature T-R calculated by the BB irradiance shows a systematic error relative to the BB equivalent temperature T-E obtained by the voltage code values of seven platinum resistors, and the value of T-R was lower 0.25 K than that of T-E. To further verify the validity of the calibration coefficient, the influences of the BB temperature, wavelength, and emissivity offsets on the derived irradiance and temperature of the earth were analyzed in detail. For the BB temperature changing by 0.10 K, the absolute values of the earth irradiance together with its equivalent temperature were 0.01 Wm(-2) sr(-1) mu m(-1) and 0.10 K, respectively, whose relative errors were about 0.16% and 0.40%. When the BB wavelength and emissivity changing by 0.1 mu m and 0.005, the variations of the earth irradiance were 0.02 and 0.04 Wm(-2) sr(-1) mu m(-1), respectively, whereas the relative errors of the equivalent temperature were 0.07% and 0.11%. These works provided an important theoretical guidance for the satellite data assimilations along with the quantitative remote sensing applications. (C) 2022 Society of Photo-Optical Instrumentation Engineers (SPIE)
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 0091-3286
+Indexed-收录 SCI(E)
+Fund-基金 National Natural Science Foundation of China [11704213, 61605098]; China Postdoctoral Science Foundation [2017M610630]; Natural Science Basic Research Program of Shaanxi [2020JQ-822]; Civil aerospace pre-research project [D040102]
+DOI-DOI 10.1117/1.OE.61.8.083105
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03010 高鹏
+
+Type-成果类型 期刊论文
+Author-作者 Fan, Tingting; Yang, Yuxing; Xu, Shibin
+Title-题名 The Controlling of the Subtropical High Leading Modes on the Spatial Pattern of Tropical Cyclone Genesis in the Western North Pacific and Tracks Landing on the East Coast of China
+Organ-机构 Qingdao Univ Sci & Technol, Sch Math & Phys, Shandong Adv Optoelect Mat & Technol Engn Lab, Qingdao 266061, Peoples R China;Chinese Acad Sci, Inst Oceanol, Qingdao 266071, Peoples R China;Chengdu Univ Informat Technol, Coll Optoelect Engn, Chengdu 610225, Peoples R China;Pilot Natl Lab Marine Sci & Technol Qingdao, Qingdao 266237, Peoples R China;Ocean Univ China, Dept Marine Meteorol, Qingdao 266100, Peoples R China
+Source-来源 ATMOSPHERE
+Time-出版/完成日期 2022-01-01
+Year-年 2022
+Period-期 1
+Roll-卷 13
+Keyword-关键词 EL-NINO; INTENSIFIED IMPACT; INTERANNUAL VARIABILITY; DECADAL CHANGES; ATLANTIC SST; ENSO EVENTS; OSCILLATION; FREQUENCY; CYCLOGENESIS; CLIMATE
+Summary-摘要 As a prime circulation system, the western Pacific subtropical high (WPSH) significantly impacts tropical cyclone (TC) activities over the western North Pacific (WNP), especially TCs landing on the east coast of China; however, the associated mechanism is not firmly established. This study investigates the underlying dynamic impact of the first two empirical orthogonal function (EOF) modes of the WPSH on the interannual iability in the genesis and number of TCs landing over the WNP. The results show that these two dominant modes control the WNP TC activity over different subregions via different environmental factors. The first mode (EOF1) affects the TC genesis number over region I (105 degrees-128 degrees E, 5 degrees-30 degrees N) (r = -0.49) and region II (130 degrees-175 degrees E, 17 degrees-30 degrees N) (r = -0.5) and controls the TCs landing on the east coast of China, while the second mode (EOF2) affects the TC genesis number over region III (128 degrees-175 degrees E, 5 degrees-17 degrees N) (r = -0.69). The EOF1 mode, a southwest-northeast-oriented enhanced pattern, causes the WPSH to expand (retreat) along the southwest-northeast direction, which makes both mid-low-level relative humidity and low-level vorticity unfavorable (favorable) for TC genesis in region I and region II and steers fewer (more) TC tracks to land on the coast of China. The EOF2 mode features a strengthened WPSH over the southeast quarter of the WNP region. The active (inactive) phases of this mode control the low-level vorticity and vertical wind shear in region III, which lead to less (more) TC genesis over this region. The prediction equations combining the two modes of the WPSH for the total number of TCs and TCs that make landfall show high correlation coefficients. Our findings verify the high prediction skill of the WPSH on WNP TC activities, provide a new way to predict TCs that will make landfall on the east coast of China, and help to improve the future projection of WNP TC activity.
+IsFirstDep-第一署名单位 本机构
+ISSN-国际刊号 2073-4433
+Indexed-收录 SCI(E)
+DOI-DOI 10.3390/atmos13010079
+Language-语种 英文
+Community-归属院系 数理学院
+FirstAuthor-第一作者 03657 樊婷婷
+
+Type-成果类型 期刊论文
+Author-作者 FAN Tingting; HUANG Fei; ZHOU Xiao
+Title-题名 Response of the Dominant Modes of Atmospheric Circulation in the Northern Hemisphere to a Projected Arctic Sea Ice Loss in 2007
+Organ-机构 Ocean Univ China, Key Lab Phys Oceanog, Qingdao 266100, Shandong, Peoples R China;Pilot Natl Lab Marine Sci & Technol Qingdao, Lab Ocean & Climate Dynam, Qingdao 266100, Shandong, Peoples R China;Ningbo Univ, Ningbo Collaborat Innovat Ctr Nonlinear Harzard S, Ningbo 315211, Zhejiang, Peoples R China;Univ Hawaii, Dept Meteorol, Honolulu, HI 96822 USA;Univ Hawaii, Int Pacific Res Ctr, Honolulu, HI 96822 USA E-mail Addresses
+Source-来源 Journal of Ocean University of China
+Time-出版/完成日期 2019-05-14
+Year-年 2019
+Period-期 3
+Roll-卷 18
+Keyword-关键词 Arctic sea ice loss, Arctic Oscillation, Arctic Dipole, atmospheric response
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 1672-5182
+Indexed-收录 中国科技核心期刊;SCI(E);CSCD
+PageCount-页码 P589-P595
+Fund-基金 国家自然科学基金面上项目
+Language-语种 英文
+FirstAuthor-第一作者 03657 樊婷婷
+
+Type-成果类型 期刊论文
+Author-作者 Tingting Fan；Shibin Xu； Fei Huang； Jinping Zhao
+Title-题名 The phase differences of the interdecadal variabilities of tropical cyclone activity in the peak and late seasons over the western North Pacific
+Organ-机构 Ocean Univ China, Phys Oceanog Lab, Qingdao, Shandong, Peoples R China;Qingdao Natl Lab Marine Sci & Technol, Qingdao, Shandong, Peoples R China
+Source-来源 Theoretical and Applied Climatology
+Time-出版/完成日期 2019-04-07
+Year-年 2019
+Period-期 1-2
+Roll-卷 136
+Keyword-关键词 WNP Tropical Cyclone, Phase differences, TC activity
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0177-798X
+Indexed-收录 SCI(E)
+PageCount-页码 P77-83
+Fund-基金 国家自然科学基金青年基金
+DOI-DOI https://doi.org/10.1007/s00704-018-2465-x
+Language-语种 英文
+FirstAuthor-第一作者 03657 樊婷婷
+
+Type-成果类型 期刊论文
+Author-作者 Wang Yanshuo； Huang Fei； Fan Tingting
+Title-题名 Spatio-temporal variations of Arctic amplification and their linkage with the Arctic oscillation
+Organ-机构 Ocean Univ China, Phys Oceanog Lab CIMST, Qingdao 266100, Peoples R China;Qingdao Natl Lab Marine Sci & Technol, Qingdao 266200, Peoples R China;Ningbo Univ, Ningbo Collabrat Innovat Ctr Nonlinear Harzard Sy, Ningbo 315211, Zhejiang, Peoples R China
+Source-来源 Acta Oceanologica Sinica
+Time-出版/完成日期 2017-08-14
+Year-年 2017
+Period-期 8
+Roll-卷 36
+Keyword-关键词 Arctic amplification, Arctic oscillation, decadal shift
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0253-505X
+CN-国内刊号 11-2056/P
+Indexed-收录 SCI(E);CSCD
+PageCount-页码 P42-P51
+DOI-DOI 10.1007/s13131-017-1025-z
+Language-语种 英文
+
+Type-成果类型 期刊论文
+Author-作者 Schneider David P；Deser Clara；Fan TingTing
+Title-题名 Comparing the Impacts of Tropical SST Variability and Polar Stratospheric Ozone Loss on the Southern Ocean Westerly Winds
+Organ-机构 Natl Ctr Atmospher Res, Climate & Global Dynam Lab, Boulder, CO 80307 USA;Ocean Univ China, Key Lab Phys Oceanog, Qingdao, Peoples R China
+Source-来源 Journal of Climate
+Time-出版/完成日期 2015-12-01
+Year-年 2015
+Period-期 23
+Roll-卷 28
+Keyword-关键词 Geographic location/entity, Antarctica, Southern Ocean, Circulation/Dynamics, Teleconnections, Physical Meteorology and Climatology, Climate change, Climate variability, Pacific decadal oscillation
+IsFirstDep-第一署名单位 非本机构
+ISSN-国际刊号 0894-8755
+Indexed-收录 SCI(E)
+PageCount-页码 P9350-P9372
+DOI-DOI 10.1175/JCLI-D-15-0090.1
+Language-语种 英文
+
